@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "scope": "CPU actual weight/FK/saved-state comparison plus references to completed live GPU training preflights. No standalone CPU-to-GPU gradient claim.",
+  "same_batch_plan": true,
+  "arms": {
+    "yolo_condition_control": {
+      "steps": 160,
+      "selected_step": 160,
+      "trained_development_admitted": true,
+      "visual_updates": {
+        "blocks.28.": {
+          "max_abs_delta": 1.8425285816192627e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "blocks.29.": {
+          "max_abs_delta": 1.8664635717868805e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "blocks.30.": {
+          "max_abs_delta": 1.936173066496849e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "blocks.31.": {
+          "max_abs_delta": 2.0260573364794254e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "last_norm.": {
+          "max_abs_delta": 1.3232231140136719e-05,
+          "changed_tensors": 2,
+          "tensors": 2
+        }
+      },
+      "live_GPU_visual_gradient_norms": {
+        "28": 0.705941232459135,
+        "29": 0.6458096686190383,
+        "30": 0.9254317067093483,
+        "31": 1.4865930827293607
+      },
+      "FK_unchanged": true,
+      "FK_tensors": 15,
+      "model_and_visual_resume_exact": true,
+      "optimizer_RNG_checks": {
+        "passed": true,
+        "FK_buffers_unchanged": true,
+        "saved_state_exact": true,
+        "inference_reload_exact": true,
+        "optimizer_moments_exact": true,
+        "RNG_exact": true,
+        "GT_poison_exact": true
+      },
+      "checkpoint_sha256": "91d33df1f2fd601b18ff2e6be146c959452b76691a78c41b16d119bea76e3c7b"
+    },
+    "rf_condition_adapt": {
+      "steps": 160,
+      "selected_step": 80,
+      "trained_development_admitted": true,
+      "visual_updates": {
+        "blocks.28.": {
+          "max_abs_delta": 1.9395025447010994e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "blocks.29.": {
+          "max_abs_delta": 2.0617153495550156e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "blocks.30.": {
+          "max_abs_delta": 1.9526109099388123e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "blocks.31.": {
+          "max_abs_delta": 1.8764520063996315e-05,
+          "changed_tensors": 12,
+          "tensors": 12
+        },
+        "last_norm.": {
+          "max_abs_delta": 1.2755393981933594e-05,
+          "changed_tensors": 2,
+          "tensors": 2
+        }
+      },
+      "live_GPU_visual_gradient_norms": {
+        "28": 7.5847192482415275,
+        "29": 6.013236761613128,
+        "30": 10.678603253804951,
+        "31": 13.247227649285163
+      },
+      "FK_unchanged": true,
+      "FK_tensors": 15,
+      "model_and_visual_resume_exact": true,
+      "optimizer_RNG_checks": {
+        "passed": true,
+        "FK_buffers_unchanged": true,
+        "saved_state_exact": true,
+        "inference_reload_exact": true,
+        "optimizer_moments_exact": true,
+        "RNG_exact": true,
+        "GT_poison_exact": true
+      },
+      "checkpoint_sha256": "719735eb438a1651378fee7175125386afe5bd4f35d492ca11f3df202466c700"
+    }
+  }
+}

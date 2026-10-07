@@ -1,0 +1,20 @@
+{
+  "stage": "infer_rf_v48_P0015_cc5dfd13_3333",
+  "pid": 1539135,
+  "timestamp": 1791398163.3282814,
+  "elapsed_s": 5301.685585260391,
+  "finite": true,
+  "automation_restarted": false,
+  "default_changed": false,
+  "child_pid": 1566610,
+  "log": "/mnt/why/HOT3D/experiments/rfdetr_fair_3d_v54r1_20261008/logs/infer_rf_v48_P0015_cc5dfd13_3333.log",
+  "command": [
+    "/mnt/why/HOT3D/experiments/yolo26_wilor_3d_20261003/venv/bin/python",
+    "/mnt/why/HOT3D/experiments/rfdetr_fair_3d_v54r1_20261008/code/infer_fair_v54.py",
+    "predict",
+    "--mode",
+    "rf_v48",
+    "--tag",
+    "P0015_cc5dfd13_3333"
+  ]
+}

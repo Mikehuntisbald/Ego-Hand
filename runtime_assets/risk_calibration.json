@@ -1,0 +1,82 @@
+{
+  "temperature": [
+    1.05,
+    3.0
+  ],
+  "folds": {
+    "P0001": 0,
+    "P0002": 1,
+    "P0009": 2,
+    "P0011": 0,
+    "P0012": 1,
+    "P0014": 2
+  },
+  "lineage": [
+    {
+      "name": "all",
+      "excluded_subjects": [],
+      "trained_subjects": [
+        "P0001",
+        "P0002",
+        "P0009",
+        "P0011",
+        "P0012",
+        "P0014"
+      ],
+      "selected_step": 200,
+      "dev_bce": 0.6675344109535217
+    },
+    {
+      "name": "fold0",
+      "excluded_subjects": [
+        "P0001",
+        "P0011"
+      ],
+      "trained_subjects": [
+        "P0002",
+        "P0009",
+        "P0012",
+        "P0014"
+      ],
+      "selected_step": 200,
+      "dev_bce": 0.9448211193084717
+    },
+    {
+      "name": "fold1",
+      "excluded_subjects": [
+        "P0002",
+        "P0012"
+      ],
+      "trained_subjects": [
+        "P0001",
+        "P0009",
+        "P0011",
+        "P0014"
+      ],
+      "selected_step": 200,
+      "dev_bce": 0.7147527933120728
+    },
+    {
+      "name": "fold2",
+      "excluded_subjects": [
+        "P0009",
+        "P0014"
+      ],
+      "trained_subjects": [
+        "P0001",
+        "P0002",
+        "P0011",
+        "P0012"
+      ],
+      "selected_step": 200,
+      "dev_bce": 0.5863884687423706
+    }
+  ],
+  "outputs": [
+    "P(camera error >20mm)",
+    "P(wrist-relative error >20mm)"
+  ],
+  "selection": "Train folds exclude own subjects; dev_select checkpoint and dev_calibrate temperature; no test/fresh rows",
+  "scope": "Only risk head excluded; shared visual training/pretraining overlap not excluded",
+  "arm": "dense"
+}

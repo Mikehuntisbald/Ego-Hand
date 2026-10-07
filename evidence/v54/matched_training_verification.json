@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "initial_sha256": "054ca946bf19d0749663183f9fafb0269513a2d795f899061a458be47f3cf63c",
+  "batch_plan_sha256": "510c33f827ff164a77fb235a62dbc90845b5d7a64177e7fb053dbb57967e59cd",
+  "steps": 160,
+  "pilot_steps_separate": 20,
+  "full_GPU_visual_preflights_passed": true
+}
