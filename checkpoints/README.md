@@ -1,5 +1,3 @@
-> 权重文件待 Git LFS 上传；本次代码发布先提供清单和版本说明。
-
 # 权重清单
 
 所有模型均由 Git LFS 存储，原始字节不改动。大小和 SHA-256 见根目录 `snapshot_manifest.json`；运行 `python tools/verify_release.py` 可以核验。

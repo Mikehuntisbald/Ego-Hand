@@ -1,5 +1,3 @@
-> 发布进度：代码和说明正在发布；16 个权重已在本地校验，Git LFS 上传等待本机 GitHub 登录。当前尚未宣称权重可下载，详见 [PUBLISHING.md](PUBLISHING.md)。
-
 # Ego-Hand
 
 面向离线数据标注的 RGB 手部检测、实例分割和时序 3D 补全研究代码。
