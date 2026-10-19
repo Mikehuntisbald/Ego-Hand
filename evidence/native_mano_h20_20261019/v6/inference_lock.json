@@ -1,0 +1,22 @@
+{
+  "models": {
+    "control_native": {
+      "path": "/mnt/why/native_mano_shape_v6_20261019/runs/control_native/best_development.pt",
+      "sha256": "5d4d10f59b4cdc505fdce343267190d86b867279b6454ae0d4caf83563408e09"
+    },
+    "compatible": {
+      "path": "/mnt/why/native_mano_shape_v6_20261019/runs/compatible/best_development.pt",
+      "sha256": "388ace54de98eb043527ca1c41909815d6b3250fcda0299fe675e3737b48bf5b"
+    },
+    "compatible_protected": {
+      "path": "/mnt/why/native_mano_shape_v6_20261019/runs/compatible_protected/best_development.pt",
+      "sha256": "1d4ad6407c8d564a5f88ed41981251778faf4e1fe1aed5683d9ccc6deedc37fb"
+    }
+  },
+  "locked": 1792385792.1955943,
+  "right_only": true,
+  "existing_reference_camera": true,
+  "historical_exposure": "All six clips were evaluated in v3/v4 and the posthoc geometry audit before v5 design; diagnostic development evidence, not a fresh blind test",
+  "candidate_visualization": "native_protected_guard predeclared",
+  "GT_input": false
+}

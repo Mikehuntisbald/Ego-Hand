@@ -1,0 +1,21 @@
+{
+  "experiment": "native_candidate_risk_v11",
+  "reason": "v10 candidates contained better native poses, but RGB2D unaries ranked3D poses poorly. Learn native3D quality with explicit correct-point preservation.",
+  "inputs": "Frozen v7 native DiT, natural v7 spatial RGB17-slot cache, prediction-only pose/time/camera, six native candidates as v10. No GT/teacher input.",
+  "candidate_generation": "First generate all predicted-right train/dev-select windows without opening labels; train sampling seed410019, dev-select190019; four draws10steps, mean/WiLoR/4draws all same5/10/30mm protection. Input bank frozen before target labels.",
+  "supervision": "Native right MANO relative20 error difference from protected mean; per-point event(reference error<=10mm and candidate harm>1mm), reference-good probability. All labels and correct-point masks loss-only.",
+  "architecture": "RGB full16x12 spatial tokens at all17 slots, temporal coarse-parameter encoder, shared candidate/joint queries and cross-attention. Predict error difference bounded by actual candidate point displacement, native3D harm risk and reference-good probability. No candidate-ID embedding.",
+  "arms": ["pose_base", "RGB_base", "RGB_preserve"],
+  "control": "Same architecture, initialization, train/dev examples, updates, batches and deployment score. pose_base zeros RGB. RGB_preserve adds only extra expected correct-point harm loss under the actual soft selection distribution; no extra GT input.",
+  "common_loss": "Huber(error-difference/5mm) +0.2 harmful-event BCE +0.1 reference-good BCE +0.25 listwise KL at temperature0.15; GT list score=mean(error-difference)/5mm +2*mean(harmful-event)",
+  "extra_preservation": "RGB_preserve only: expected GT harmful-event fraction under softmax(-deployment_score/0.15), weight1",
+  "deployment_score": "mean(predicted error-difference)/5mm +2*mean(predicted harmful-event probability); candidate0 score exactly0; argmin whole native candidate. No candidate mixing and no GT choice.",
+  "deployment_scope": "First isolate learned native risk selection using17-slot temporal conditioning and the unchanged full v9 physical BA/motion backend. v10 second-order DP retained as existing research control; no new uncalibrated DP cost added.",
+  "train": "600 updates each, same 3-distinct-person by3-window batch plan (5400 frame examples/arm); only original6 train people and25 fixed dev-select right windows; original full RGB backbone and DiT frozen",
+  "initial_seed": 190019,
+  "batch_seed": 910019,
+  "selection": "Every100: dev native relative20 error +20*harm>1mm fraction among candidate0 accurate<=10mm points. Keep all checkpoints; never call unadmitted best safe.",
+  "invariants": "NaturalRGB/no synthetic occlusion; native51 parameters/FK; same wrist/shape; noncausal17 context up to1.6s; same existing speed and doubled-acceleration scales; original5/10/30mm and +0.2px gates unchanged; GPU3 only",
+  "validation": "Verify actual gradients/updates, candidate permutation equivariance, GT isolation, frozen FK/DiT, exact actual resume. Freeze outputs for all arms on historical6 clips and full clip2102 before this run labels; compare accuracy, recovery/harm against mean/v9/v10, sequenceCIs, motion/bones/fast action. Not fresh generalization.",
+  "production_admitted": false
+}

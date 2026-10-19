@@ -1,0 +1,320 @@
+{
+  "complete": true,
+  "matched_right_frames": 894,
+  "GT_points": 18774,
+  "GT_inband_points": 18774,
+  "GT_native_image_points": 18774,
+  "metrics": {
+    "WiLoR": {
+      "native_image_all21_px": {
+        "n": 18774,
+        "mean": 12.086476266864926,
+        "RMSE": 14.845056200099265,
+        "P95": 27.2879148811823,
+        "max": 96.25790318011082
+      },
+      "native_image_framed_px": {
+        "n": 18774,
+        "mean": 12.086476266864926,
+        "RMSE": 14.845056200099265,
+        "P95": 27.2879148811823,
+        "max": 96.25790318011082
+      },
+      "base_good5": 3170,
+      "good_harmed_over1px": 0,
+      "good_to_over10": 0,
+      "base_hard10": 9629,
+      "recovered_to10": 0,
+      "canonical_inband_crop_px": {
+        "n": 18774,
+        "mean": 7.499082868055146,
+        "RMSE": 9.01003703314995,
+        "P95": 16.43791876552333,
+        "max": 59.653901868073405
+      }
+    },
+    "spatial": {
+      "native_image_all21_px": {
+        "n": 18774,
+        "mean": 12.712017112042801,
+        "RMSE": 16.367665776833036,
+        "P95": 31.53530701471257,
+        "max": 110.12414314582733
+      },
+      "native_image_framed_px": {
+        "n": 18774,
+        "mean": 12.712017112042801,
+        "RMSE": 16.367665776833036,
+        "P95": 31.53530701471257,
+        "max": 110.12414314582733
+      },
+      "base_good5": 3170,
+      "good_harmed_over1px": 2554,
+      "good_to_over10": 1225,
+      "base_hard10": 9629,
+      "recovered_to10": 3806,
+      "canonical_inband_crop_px": {
+        "n": 18774,
+        "mean": 8.17701601034849,
+        "RMSE": 11.192271151154134,
+        "P95": 20.176688785488423,
+        "max": 90.2567392866482
+      }
+    },
+    "spatial_blend": {
+      "native_image_all21_px": {
+        "n": 18774,
+        "mean": 11.71956197309627,
+        "RMSE": 14.405660915061722,
+        "P95": 26.401274561427805,
+        "max": 96.7511262341235
+      },
+      "native_image_framed_px": {
+        "n": 18774,
+        "mean": 11.71956197309627,
+        "RMSE": 14.405660915061722,
+        "P95": 26.401274561427805,
+        "max": 96.7511262341235
+      },
+      "base_good5": 3170,
+      "good_harmed_over1px": 121,
+      "good_to_over10": 0,
+      "base_hard10": 9629,
+      "recovered_to10": 455
+    },
+    "pooled": {
+      "native_image_all21_px": {
+        "n": 18774,
+        "mean": 40.45015592907853,
+        "RMSE": 46.46585203998048,
+        "P95": 86.55696691689383,
+        "max": 153.15336288231458
+      },
+      "native_image_framed_px": {
+        "n": 18774,
+        "mean": 40.45015592907853,
+        "RMSE": 46.46585203998048,
+        "P95": 86.55696691689383,
+        "max": 153.15336288231458
+      },
+      "base_good5": 3170,
+      "good_harmed_over1px": 3153,
+      "good_to_over10": 3065,
+      "base_hard10": 9629,
+      "recovered_to10": 416,
+      "canonical_inband_crop_px": {
+        "n": 18774,
+        "mean": 24.71974189708144,
+        "RMSE": 27.773440081809802,
+        "P95": 47.603868751343775,
+        "max": 87.76674219476601
+      }
+    },
+    "pooled_blend": {
+      "native_image_all21_px": {
+        "n": 18774,
+        "mean": 12.069144077256823,
+        "RMSE": 14.801345379820756,
+        "P95": 27.108665980324574,
+        "max": 96.25790333916734
+      },
+      "native_image_framed_px": {
+        "n": 18774,
+        "mean": 12.069144077256823,
+        "RMSE": 14.801345379820756,
+        "P95": 27.108665980324574,
+        "max": 96.25790333916734
+      },
+      "base_good5": 3170,
+      "good_harmed_over1px": 0,
+      "good_to_over10": 0,
+      "base_hard10": 9629,
+      "recovered_to10": 101
+    }
+  },
+  "paired_sequence_CI": {
+    "spatial": {
+      "clusters": 6,
+      "mean_delta_px": 0.6255408451778759,
+      "CI95_px": [
+        -1.5428826702126461,
+        2.8065295013268234
+      ],
+      "scope": "historical six development recordings, three people; image pixels, not3D"
+    },
+    "spatial_blend": {
+      "clusters": 6,
+      "mean_delta_px": -0.36691429376865686,
+      "CI95_px": [
+        -0.5440613319805679,
+        -0.22012673592998377
+      ],
+      "scope": "historical six development recordings, three people; image pixels, not3D"
+    },
+    "pooled": {
+      "clusters": 6,
+      "mean_delta_px": 28.363679662213595,
+      "CI95_px": [
+        22.500438106359155,
+        37.218063567467176
+      ],
+      "scope": "historical six development recordings, three people; image pixels, not3D"
+    },
+    "pooled_blend": {
+      "clusters": 6,
+      "mean_delta_px": -0.017332189608102077,
+      "CI95_px": [
+        -0.08184276238881899,
+        0.045866421040626215
+      ],
+      "scope": "historical six development recordings, three people; image pixels, not3D"
+    },
+    "spatial minus pooled": {
+      "clusters": 6,
+      "mean_delta_px": -27.738138817035722,
+      "CI95_px": [
+        -35.435269777981894,
+        -22.84124192846339
+      ],
+      "scope": "historical six development recordings, three people; image pixels, not3D"
+    }
+  },
+  "risk_calibration": {
+    "spatial": {
+      "coarse": {
+        "Brier": 0.21929001808166504,
+        "mean_probability": 0.3769129812717438,
+        "actual_error_over8_fraction": 0.3711515926281027,
+        "buckets": [
+          {
+            "lower": 0.0,
+            "count": 2140,
+            "actual_error_fraction": 0.14158878504672898
+          },
+          {
+            "lower": 0.2,
+            "count": 8615,
+            "actual_error_fraction": 0.347069065583285
+          },
+          {
+            "lower": 0.4,
+            "count": 6384,
+            "actual_error_fraction": 0.4431390977443609
+          },
+          {
+            "lower": 0.6,
+            "count": 1635,
+            "actual_error_fraction": 0.5174311926605505
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "actual_error_fraction": null
+          }
+        ]
+      },
+      "new": {
+        "Brier": 0.23686553537845612,
+        "mean_probability": 0.2369641661643982,
+        "actual_error_over8_fraction": 0.3607648876105252,
+        "buckets": [
+          {
+            "lower": 0.0,
+            "count": 10488,
+            "actual_error_fraction": 0.28642257818459194
+          },
+          {
+            "lower": 0.2,
+            "count": 3816,
+            "actual_error_fraction": 0.3671383647798742
+          },
+          {
+            "lower": 0.4,
+            "count": 4470,
+            "actual_error_fraction": 0.5297539149888143
+          },
+          {
+            "lower": 0.6,
+            "count": 0,
+            "actual_error_fraction": null
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "actual_error_fraction": null
+          }
+        ]
+      },
+      "blend_weight_mean": 0.06667045503854752
+    },
+    "pooled": {
+      "coarse": {
+        "Brier": 0.21835173666477203,
+        "mean_probability": 0.3782399594783783,
+        "actual_error_over8_fraction": 0.3711515926281027,
+        "buckets": [
+          {
+            "lower": 0.0,
+            "count": 1736,
+            "actual_error_fraction": 0.1630184331797235
+          },
+          {
+            "lower": 0.2,
+            "count": 9563,
+            "actual_error_fraction": 0.3354595838126111
+          },
+          {
+            "lower": 0.4,
+            "count": 6143,
+            "actual_error_fraction": 0.44033859677681914
+          },
+          {
+            "lower": 0.6,
+            "count": 1332,
+            "actual_error_fraction": 0.5795795795795796
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "actual_error_fraction": null
+          }
+        ]
+      },
+      "new": {
+        "Brier": 0.061134256422519684,
+        "mean_probability": 0.8941316604614258,
+        "actual_error_over8_fraction": 0.9365612016618728,
+        "buckets": [
+          {
+            "lower": 0.0,
+            "count": 0,
+            "actual_error_fraction": null
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "actual_error_fraction": null
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "actual_error_fraction": null
+          },
+          {
+            "lower": 0.6,
+            "count": 1800,
+            "actual_error_fraction": 0.8377777777777777
+          },
+          {
+            "lower": 0.8,
+            "count": 16974,
+            "actual_error_fraction": 0.9470366442794863
+          }
+        ]
+      },
+      "blend_weight_mean": 0.00961247831583023
+    }
+  },
+  "scope": "native MANO amodal model projection; no independent visible2D labels; original annotation asset version unverified; six historically exposed clips; no full3D admission",
+  "production_admitted": false
+}

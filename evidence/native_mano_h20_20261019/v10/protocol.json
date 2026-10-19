@@ -1,0 +1,22 @@
+{
+  "experiment": "native_candidate_sequence_v10",
+  "purpose": "Native MANO candidate selection using independent RGB likelihood and noncausal whole-track second-order temporal optimization",
+  "training": "No new training; freeze v7 full-data native DiT and v9 spatial observation head",
+  "candidate_order": ["v7_protected_mean", "WiLoR", "protected_draw0", "protected_draw1", "protected_draw2", "protected_draw3"],
+  "candidate_budget": "Same four draws and ten steps as v7; include their existing protected mean and original WiLoR; no GT best-of-K inference",
+  "candidate_geometry": "All candidates preserve wristXYZ and predicted shape, native SO3 residual/FK/export; same per-frame5/10/30mm displacement protection",
+  "arms": ["frame_RGB", "temporal_noRGB", "temporal_RGB"],
+  "RGB_unary": "Sample v9 full spatial heatmap probability at native candidate projection in exact rotated192x256 band; -log probability relative to candidate0. Joint weight = predicted inband * coarse bad2D risk * (1-new bad2D risk), zero when original coarse projection is outside band or side is not predicted-right. Mean across21 without renormalizing away low support.",
+  "prior": "0.05*mean((candidate relative21 minus candidate0 relative21)/0.005m)^2 over nonwrist3D coordinates",
+  "motion": "World-oriented wrist-relative20 points; real per-pair delta-t, 60Hz reference. Same existing native-BA velocity scale0.01m, acceleration scale0.005m and weights0.002/0.02; smoothL1. No new manual hard speed/acceleration threshold.",
+  "selection": "Exact second-order Viterbi over complete predicted track/segment/chirality, splitting gaps>0.1s; no GT tuning or candidate picking; ties prefer candidate0",
+  "head_limits": "Heatmap supervision is native MANO amodal projection, not direct visibility. Its2D risk is not3D confidence. Physically missing RGB may still be ambiguous.",
+  "verification": "Exact protected-mean parity against sealed v7 outputs, native FK/export, finite candidates, DP versus exhaustive actual tiny paths, reset/gap/track separation, GT-read prohibition",
+  "full_pipeline": "New selected native rotations enter same v9 image-observation BA, same predicted cuVSLAM and physical depth, same original BA and all weights. Freeze three raw/guarded outputs before scoring.",
+  "gates": "Unchanged5/10/30mm plus original WiLoR reference reprojection increase<=0.2px; preserve original candidate and all controls",
+  "evaluation": "Same historical six clips and complete clip2102 diagnostic replay; freeze all outputs before this run labels. Compare3D recovery/harm versus WiLoR and v7/v9 references, recording paired CIs, motion/bones/fast-action retention; any GT best-of-K only posthoc capacity diagnostic clearly marked nondeployable",
+  "natural_RGB_only": true,
+  "visual_backbone_frozen": true,
+  "native_right_supervision_only": true,
+  "production_admitted": false
+}

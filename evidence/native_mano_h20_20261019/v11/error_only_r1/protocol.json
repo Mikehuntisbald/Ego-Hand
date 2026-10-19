@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "GT_scope": "Original train and fixed dev-select only; no new six-clip/full/fresh scoring labels opened",
+  "reason": "Original learned difference-only argmin chose9 alternatives/25 dev frames for RGB, composite heuristic chose1; risk penalty in score was overly conservative",
+  "change": "Deployment and GT listwise target use predicted mean native relative3D error-difference/5mm only; retain harm/good auxiliary learning and RGB_preserve loss-only expected-harm. All output gates unchanged.",
+  "same_architecture_init_data_batches_updates": true,
+  "updates_each": 600,
+  "arms": [
+    "pose_base",
+    "RGB_base",
+    "RGB_preserve"
+  ],
+  "original_source_sha256": {
+    "risk_model.py": "8808779d926786bacce753301e77b149e4873508a13721c16e5bce1d6946f09a",
+    "train_quality.py": "e892d5266151f904b383ba70cddb0142ec7b7f74c9a48ff44fadc9a04afce5bd",
+    "training_data.py": "66a5cb924af498ace574b55533b210407821698229c58a7c5e66c15c214d9ff2",
+    "input_data.py": "5175fd3d5248e746fbc8ac10df5edf5bfb5c87436caa63653891316b4801e9d1"
+  },
+  "source_input_freeze_sha256": "a3d3590c223907d3edc6b709255a3c2fc45ea71176b7f848d935926f83d72eab",
+  "source_target_sha256": "227de1fbec805e7d78368a315ad3519906d5be4b276e98b042314af76d6e648b",
+  "production_admitted": false
+}

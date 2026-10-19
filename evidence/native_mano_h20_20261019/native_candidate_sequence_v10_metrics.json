@@ -1,0 +1,3712 @@
+{
+  "complete": true,
+  "right_only": true,
+  "counts": {
+    "annotated_right_hand_frames": 900,
+    "matched_right_hand_frames": 894,
+    "matched_predicted_right": 892,
+    "right_without_matching_box_or_UM_pose": 4
+  },
+  "metrics": {
+    "WiLoR": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.409722214591966,
+        "RMSE": 53.51905029579942,
+        "P95": 99.892827036108,
+        "max": 246.8246181924166
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 17.535993613814945,
+        "RMSE": 20.889178043768975,
+        "P95": 40.082281628517656,
+        "max": 88.83609047098386
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 0,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 0,
+        "improved_over1mm": 0,
+        "worsened_over1mm": 0
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 2244,
+        "good_to_over20": 0,
+        "base_hard20": 5512,
+        "recovered_to20": 396,
+        "improved_over1mm": 4601,
+        "worsened_over1mm": 7877
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 29.804898616013137,
+        "RMSE": 32.74934701938103,
+        "P95": 53.486975783197124,
+        "max": 101.64699593197246
+      }
+    },
+    "v5_native_dit_guard": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.28852624846375,
+        "RMSE": 53.26209420527474,
+        "P95": 99.15624552931298,
+        "max": 252.06413158441055
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 16.991713146692128,
+        "RMSE": 20.220852855314636,
+        "P95": 38.61060890046598,
+        "max": 78.27570117046069
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 1541,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 715,
+        "improved_over1mm": 7082,
+        "worsened_over1mm": 4482
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 1659,
+        "good_to_over20": 8,
+        "base_hard20": 5512,
+        "recovered_to20": 483,
+        "improved_over1mm": 4953,
+        "worsened_over1mm": 6190
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 29.55588305565034,
+        "RMSE": 32.405917074621904,
+        "P95": 52.867728038637026,
+        "max": 91.05021220807456
+      }
+    },
+    "v7_mean_guard": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.38490647736474,
+        "RMSE": 53.91494786010836,
+        "P95": 101.45943129947638,
+        "max": 252.35922935451694
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 16.80841270538454,
+        "RMSE": 20.047338793663947,
+        "P95": 38.79533284964759,
+        "max": 79.29825392670357
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 1642,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 903,
+        "improved_over1mm": 7877,
+        "worsened_over1mm": 4601
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 0,
+        "good_to_over20": 0,
+        "base_hard20": 5512,
+        "recovered_to20": 0,
+        "improved_over1mm": 0,
+        "worsened_over1mm": 0
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 28.68545430813561,
+        "RMSE": 31.61967246873675,
+        "P95": 52.65508419864471,
+        "max": 91.99098322003003
+      }
+    },
+    "frame_RGB": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.15759255119877,
+        "RMSE": 53.7466633533025,
+        "P95": 101.14842977088425,
+        "max": 252.8695432241519
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 17.16639856934974,
+        "RMSE": 20.39332162618818,
+        "P95": 39.452766216097245,
+        "max": 79.49363090839269
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 1571,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 741,
+        "improved_over1mm": 5992,
+        "worsened_over1mm": 4642
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 1041,
+        "good_to_over20": 0,
+        "base_hard20": 5512,
+        "recovered_to20": 176,
+        "improved_over1mm": 1774,
+        "worsened_over1mm": 3806
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 29.04618887094296,
+        "RMSE": 31.95773885640311,
+        "P95": 52.86259256831423,
+        "max": 91.60753003774838
+      }
+    },
+    "temporal_noRGB": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.38377449972716,
+        "RMSE": 53.914186861541104,
+        "P95": 101.45943129947638,
+        "max": 252.35922935451694
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 16.80871481173026,
+        "RMSE": 20.04755815064791,
+        "P95": 38.79533284964759,
+        "max": 79.29825392670357
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 1643,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 903,
+        "improved_over1mm": 7877,
+        "worsened_over1mm": 4606
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 0,
+        "good_to_over20": 0,
+        "base_hard20": 5512,
+        "recovered_to20": 1,
+        "improved_over1mm": 0,
+        "worsened_over1mm": 0
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 28.68589184879837,
+        "RMSE": 31.620070885271655,
+        "P95": 52.65508419864471,
+        "max": 91.99098322003003
+      }
+    },
+    "temporal_RGB": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.152332316164085,
+        "RMSE": 53.7422302986327,
+        "P95": 101.09638969367602,
+        "max": 252.8695432241519
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 17.16406452511286,
+        "RMSE": 20.392266817823927,
+        "P95": 39.46983229575382,
+        "max": 79.49363090839269
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 1568,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 740,
+        "improved_over1mm": 5990,
+        "worsened_over1mm": 4630
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 1033,
+        "good_to_over20": 0,
+        "base_hard20": 5512,
+        "recovered_to20": 185,
+        "improved_over1mm": 1794,
+        "worsened_over1mm": 3811
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 29.044460056315383,
+        "RMSE": 31.95750577640962,
+        "P95": 52.86259256831423,
+        "max": 91.60753003774838
+      }
+    },
+    "temporal_noRGB_scaled": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.32092537548118,
+        "RMSE": 53.81575707591753,
+        "P95": 101.05299221978623,
+        "max": 252.35922935451694
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 16.909134904060164,
+        "RMSE": 20.15438261474033,
+        "P95": 39.01696763523246,
+        "max": 79.67325487257048
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 1476,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 817,
+        "improved_over1mm": 6949,
+        "worsened_over1mm": 4183
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 591,
+        "good_to_over20": 0,
+        "base_hard20": 5512,
+        "recovered_to20": 177,
+        "improved_over1mm": 1882,
+        "worsened_over1mm": 2401
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 28.82107960177616,
+        "RMSE": 31.750924109359623,
+        "P95": 52.75878146427547,
+        "max": 92.39935279205396
+      }
+    },
+    "temporal_RGB_scaled": {
+      "camera21_mm": {
+        "n": 18774,
+        "mean": 44.15339884227467,
+        "RMSE": 53.725211583416545,
+        "P95": 101.08600702984057,
+        "max": 252.8695432241519
+      },
+      "native_relative20_mm": {
+        "n": 17880,
+        "mean": 17.151788586113828,
+        "RMSE": 20.40489264249188,
+        "P95": 39.62580490376961,
+        "max": 77.50905156904417
+      },
+      "wrist_mm": {
+        "n": 894,
+        "mean": 46.59255197213515,
+        "RMSE": 56.85127249835912,
+        "P95": 106.18950111258665,
+        "max": 246.42955496914263
+      },
+      "native_relative_preservation": {
+        "valid_points": 17880,
+        "base_good10": 5302,
+        "good_harmed_over1mm": 1462,
+        "good_to_over20": 0,
+        "base_hard20": 6019,
+        "recovered_to20": 744,
+        "improved_over1mm": 5768,
+        "worsened_over1mm": 4295
+      },
+      "preservation_vs_mean": {
+        "valid_points": 17880,
+        "base_good10": 5564,
+        "good_harmed_over1mm": 1048,
+        "good_to_over20": 0,
+        "base_hard20": 5512,
+        "recovered_to20": 201,
+        "improved_over1mm": 1982,
+        "worsened_over1mm": 3833
+      },
+      "UM_aux_relative19_mm": {
+        "n": 16986,
+        "mean": 29.05931258253782,
+        "RMSE": 31.978863466564555,
+        "P95": 52.93957937220333,
+        "max": 90.25604611950155
+      }
+    }
+  },
+  "per_clip": {
+    "2108": {
+      "WiLoR": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 19.276553254968864,
+          "RMSE": 26.01020041731675,
+          "P95": 35.396346625159445,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 11.686205975484881,
+          "RMSE": 13.003764638800837,
+          "P95": 21.11692129164265,
+          "max": 48.21260027294016
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 385,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 100,
+          "improved_over1mm": 1122,
+          "worsened_over1mm": 807
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 20.263790215226408,
+          "RMSE": 21.289379148872463,
+          "P95": 31.18272348238352,
+          "max": 53.477173611491104
+        }
+      },
+      "v5_native_dit_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 18.98011650697408,
+          "RMSE": 25.58559671101231,
+          "P95": 34.95002517417561,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 10.903578452675834,
+          "RMSE": 12.230068829637453,
+          "P95": 19.9202619460721,
+          "max": 49.98513243709544
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 286,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 102,
+          "improved_over1mm": 1107,
+          "worsened_over1mm": 670
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 179,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 127,
+          "improved_over1mm": 1417,
+          "worsened_over1mm": 423
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 20.037284786897242,
+          "RMSE": 20.99400907720092,
+          "P95": 30.35869751376255,
+          "max": 54.28569509282704
+        }
+      },
+      "v7_mean_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 17.980956291964954,
+          "RMSE": 24.97224852375991,
+          "P95": 32.041056789542736,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 11.87716802100606,
+          "RMSE": 13.214313563695736,
+          "P95": 21.47874440082344,
+          "max": 53.87780629501397
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 460,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 64,
+          "improved_over1mm": 807,
+          "worsened_over1mm": 1122
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 19.87610893462511,
+          "RMSE": 20.901582899566574,
+          "P95": 31.078589367857127,
+          "max": 57.84389032907645
+        }
+      },
+      "frame_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 17.742729494336388,
+          "RMSE": 24.916494917882133,
+          "P95": 32.600609573059636,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.268513226252638,
+          "RMSE": 13.604754007295403,
+          "P95": 22.22100617304944,
+          "max": 54.06497564924887
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 434,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 56,
+          "improved_over1mm": 541,
+          "worsened_over1mm": 1189
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 317,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 27,
+          "improved_over1mm": 398,
+          "worsened_over1mm": 806
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 20.119418596366987,
+          "RMSE": 21.12365056794973,
+          "P95": 31.212257662339205,
+          "max": 58.50992721527322
+        }
+      },
+      "temporal_noRGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 17.980956291964954,
+          "RMSE": 24.97224852375991,
+          "P95": 32.041056789542736,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 11.87716802100606,
+          "RMSE": 13.214313563695736,
+          "P95": 21.47874440082344,
+          "max": 53.87780629501397
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 460,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 64,
+          "improved_over1mm": 807,
+          "worsened_over1mm": 1122
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 19.87610893462511,
+          "RMSE": 20.901582899566574,
+          "P95": 31.078589367857127,
+          "max": 57.84389032907645
+        }
+      },
+      "temporal_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 17.744952458266017,
+          "RMSE": 24.91713619023084,
+          "P95": 32.600609573059636,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.263801763791635,
+          "RMSE": 13.60212304806334,
+          "P95": 22.22100617304944,
+          "max": 54.06497564924887
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 434,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 55,
+          "improved_over1mm": 541,
+          "worsened_over1mm": 1188
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 317,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 30,
+          "improved_over1mm": 406,
+          "worsened_over1mm": 818
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 20.11637655427655,
+          "RMSE": 21.1223655339692,
+          "P95": 31.212257662339205,
+          "max": 58.50992721527322
+        }
+      },
+      "temporal_noRGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 17.711797954039252,
+          "RMSE": 24.8366840149516,
+          "P95": 32.16223963721508,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.027002569530998,
+          "RMSE": 13.329941147264215,
+          "P95": 21.5168805317728,
+          "max": 53.90147741645843
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 451,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 61,
+          "improved_over1mm": 646,
+          "worsened_over1mm": 1107
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 199,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 31,
+          "improved_over1mm": 343,
+          "worsened_over1mm": 485
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 20.022489994934265,
+          "RMSE": 21.01672279756413,
+          "P95": 30.926892265987927,
+          "max": 57.82937082350058
+        }
+      },
+      "temporal_RGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 17.744095355450096,
+          "RMSE": 24.99996370644805,
+          "P95": 32.915270698374314,
+          "max": 123.83662724221412
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.11323464323326,
+          "RMSE": 13.435809058526777,
+          "P95": 21.851797865571537,
+          "max": 53.90147741645843
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 22.165196475880542,
+          "RMSE": 28.907555886080566,
+          "P95": 32.19008851962846,
+          "max": 123.83662724221412
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1237,
+          "good_harmed_over1mm": 386,
+          "good_to_over20": 0,
+          "base_hard20": 204,
+          "recovered_to20": 58,
+          "improved_over1mm": 556,
+          "worsened_over1mm": 1097
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1225,
+          "good_harmed_over1mm": 300,
+          "good_to_over20": 0,
+          "base_hard20": 240,
+          "recovered_to20": 39,
+          "improved_over1mm": 481,
+          "worsened_over1mm": 755
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 20.00786773430373,
+          "RMSE": 20.991096339121086,
+          "P95": 30.966464256729314,
+          "max": 57.82937082350058
+        }
+      }
+    },
+    "2144": {
+      "WiLoR": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 83.68762637584251,
+          "RMSE": 86.80932945079941,
+          "P95": 118.72750330410483,
+          "max": 246.8246181924166
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 12.505624468399285,
+          "RMSE": 16.325385741777517,
+          "P95": 35.768719671010885,
+          "max": 75.31254687410745
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 664,
+          "good_to_over20": 0,
+          "base_hard20": 376,
+          "recovered_to20": 28,
+          "improved_over1mm": 898,
+          "worsened_over1mm": 1235
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 18.970770167338824,
+          "RMSE": 21.758169711458326,
+          "P95": 37.987440454112864,
+          "max": 82.44037665809026
+        }
+      },
+      "v5_native_dit_guard": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 83.71896212356813,
+          "RMSE": 86.62442615814916,
+          "P95": 116.87339072380776,
+          "max": 252.06413158441055
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 13.457018927803752,
+          "RMSE": 17.477368233402395,
+          "P95": 36.05922375498564,
+          "max": 76.95445264602212
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 688,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 16,
+          "improved_over1mm": 698,
+          "worsened_over1mm": 1339
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 791,
+          "good_to_over20": 7,
+          "base_hard20": 376,
+          "recovered_to20": 28,
+          "improved_over1mm": 657,
+          "worsened_over1mm": 1450
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 19.70776196786077,
+          "RMSE": 22.7943514447177,
+          "P95": 41.31444874751352,
+          "max": 88.4161060736493
+        }
+      },
+      "v7_mean_guard": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 86.01577254183593,
+          "RMSE": 89.13926315867499,
+          "P95": 121.2337042014893,
+          "max": 252.35922935451694
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 12.099859073528028,
+          "RMSE": 15.686842363794119,
+          "P95": 34.19137569210761,
+          "max": 75.31254687410745
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 624,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 50,
+          "improved_over1mm": 1235,
+          "worsened_over1mm": 898
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 376,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 17.682969749238225,
+          "RMSE": 20.319818579429988,
+          "P95": 36.52045982171201,
+          "max": 78.69645689940596
+        }
+      },
+      "frame_RGB": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 85.77978961634093,
+          "RMSE": 88.90684782909688,
+          "P95": 121.40474552390704,
+          "max": 252.8695432241519
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 12.18951708624009,
+          "RMSE": 15.748419539542311,
+          "P95": 34.38539003515282,
+          "max": 75.31254687410745
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 627,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 47,
+          "improved_over1mm": 1119,
+          "worsened_over1mm": 882
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 184,
+          "good_to_over20": 0,
+          "base_hard20": 376,
+          "recovered_to20": 16,
+          "improved_over1mm": 269,
+          "worsened_over1mm": 367
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 17.75987027330402,
+          "RMSE": 20.389548473131324,
+          "P95": 36.407724174014504,
+          "max": 78.69645689940596
+        }
+      },
+      "temporal_noRGB": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 86.01577254183593,
+          "RMSE": 89.13926315867499,
+          "P95": 121.2337042014893,
+          "max": 252.35922935451694
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 12.099859073528028,
+          "RMSE": 15.686842363794119,
+          "P95": 34.19137569210761,
+          "max": 75.31254687410745
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 624,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 50,
+          "improved_over1mm": 1235,
+          "worsened_over1mm": 898
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 376,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 17.682969749238225,
+          "RMSE": 20.319818579429988,
+          "P95": 36.52045982171201,
+          "max": 78.69645689940596
+        }
+      },
+      "temporal_RGB": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 85.7809101135077,
+          "RMSE": 88.90281788715912,
+          "P95": 121.34896356954933,
+          "max": 252.8695432241519
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 12.172541483056625,
+          "RMSE": 15.724391110387318,
+          "P95": 34.35646932737486,
+          "max": 75.31254687410745
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 626,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 47,
+          "improved_over1mm": 1126,
+          "worsened_over1mm": 878
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 176,
+          "good_to_over20": 0,
+          "base_hard20": 376,
+          "recovered_to20": 16,
+          "improved_over1mm": 265,
+          "worsened_over1mm": 352
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 17.742763614710082,
+          "RMSE": 20.368120168094222,
+          "P95": 36.35883422076627,
+          "max": 78.69645689940596
+        }
+      },
+      "temporal_noRGB_scaled": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 85.58767122307303,
+          "RMSE": 88.68337428112325,
+          "P95": 120.6387982099305,
+          "max": 252.35922935451694
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 12.096534920628688,
+          "RMSE": 15.662933505004915,
+          "P95": 33.98618827006815,
+          "max": 75.31254687410745
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 586,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 48,
+          "improved_over1mm": 1112,
+          "worsened_over1mm": 795
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 138,
+          "good_to_over20": 0,
+          "base_hard20": 376,
+          "recovered_to20": 19,
+          "improved_over1mm": 291,
+          "worsened_over1mm": 290
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 17.792335371041286,
+          "RMSE": 20.416381965068226,
+          "P95": 36.3900205189461,
+          "max": 78.69645689940596
+        }
+      },
+      "temporal_RGB_scaled": {
+        "camera21_mm": {
+          "n": 3024,
+          "mean": 85.59292112091964,
+          "RMSE": 88.71633012193655,
+          "P95": 120.41729906741895,
+          "max": 252.8695432241519
+        },
+        "native_relative20_mm": {
+          "n": 2880,
+          "mean": 12.182188406618863,
+          "RMSE": 15.731692357914962,
+          "P95": 34.13669413404563,
+          "max": 75.31254687410745
+        },
+        "wrist_mm": {
+          "n": 144,
+          "mean": 85.22702925104315,
+          "RMSE": 88.31579503891071,
+          "P95": 116.56714105641254,
+          "max": 246.42955496914263
+        },
+        "native_relative_preservation": {
+          "valid_points": 2880,
+          "base_good10": 1643,
+          "good_harmed_over1mm": 609,
+          "good_to_over20": 0,
+          "base_hard20": 398,
+          "recovered_to20": 48,
+          "improved_over1mm": 1068,
+          "worsened_over1mm": 840
+        },
+        "preservation_vs_mean": {
+          "valid_points": 2880,
+          "base_good10": 1603,
+          "good_harmed_over1mm": 175,
+          "good_to_over20": 0,
+          "base_hard20": 376,
+          "recovered_to20": 18,
+          "improved_over1mm": 293,
+          "worsened_over1mm": 358
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2736,
+          "mean": 17.82141425161263,
+          "RMSE": 20.43605241833552,
+          "P95": 36.41673791768038,
+          "max": 78.69645689940596
+        }
+      }
+    },
+    "2513": {
+      "WiLoR": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 41.5606862899771,
+          "RMSE": 45.27577976263623,
+          "P95": 71.65297778594237,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.935893165769924,
+          "RMSE": 15.158693319198003,
+          "P95": 28.41655642885428,
+          "max": 63.745554104385675
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 799,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 53,
+          "improved_over1mm": 503,
+          "worsened_over1mm": 1594
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 24.97169382836534,
+          "RMSE": 26.397170776785714,
+          "P95": 40.27119257270641,
+          "max": 72.29925254914303
+        }
+      },
+      "v5_native_dit_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 40.56882798741528,
+          "RMSE": 43.94844923040137,
+          "P95": 68.9230554296784,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 11.882503700006898,
+          "RMSE": 13.933210338225054,
+          "P95": 25.499387288831027,
+          "max": 56.62311569866914
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 276,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 118,
+          "improved_over1mm": 1516,
+          "worsened_over1mm": 579
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 368,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 62,
+          "improved_over1mm": 527,
+          "worsened_over1mm": 790
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 24.418046784832708,
+          "RMSE": 25.822713006897978,
+          "P95": 39.21940693203926,
+          "max": 65.19137407489791
+        }
+      },
+      "v7_mean_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 40.859240852280884,
+          "RMSE": 44.34475181541352,
+          "P95": 70.05741025833036,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 11.732833018936157,
+          "RMSE": 13.83282292214098,
+          "P95": 25.985276917462954,
+          "max": 51.307928623573666
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 245,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 106,
+          "improved_over1mm": 1594,
+          "worsened_over1mm": 503
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 23.537893565742916,
+          "RMSE": 24.89509437612886,
+          "P95": 38.13922674812275,
+          "max": 59.674222409621464
+        }
+      },
+      "frame_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 40.62985184649784,
+          "RMSE": 44.28128091197254,
+          "P95": 70.63391206312629,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.627146825748488,
+          "RMSE": 14.879605341879058,
+          "P95": 28.27749767901575,
+          "max": 58.61452992677056
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 204,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 38,
+          "improved_over1mm": 719,
+          "worsened_over1mm": 420
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 444,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 32,
+          "improved_over1mm": 289,
+          "worsened_over1mm": 1056
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 24.597773988792113,
+          "RMSE": 26.003460372255063,
+          "P95": 39.783766973111014,
+          "max": 67.26119060273905
+        }
+      },
+      "temporal_noRGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 40.859240852280884,
+          "RMSE": 44.34475181541352,
+          "P95": 70.05741025833036,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 11.732833018936157,
+          "RMSE": 13.83282292214098,
+          "P95": 25.985276917462954,
+          "max": 51.307928623573666
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 245,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 106,
+          "improved_over1mm": 1594,
+          "worsened_over1mm": 503
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 23.537893565742916,
+          "RMSE": 24.89509437612886,
+          "P95": 38.13922674812275,
+          "max": 59.674222409621464
+        }
+      },
+      "temporal_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 40.62453759649285,
+          "RMSE": 44.28193558496725,
+          "P95": 70.63391206312629,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.628798495367926,
+          "RMSE": 14.885619369403546,
+          "P95": 28.27749767901575,
+          "max": 58.61452992677056
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 202,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 38,
+          "improved_over1mm": 712,
+          "worsened_over1mm": 414
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 444,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 33,
+          "improved_over1mm": 292,
+          "worsened_over1mm": 1055
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 24.606724450674164,
+          "RMSE": 26.01545787026893,
+          "P95": 39.783766973111014,
+          "max": 67.26119060273905
+        }
+      },
+      "temporal_noRGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 41.07684792618947,
+          "RMSE": 44.61873615872124,
+          "P95": 70.53693187443395,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 11.688415303129798,
+          "RMSE": 13.787715655378069,
+          "P95": 26.06195123290338,
+          "max": 50.75914023783603
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 172,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 99,
+          "improved_over1mm": 1483,
+          "worsened_over1mm": 369
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 139,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 26,
+          "improved_over1mm": 351,
+          "worsened_over1mm": 319
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 23.57300676331495,
+          "RMSE": 24.924581437988653,
+          "P95": 38.4667469432891,
+          "max": 59.04664529392831
+        }
+      },
+      "temporal_RGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 40.66338572102598,
+          "RMSE": 44.34489156515686,
+          "P95": 70.83194041962795,
+          "max": 105.82091948198496
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 12.636267464293102,
+          "RMSE": 14.921285392406078,
+          "P95": 28.552006836479983,
+          "max": 58.61452992677056
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 42.01399724793627,
+          "RMSE": 46.061952613232556,
+          "P95": 79.21074930113235,
+          "max": 105.82091948198496
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 1246,
+          "good_harmed_over1mm": 164,
+          "good_to_over20": 0,
+          "base_hard20": 428,
+          "recovered_to20": 29,
+          "improved_over1mm": 665,
+          "worsened_over1mm": 333
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 1475,
+          "good_harmed_over1mm": 458,
+          "good_to_over20": 0,
+          "base_hard20": 375,
+          "recovered_to20": 30,
+          "improved_over1mm": 304,
+          "worsened_over1mm": 1054
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 24.642828398587312,
+          "RMSE": 26.05472402308521,
+          "P95": 39.746157980007155,
+          "max": 67.26119060273905
+        }
+      }
+    },
+    "2541": {
+      "WiLoR": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.762352053179036,
+          "RMSE": 27.647236627342732,
+          "P95": 45.15660156463294,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 22.209684434795864,
+          "RMSE": 24.643030061426877,
+          "P95": 41.35270368547039,
+          "max": 63.70984282012082
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 199,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 68,
+          "improved_over1mm": 533,
+          "worsened_over1mm": 1819
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 33.54101098850571,
+          "RMSE": 35.15237654504684,
+          "P95": 51.911501111956326,
+          "max": 82.45135308774854
+        }
+      },
+      "v5_native_dit_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.713715554955552,
+          "RMSE": 27.343350989848272,
+          "P95": 44.25407950799179,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 21.083273211811278,
+          "RMSE": 23.395795767650494,
+          "P95": 39.53423678171519,
+          "max": 57.0568029408456
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 53,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 175,
+          "improved_over1mm": 1399,
+          "worsened_over1mm": 570
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 148,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 107,
+          "improved_over1mm": 787,
+          "worsened_over1mm": 1580
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 32.626193595908404,
+          "RMSE": 34.207761672175764,
+          "P95": 50.432006278893326,
+          "max": 76.06705103248282
+        }
+      },
+      "v7_mean_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.515693910828393,
+          "RMSE": 27.703836357973437,
+          "P95": 46.71312377116108,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 20.27194605269064,
+          "RMSE": 22.41312730329711,
+          "P95": 37.60814572794939,
+          "max": 54.664434287100775
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 91,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 250,
+          "improved_over1mm": 1819,
+          "worsened_over1mm": 533
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 31.415784889834548,
+          "RMSE": 32.84999664801086,
+          "P95": 47.89522149365127,
+          "max": 73.72995817185686
+        }
+      },
+      "frame_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.273500269542172,
+          "RMSE": 27.47279362039252,
+          "P95": 46.344670509080224,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 20.414278332869067,
+          "RMSE": 22.56193512463793,
+          "P95": 37.75087014897853,
+          "max": 54.133582663351184
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 70,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 247,
+          "improved_over1mm": 1699,
+          "worsened_over1mm": 502
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 42,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 50,
+          "improved_over1mm": 345,
+          "worsened_over1mm": 471
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 31.603712426395198,
+          "RMSE": 33.013985943459794,
+          "P95": 48.250657912008464,
+          "max": 72.9836764972835
+        }
+      },
+      "temporal_noRGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.508947324108455,
+          "RMSE": 27.695008293189925,
+          "P95": 46.69710314883041,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 20.27374660651112,
+          "RMSE": 22.41429664932567,
+          "P95": 37.60814572794939,
+          "max": 54.664434287100775
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 92,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 250,
+          "improved_over1mm": 1819,
+          "worsened_over1mm": 538
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 1,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 31.418392632184577,
+          "RMSE": 32.85228221144524,
+          "P95": 47.89522149365127,
+          "max": 73.72995817185686
+        }
+      },
+      "temporal_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.274104129363316,
+          "RMSE": 27.47387788739627,
+          "P95": 46.37461425221777,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 20.41515478730384,
+          "RMSE": 22.56343997911545,
+          "P95": 37.75087014897853,
+          "max": 54.133582663351184
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 70,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 247,
+          "improved_over1mm": 1699,
+          "worsened_over1mm": 502
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 42,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 50,
+          "improved_over1mm": 345,
+          "worsened_over1mm": 471
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 31.60524112292442,
+          "RMSE": 33.015692101425074,
+          "P95": 48.265216264297926,
+          "max": 72.9836764972835
+        }
+      },
+      "temporal_noRGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.584673944864075,
+          "RMSE": 27.696401272842948,
+          "P95": 46.563619327942895,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 20.7409276155661,
+          "RMSE": 22.893620090290323,
+          "P95": 38.32542841269378,
+          "max": 54.664434287100775
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 91,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 216,
+          "improved_over1mm": 1506,
+          "worsened_over1mm": 522
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 76,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 34,
+          "improved_over1mm": 227,
+          "worsened_over1mm": 595
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 31.849002984794712,
+          "RMSE": 33.30257640967018,
+          "P95": 48.452422242932364,
+          "max": 73.72995817185686
+        }
+      },
+      "temporal_RGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 24.22329120696695,
+          "RMSE": 27.321452063470286,
+          "P95": 45.384069389975714,
+          "max": 79.79866958525083
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 20.62876389123056,
+          "RMSE": 22.84280805407722,
+          "P95": 39.06032403401466,
+          "max": 54.871870855989556
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 25.78568935223073,
+          "RMSE": 31.661265974612114,
+          "P95": 61.109580476631926,
+          "max": 79.79866958525083
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 364,
+          "good_harmed_over1mm": 75,
+          "good_to_over20": 0,
+          "base_hard20": 1593,
+          "recovered_to20": 246,
+          "improved_over1mm": 1527,
+          "worsened_over1mm": 477
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 426,
+          "good_harmed_over1mm": 63,
+          "good_to_over20": 0,
+          "base_hard20": 1411,
+          "recovered_to20": 60,
+          "improved_over1mm": 340,
+          "worsened_over1mm": 639
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 31.800549281037803,
+          "RMSE": 33.26602229940711,
+          "P95": 48.73511600135121,
+          "max": 73.78919398832146
+        }
+      }
+    },
+    "3219": {
+      "WiLoR": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 43.855646395719766,
+          "RMSE": 47.65185112155845,
+          "P95": 74.35884585748575,
+          "max": 93.73036977988026
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 24.327815829430552,
+          "RMSE": 27.000187172070927,
+          "P95": 48.279814580225654,
+          "max": 88.83609047098386
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 47,
+          "good_to_over20": 0,
+          "base_hard20": 1651,
+          "recovered_to20": 44,
+          "improved_over1mm": 292,
+          "worsened_over1mm": 1622
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 43.30627134846356,
+          "RMSE": 44.897383818184736,
+          "P95": 66.3561216621366,
+          "max": 101.64699593197246
+        }
+      },
+      "v5_native_dit_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 43.76622095296424,
+          "RMSE": 47.44095069845672,
+          "P95": 73.73562407006254,
+          "max": 91.45596974282988
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 23.82460128722648,
+          "RMSE": 26.3246074039981,
+          "P95": 46.49703035353804,
+          "max": 78.27570117046069
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 20,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 169,
+          "improved_over1mm": 1184,
+          "worsened_over1mm": 653
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 34,
+          "good_to_over20": 1,
+          "base_hard20": 1651,
+          "recovered_to20": 16,
+          "improved_over1mm": 196,
+          "worsened_over1mm": 1307
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 42.652918837583805,
+          "RMSE": 44.20517235808243,
+          "P95": 64.86618615557417,
+          "max": 91.05021220807456
+        }
+      },
+      "v7_mean_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 44.33774870663421,
+          "RMSE": 48.11210091212162,
+          "P95": 74.67002150063344,
+          "max": 93.84749109282997
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 22.760819463680296,
+          "RMSE": 25.238234528985544,
+          "P95": 45.40465118443957,
+          "max": 79.29825392670357
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 2,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 302,
+          "improved_over1mm": 1622,
+          "worsened_over1mm": 292
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1651,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 41.36214429294989,
+          "RMSE": 42.96556052535915,
+          "P95": 63.34575169064592,
+          "max": 91.99098322003003
+        }
+      },
+      "frame_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 44.2551362712464,
+          "RMSE": 48.02169491211784,
+          "P95": 74.5447158505458,
+          "max": 94.52881592207038
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 23.14003776243219,
+          "RMSE": 25.65142750468577,
+          "P95": 46.46582595798107,
+          "max": 79.49363090839269
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 6,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 240,
+          "improved_over1mm": 1221,
+          "worsened_over1mm": 296
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 14,
+          "good_to_over20": 0,
+          "base_hard20": 1651,
+          "recovered_to20": 26,
+          "improved_over1mm": 233,
+          "worsened_over1mm": 657
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 41.71476148175472,
+          "RMSE": 43.30437914545263,
+          "P95": 63.936369468310126,
+          "max": 91.60753003774838
+        }
+      },
+      "temporal_noRGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 44.33774870663421,
+          "RMSE": 48.11210091212162,
+          "P95": 74.67002150063344,
+          "max": 93.84749109282997
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 22.760819463680296,
+          "RMSE": 25.238234528985544,
+          "P95": 45.40465118443957,
+          "max": 79.29825392670357
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 2,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 302,
+          "improved_over1mm": 1622,
+          "worsened_over1mm": 292
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1651,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 41.36214429294989,
+          "RMSE": 42.96556052535915,
+          "P95": 63.34575169064592,
+          "max": 91.99098322003003
+        }
+      },
+      "temporal_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 44.243653926449845,
+          "RMSE": 48.01283860778223,
+          "P95": 74.5447158505458,
+          "max": 94.52881592207038
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 23.136486078930567,
+          "RMSE": 25.648911111126438,
+          "P95": 46.46582595798107,
+          "max": 79.49363090839269
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 6,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 242,
+          "improved_over1mm": 1224,
+          "worsened_over1mm": 294
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 14,
+          "good_to_over20": 0,
+          "base_hard20": 1651,
+          "recovered_to20": 30,
+          "improved_over1mm": 245,
+          "worsened_over1mm": 660
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 41.71019336100699,
+          "RMSE": 43.300563874061126,
+          "P95": 63.936369468310126,
+          "max": 91.60753003774838
+        }
+      },
+      "temporal_noRGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 44.31176126719192,
+          "RMSE": 48.11838956385144,
+          "P95": 74.7333400160394,
+          "max": 94.50645426053458
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 22.83839196113488,
+          "RMSE": 25.3329202552658,
+          "P95": 45.485285021566604,
+          "max": 79.67325487257048
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 2,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 277,
+          "improved_over1mm": 1487,
+          "worsened_over1mm": 245
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 8,
+          "good_to_over20": 0,
+          "base_hard20": 1651,
+          "recovered_to20": 32,
+          "improved_over1mm": 254,
+          "worsened_over1mm": 331
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 41.46927763037345,
+          "RMSE": 43.07908002971991,
+          "P95": 64.18973473726253,
+          "max": 92.39935279205396
+        }
+      },
+      "temporal_RGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 44.239301099919246,
+          "RMSE": 48.02315055135995,
+          "P95": 74.5447158505458,
+          "max": 94.52881592207038
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 23.117403368941247,
+          "RMSE": 25.658489563458623,
+          "P95": 46.67746100838476,
+          "max": 77.50905156904417
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 38.804887904791805,
+          "RMSE": 44.32187059026019,
+          "P95": 74.4156862484145,
+          "max": 84.4642705221653
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 187,
+          "good_harmed_over1mm": 6,
+          "good_to_over20": 0,
+          "base_hard20": 1909,
+          "recovered_to20": 243,
+          "improved_over1mm": 1193,
+          "worsened_over1mm": 233
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 209,
+          "good_harmed_over1mm": 16,
+          "good_to_over20": 0,
+          "base_hard20": 1651,
+          "recovered_to20": 31,
+          "improved_over1mm": 269,
+          "worsened_over1mm": 636
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 41.70569762306201,
+          "RMSE": 43.3142963648875,
+          "P95": 64.46190968372271,
+          "max": 90.25604611950155
+        }
+      }
+    },
+    "3295": {
+      "WiLoR": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 54.886585084314554,
+          "RMSE": 63.837608490532915,
+          "P95": 122.55090649436106,
+          "max": 166.81759804256419
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 21.349523043192544,
+          "RMSE": 24.69133125201456,
+          "P95": 44.60268021361978,
+          "max": 75.98107459368678
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 150,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 103,
+          "improved_over1mm": 1253,
+          "worsened_over1mm": 800
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 37.34249001023201,
+          "RMSE": 39.19468612831214,
+          "P95": 59.13806360101391,
+          "max": 72.43027827851536
+        }
+      },
+      "v5_native_dit_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 55.56053179990936,
+          "RMSE": 64.18410156215826,
+          "P95": 121.83972906530731,
+          "max": 163.50752972846283
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 20.657915531872984,
+          "RMSE": 23.65681324133544,
+          "P95": 42.06057829126322,
+          "max": 65.68432819657076
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 218,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 135,
+          "improved_over1mm": 1178,
+          "worsened_over1mm": 671
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 139,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 143,
+          "improved_over1mm": 1369,
+          "worsened_over1mm": 640
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 37.49916751730751,
+          "RMSE": 39.0925405256998,
+          "P95": 56.83798413431253,
+          "max": 71.78543964501631
+        }
+      },
+      "v7_mean_guard": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 54.26526120322292,
+          "RMSE": 63.4376373487825,
+          "P95": 122.37291491907982,
+          "max": 169.60184088324806
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 21.91950845719178,
+          "RMSE": 25.569183630257243,
+          "P95": 47.222422012197256,
+          "max": 77.94700554350273
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 220,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 131,
+          "improved_over1mm": 800,
+          "worsened_over1mm": 1253
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 37.79772503406711,
+          "RMSE": 39.75735385996624,
+          "P95": 60.78983757422112,
+          "max": 75.22640032382178
+        }
+      },
+      "frame_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 53.929435691834534,
+          "RMSE": 63.134167926771944,
+          "P95": 122.36491129510077,
+          "max": 168.55164747045242
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 22.159822923231612,
+          "RMSE": 25.82767998519503,
+          "P95": 47.5224268573361,
+          "max": 77.94700554350273
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 230,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 113,
+          "improved_over1mm": 693,
+          "worsened_over1mm": 1353
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 40,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 25,
+          "improved_over1mm": 240,
+          "worsened_over1mm": 449
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 38.03014371513915,
+          "RMSE": 40.003063992834115,
+          "P95": 61.10823045304339,
+          "max": 75.47399550116505
+        }
+      },
+      "temporal_noRGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 54.26526120322292,
+          "RMSE": 63.4376373487825,
+          "P95": 122.37291491907982,
+          "max": 169.60184088324806
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 21.91950845719178,
+          "RMSE": 25.569183630257243,
+          "P95": 47.222422012197256,
+          "max": 77.94700554350273
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 220,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 131,
+          "improved_over1mm": 800,
+          "worsened_over1mm": 1253
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 37.79772503406711,
+          "RMSE": 39.75735385996624,
+          "P95": 60.78983757422112,
+          "max": 75.22640032382178
+        }
+      },
+      "temporal_RGB": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 53.91097878479851,
+          "RMSE": 63.12267494775791,
+          "P95": 122.36491129510077,
+          "max": 168.55164747045242
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 22.167943620544325,
+          "RMSE": 25.83587422390434,
+          "P95": 47.590238615192334,
+          "max": 77.94700554350273
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 230,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 111,
+          "improved_over1mm": 688,
+          "worsened_over1mm": 1354
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 40,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 26,
+          "improved_over1mm": 241,
+          "worsened_over1mm": 455
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 38.03339337663589,
+          "RMSE": 40.008033300386174,
+          "P95": 61.10823045304339,
+          "max": 75.47399550116505
+        }
+      },
+      "temporal_noRGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 54.30346977143301,
+          "RMSE": 63.40863540294369,
+          "P95": 122.41720709955086,
+          "max": 166.95129704088797
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 21.871033055033255,
+          "RMSE": 25.52977391048785,
+          "P95": 47.2515688743285,
+          "max": 76.17259973720499
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 174,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 116,
+          "improved_over1mm": 715,
+          "worsened_over1mm": 1145
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 31,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 35,
+          "improved_over1mm": 416,
+          "worsened_over1mm": 381
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 37.779215096968905,
+          "RMSE": 39.754755795233066,
+          "P95": 61.035630630021,
+          "max": 77.16807173597901
+        }
+      },
+      "temporal_RGB_scaled": {
+        "camera21_mm": {
+          "n": 3150,
+          "mean": 54.114979440511945,
+          "RMSE": 63.26940933526532,
+          "P95": 122.24628692923005,
+          "max": 169.95633693476256
+        },
+        "native_relative20_mm": {
+          "n": 3000,
+          "mean": 22.034089735186125,
+          "RMSE": 25.702122262587245,
+          "P95": 47.394614038974346,
+          "max": 77.28458224130992
+        },
+        "wrist_mm": {
+          "n": 150,
+          "mean": 67.10389069208473,
+          "RMSE": 76.49322657531617,
+          "P95": 135.45925443360787,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 3000,
+          "base_good10": 625,
+          "good_harmed_over1mm": 222,
+          "good_to_over20": 0,
+          "base_hard20": 1487,
+          "recovered_to20": 120,
+          "improved_over1mm": 759,
+          "worsened_over1mm": 1315
+        },
+        "preservation_vs_mean": {
+          "valid_points": 3000,
+          "base_good10": 626,
+          "good_harmed_over1mm": 36,
+          "good_to_over20": 0,
+          "base_hard20": 1459,
+          "recovered_to20": 23,
+          "improved_over1mm": 295,
+          "worsened_over1mm": 391
+        },
+        "UM_aux_relative19_mm": {
+          "n": 2850,
+          "mean": 37.92800227338643,
+          "RMSE": 39.89764549168314,
+          "P95": 61.09025658803921,
+          "max": 75.07374538099587
+        }
+      }
+    }
+  },
+  "paired_CI": {
+    "v5_native_dit_guard minus WiLoR": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.5442804671228196,
+        "CI95_mm": [
+          -0.9723060686039725,
+          0.08364022513574988
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.5442804671228196,
+        "CI95_mm": [
+          -1.0899003443738065,
+          0.06668936643838867
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "v7_mean_guard minus WiLoR": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.7275809084304086,
+        "CI95_mm": [
+          -1.443327947408909,
+          -0.0019620095582656826
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.7275809084304086,
+        "CI95_mm": [
+          -1.570399264469495,
+          -0.10131261916082945
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "frame_RGB minus WiLoR": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.3695950444652014,
+        "CI95_mm": [
+          -1.1103538026344546,
+          0.3632905742305063
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.3695950444652014,
+        "CI95_mm": [
+          -1.0520762209741172,
+          0.1422674305586391
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_noRGB minus WiLoR": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.7272788020846903,
+        "CI95_mm": [
+          -1.44271618205883,
+          -0.0019620095582656826
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.7272788020846903,
+        "CI95_mm": [
+          -1.569498987559255,
+          -0.10131261916082945
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB minus WiLoR": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.3719290887020861,
+        "CI95_mm": [
+          -1.1167631972705947,
+          0.3630497948539703
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.3719290887020861,
+        "CI95_mm": [
+          -1.0508121589470114,
+          0.13154904202948978
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_noRGB_scaled minus WiLoR": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.6268587097547821,
+        "CI95_mm": [
+          -1.2644124420276588,
+          0.04448369145441913
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.6268587097547821,
+        "CI95_mm": [
+          -1.3581173409349436,
+          -0.02649457745594696
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB_scaled minus WiLoR": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.38420502770111964,
+        "CI95_mm": [
+          -1.0479160889742607,
+          0.27064079068674346
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.38420502770111964,
+        "CI95_mm": [
+          -0.9402731225210635,
+          0.05945410634651964
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB minus v7_mean_guard": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": 0.35565181972832216,
+        "CI95_mm": [
+          0.17365953563610018,
+          0.5924394342305207
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": 0.35565181972832216,
+        "CI95_mm": [
+          0.2328616611903192,
+          0.5195871055224839
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB minus frame_RGB": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.002334044236884625,
+        "CI95_mm": [
+          -0.008817736523782496,
+          0.003151732425720932
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.002334044236884625,
+        "CI95_mm": [
+          -0.010718388529149367,
+          0.002284506905544527
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB minus temporal_noRGB": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": 0.35534971338260396,
+        "CI95_mm": [
+          0.1733553880312893,
+          0.5924394342305207
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": 0.35534971338260396,
+        "CI95_mm": [
+          0.2328616611903192,
+          0.5186868286122437
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB_scaled minus v7_mean_guard": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": 0.3433758807292886,
+        "CI95_mm": [
+          0.1606418738202507,
+          0.5877475122345427
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": 0.3433758807292886,
+        "CI95_mm": [
+          0.16076672550734905,
+          0.6301261419484318
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB_scaled minus frame_RGB": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": -0.014609983235918207,
+        "CI95_mm": [
+          -0.10084711534165654,
+          0.08721620690389843
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": -0.014609983235918207,
+        "CI95_mm": [
+          -0.08281332421211948,
+          0.11180309845305353
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    },
+    "temporal_RGB_scaled minus temporal_noRGB_scaled": {
+      "sequence": {
+        "clusters": 6,
+        "point_weighted_delta_mm": 0.2426536820536625,
+        "CI95_mm": [
+          0.019563107212463675,
+          0.5521857905283725
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      },
+      "subject": {
+        "clusters": 3,
+        "point_weighted_delta_mm": 0.2426536820536625,
+        "CI95_mm": [
+          0.08594868380246656,
+          0.4178442184138802
+        ],
+        "bootstrap_draws": 10000,
+        "units": "named candidate minus reference mm; negative better",
+        "limitation": "six historically exposed development recordings; only three people"
+      }
+    }
+  },
+  "temporal": {
+    "WiLoR": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.215141600520394,
+        "RMSE": 3.014901778155648,
+        "P95": 5.744931900540916,
+        "max": 38.743882173822946
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.6958795255624062,
+        "RMSE": 2.223581633854503,
+        "P95": 4.434969982997429,
+        "max": 14.727093074121083
+      },
+      "relative_velocity_error_over10": 151,
+      "fast_relative_motion_amplitude_ratio": 1.0833021499357771,
+      "bone_length_CV_mean": 0.010419578291475773
+    },
+    "v5_native_dit_guard": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.3376987088763053,
+        "RMSE": 3.064573803700787,
+        "P95": 5.744744921778901,
+        "max": 39.18914232808979
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.8327516441257148,
+        "RMSE": 2.3062652797545034,
+        "P95": 4.513020559324062,
+        "max": 14.52504860259371
+      },
+      "relative_velocity_error_over10": 124,
+      "fast_relative_motion_amplitude_ratio": 1.0802923818279393,
+      "bone_length_CV_mean": 0.009835071861743927
+    },
+    "v7_mean_guard": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.3769026411483276,
+        "RMSE": 3.1096522485982376,
+        "P95": 5.8278724938599735,
+        "max": 38.46204242428847
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.8596973109033905,
+        "RMSE": 2.338788855521731,
+        "P95": 4.608283879082956,
+        "max": 13.495632593506421
+      },
+      "relative_velocity_error_over10": 143,
+      "fast_relative_motion_amplitude_ratio": 1.0837089853184099,
+      "bone_length_CV_mean": 0.009774263016879559
+    },
+    "frame_RGB": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.466006985119455,
+        "RMSE": 3.2084591122246207,
+        "P95": 6.100790676163873,
+        "max": 38.67926522559867
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.9438034762113083,
+        "RMSE": 2.4227175175292923,
+        "P95": 4.737945754263327,
+        "max": 11.91043415323115
+      },
+      "relative_velocity_error_over10": 137,
+      "fast_relative_motion_amplitude_ratio": 1.0794006533070553,
+      "bone_length_CV_mean": 0.009961701929569244
+    },
+    "temporal_noRGB": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.3761116880654662,
+        "RMSE": 3.108165737976988,
+        "P95": 5.822222182383802,
+        "max": 38.46204242428847
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.8584826677274553,
+        "RMSE": 2.3369821047489534,
+        "P95": 4.597116742813601,
+        "max": 13.495632593506421
+      },
+      "relative_velocity_error_over10": 143,
+      "fast_relative_motion_amplitude_ratio": 1.0826336831135634,
+      "bone_length_CV_mean": 0.009774431586265564
+    },
+    "temporal_RGB": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.450459568450882,
+        "RMSE": 3.1915487357766814,
+        "P95": 6.068248066291305,
+        "max": 38.67926522559867
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.9257910992007685,
+        "RMSE": 2.402910103114515,
+        "P95": 4.691211420147699,
+        "max": 11.91043415323115
+      },
+      "relative_velocity_error_over10": 136,
+      "fast_relative_motion_amplitude_ratio": 1.07851994199187,
+      "bone_length_CV_mean": 0.009959286078810692
+    },
+    "temporal_noRGB_scaled": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.0464504673030928,
+        "RMSE": 2.7323366894167442,
+        "P95": 5.073254251817618,
+        "max": 38.46204242428847
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.4745615530476601,
+        "RMSE": 1.8844284172630101,
+        "P95": 3.708975921026291,
+        "max": 12.113213763180454
+      },
+      "relative_velocity_error_over10": 89,
+      "fast_relative_motion_amplitude_ratio": 1.0513136748511491,
+      "bone_length_CV_mean": 0.009936686605215073
+    },
+    "temporal_RGB_scaled": {
+      "relative_velocity_error_mm_at60": {
+        "n": 17680,
+        "mean": 2.1737052617298445,
+        "RMSE": 2.876244968727663,
+        "P95": 5.356452539365268,
+        "max": 38.67926522559867
+      },
+      "relative_acceleration_error_mm_at60sq": {
+        "n": 17520,
+        "mean": 1.6126083255869341,
+        "RMSE": 2.0331783227858384,
+        "P95": 4.001283468401818,
+        "max": 11.91043415323115
+      },
+      "relative_velocity_error_over10": 97,
+      "fast_relative_motion_amplitude_ratio": 1.0555979930732207,
+      "bone_length_CV_mean": 0.009997588582336903
+    }
+  },
+  "strict_optimizer_selection_unseen_subjects": {
+    "subjects": [
+      "P0010",
+      "P0015"
+    ],
+    "hand_frames": 600,
+    "metrics": {
+      "WiLoR": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 41.26631745579761,
+          "RMSE": 47.854480196071385,
+          "P95": 84.09492548714418,
+          "max": 166.81759804256419
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 20.20572911829722,
+          "RMSE": 23.32239728285592,
+          "P95": 42.3752051946143,
+          "max": 88.83609047098386
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 1195,
+          "good_to_over20": 0,
+          "base_hard20": 4896,
+          "recovered_to20": 268,
+          "improved_over1mm": 2581,
+          "worsened_over1mm": 5835
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 34.79036654389166,
+          "RMSE": 37.028700680005805,
+          "P95": 55.9460536480797,
+          "max": 101.64699593197246
+        }
+      },
+      "v5_native_dit_guard": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 41.1523240738111,
+          "RMSE": 47.564082377425436,
+          "P95": 83.43890510488946,
+          "max": 163.50752972846283
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 19.36207343272941,
+          "RMSE": 22.327826683540483,
+          "P95": 40.31490365408132,
+          "max": 78.27570117046069
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 567,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 597,
+          "improved_over1mm": 5277,
+          "worsened_over1mm": 2473
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 689,
+          "good_to_over20": 1,
+          "base_hard20": 4896,
+          "recovered_to20": 328,
+          "improved_over1mm": 2879,
+          "worsened_over1mm": 4317
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 34.299081683908106,
+          "RMSE": 36.46679124086136,
+          "P95": 55.05074891547191,
+          "max": 91.05021220807456
+        }
+      },
+      "v7_mean_guard": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 40.9944861682416,
+          "RMSE": 47.626325832185,
+          "P95": 83.55065210531154,
+          "max": 169.60184088324806
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 19.171276748124722,
+          "RMSE": 22.27356560570739,
+          "P95": 41.53436057493937,
+          "max": 79.29825392670357
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 558,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 789,
+          "improved_over1mm": 5835,
+          "worsened_over1mm": 2581
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 4896,
+          "recovered_to20": 0,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 33.52838694564861,
+          "RMSE": 35.79655912575802,
+          "P95": 55.56767104874445,
+          "max": 91.99098322003003
+        }
+      },
+      "frame_RGB": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 40.771981019780235,
+          "RMSE": 47.45416886468477,
+          "P95": 83.5110929122487,
+          "max": 168.55164747045242
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 19.58532146107034,
+          "RMSE": 22.66885726136322,
+          "P95": 42.12156896392508,
+          "max": 79.49363090839269
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 510,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 638,
+          "improved_over1mm": 4332,
+          "worsened_over1mm": 2571
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 540,
+          "good_to_over20": 0,
+          "base_hard20": 4896,
+          "recovered_to20": 133,
+          "improved_over1mm": 1107,
+          "worsened_over1mm": 2633
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 33.9865979030203,
+          "RMSE": 36.199508288077254,
+          "P95": 56.00325892826316,
+          "max": 91.60753003774838
+        }
+      },
+      "temporal_noRGB": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 40.992799521561615,
+          "RMSE": 47.625042216528,
+          "P95": 83.55065210531154,
+          "max": 169.60184088324806
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 19.17172688657984,
+          "RMSE": 22.27385977966759,
+          "P95": 41.53436057493937,
+          "max": 79.29825392670357
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 559,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 789,
+          "improved_over1mm": 5835,
+          "worsened_over1mm": 2586
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 0,
+          "good_to_over20": 0,
+          "base_hard20": 4896,
+          "recovered_to20": 1,
+          "improved_over1mm": 0,
+          "worsened_over1mm": 0
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 33.529038881236126,
+          "RMSE": 35.797083497478106,
+          "P95": 55.56767104874445,
+          "max": 91.99098322003003
+        }
+      },
+      "temporal_RGB": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 40.76331860927613,
+          "RMSE": 47.44841554008943,
+          "P95": 83.54362571913879,
+          "max": 168.55164747045242
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 19.587095745536665,
+          "RMSE": 22.671841157048636,
+          "P95": 42.12612609401732,
+          "max": 79.49363090839269
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 508,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 638,
+          "improved_over1mm": 4323,
+          "worsened_over1mm": 2564
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 540,
+          "good_to_over20": 0,
+          "base_hard20": 4896,
+          "recovered_to20": 139,
+          "improved_over1mm": 1123,
+          "worsened_over1mm": 2641
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 33.98888807781037,
+          "RMSE": 36.202284228734435,
+          "P95": 56.00325892826316,
+          "max": 91.60753003774838
+        }
+      },
+      "temporal_noRGB_scaled": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 41.069188227419616,
+          "RMSE": 47.68111973766431,
+          "P95": 83.58746875891875,
+          "max": 166.95129704088797
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 19.28469198371601,
+          "RMSE": 22.40393463441402,
+          "P95": 41.61396273577511,
+          "max": 79.67325487257048
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 439,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 708,
+          "improved_over1mm": 5191,
+          "worsened_over1mm": 2281
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 254,
+          "good_to_over20": 0,
+          "base_hard20": 4896,
+          "recovered_to20": 127,
+          "improved_over1mm": 1248,
+          "worsened_over1mm": 1626
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 33.667625618863006,
+          "RMSE": 35.93933812664919,
+          "P95": 55.70964766905915,
+          "max": 92.39935279205396
+        }
+      },
+      "temporal_RGB_scaled": {
+        "camera21_mm": {
+          "n": 12600,
+          "mean": 40.81023936710603,
+          "RMSE": 47.49255809412136,
+          "P95": 83.64207121960003,
+          "max": 169.95633693476256
+        },
+        "native_relative20_mm": {
+          "n": 12000,
+          "mean": 19.604131114912757,
+          "RMSE": 22.71230840885699,
+          "P95": 42.21028540512573,
+          "max": 77.50905156904417
+        },
+        "wrist_mm": {
+          "n": 600,
+          "mean": 43.42711629926089,
+          "RMSE": 52.29670440424817,
+          "P95": 98.29390074945152,
+          "max": 163.50752972846283
+        },
+        "native_relative_preservation": {
+          "valid_points": 12000,
+          "base_good10": 2422,
+          "good_harmed_over1mm": 467,
+          "good_to_over20": 0,
+          "base_hard20": 5417,
+          "recovered_to20": 638,
+          "improved_over1mm": 4144,
+          "worsened_over1mm": 2358
+        },
+        "preservation_vs_mean": {
+          "valid_points": 12000,
+          "base_good10": 2736,
+          "good_harmed_over1mm": 573,
+          "good_to_over20": 0,
+          "base_hard20": 4896,
+          "recovered_to20": 144,
+          "improved_over1mm": 1208,
+          "worsened_over1mm": 2720
+        },
+        "UM_aux_relative19_mm": {
+          "n": 11400,
+          "mean": 34.019269394018394,
+          "RMSE": 36.240265137375566,
+          "P95": 55.916929899486206,
+          "max": 90.25604611950155
+        }
+      }
+    }
+  },
+  "source_asset_sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767",
+  "official_mesh_parity_max_m": 1.1920928955078125e-07,
+  "scope": "native MANO21 decoded through existing licensed RIGHT asset using WiLoR exact joint/tip semantics; annotation-original asset not independently verified",
+  "validation_exposure": "six historically evaluated development recordings; P10/P15 labels excluded from optimizer and checkpoint selection but already audited before v5 design",
+  "full_pipeline": false,
+  "prediction_freeze_sha256": "7022ba852dcb30dc1415f72fd8cb4a38edcea28caa5c7d1f2f82c28aa153200e",
+  "production_admitted": false,
+  "ground_truth_inference": false,
+  "left_hand": "passthrough coarse WiLoR; not trained or claimed improved"
+}

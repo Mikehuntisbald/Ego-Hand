@@ -1,0 +1,22 @@
+{
+  "locked_unix": 1792380115.2016957,
+  "complete": true,
+  "train_windows": 304,
+  "dev_select_windows": 52,
+  "validation_forbidden": "/mnt/why/native_mano_multiseq_v3_20261019/evaluation",
+  "change": "replace FK/parameter/real-time velocity/protection source by actual 4-draw,10-step Gaussian-sampler mean; same loss coefficients, v objective, init and batch plan",
+  "train_steps": 600,
+  "controls": "/mnt/why/native_mano_dit_v2_20261019/runs",
+  "arms": [
+    "dit",
+    "protected"
+  ],
+  "same_updates_not_equal_compute": true,
+  "decision": "run only after sampler parity/gradient preflight and a 4-step finite pilot",
+  "sources": {
+    "preflight_rollout.py": "a86d66b56f77060554498e4331371660a64f0f5389cfb7220f4a4c04ce5ace6d",
+    "train_native.py": "0e366e560302a477cecbd435cfef5f28cd5b55732a32b9c83d87521f8b9e60c5",
+    "run_rollout.py": "95c937ee9df14dcd4bbcbe6e5c01812003fdd3002a418cb8294d66f712c0c058",
+    "native_rollout.py": "e291c1cd42bd9721e08247454f62442ead36e24cab6ac42e530d7ea3c544f1c6"
+  }
+}

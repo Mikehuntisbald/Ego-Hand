@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "models": {
+    "spatial": "253e4d8ade6e18c9aec16fd714018cc5371d14b9e456d424db7bbcc32ba6724a",
+    "pooled": "cc007f900d1ea1034ceb7a2028dc20cd98821e1c7469c80e88fa05256d3f3e7d"
+  },
+  "GT_inputs": false,
+  "full_replay": "existing clip2102 predicted head/depth unchanged; head observations are new",
+  "historical_exposure": true
+}

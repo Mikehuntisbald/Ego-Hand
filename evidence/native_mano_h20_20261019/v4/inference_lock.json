@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "locked_unix": 1792381069.9540052,
+  "models": {
+    "rollout_dit": {
+      "path": "/mnt/why/native_mano_rollout_v4_20261019/runs/dit/best_development.pt",
+      "sha256": "50152a871fdf39909bf5fffc4abc143097832c5e7410584c3ec76ea0d6feaa05"
+    },
+    "rollout_protected": {
+      "path": "/mnt/why/native_mano_rollout_v4_20261019/runs/protected/best_development.pt",
+      "sha256": "7e7ef4d91055a984aafa8e9767c4886118cadab09abc5570ade2a5426921ee1e"
+    }
+  },
+  "reference_validation_protocol_sha256": "c81996f613dac36071012d2688f1fdb041b92a07289dac4d9d4fcbb2a4409ff8",
+  "hand_labels_unopened": true,
+  "additional_arm": "rollout_dit_displacement uses exactly the existing 5/10/30mm parameter guard",
+  "same_deployment_sampler": true
+}

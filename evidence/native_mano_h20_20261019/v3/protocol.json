@@ -1,0 +1,109 @@
+{
+  "complete": true,
+  "locked_unix": 1792379599.0239637,
+  "clips": [
+    {
+      "clip": 2108,
+      "sequence": "P0003_c701bd11",
+      "subject": "P0003",
+      "archive": "/mnt/why/HOT3D/rgb_clips/val/P0003_c701bd11/clip-002108.tar",
+      "archive_sha256": "4ec482ea06157bf2370d8cfee22c5fc1bf5c7458bdc80c7a9bb88adbf18053c8",
+      "frames": 150,
+      "view": "/mnt/why/native_mano_multiseq_v3_20261019/clips/clip-002108",
+      "hand_GT_extracted": false,
+      "camera_trajectory": "provided dataset reference; identical for all arms"
+    },
+    {
+      "clip": 2144,
+      "sequence": "P0003_e3a74169",
+      "subject": "P0003",
+      "archive": "/mnt/why/HOT3D/rgb_clips/val/P0003_e3a74169/clip-002144.tar",
+      "archive_sha256": "b53e0639dcf64144647e65494e5c847372dae97537cd7b9cb083e5457405370d",
+      "frames": 150,
+      "view": "/mnt/why/native_mano_multiseq_v3_20261019/clips/clip-002144",
+      "hand_GT_extracted": false,
+      "camera_trajectory": "provided dataset reference; identical for all arms"
+    },
+    {
+      "clip": 2513,
+      "sequence": "P0010_924e574e",
+      "subject": "P0010",
+      "archive": "/mnt/why/HOT3D/rgb_clips/val/P0010_924e574e/clip-002513.tar",
+      "archive_sha256": "16b3955481be5cfdf31f1027f6cd2f6b117ea54a874ad4ce7e43c1a18ec21ed7",
+      "frames": 150,
+      "view": "/mnt/why/native_mano_multiseq_v3_20261019/clips/clip-002513",
+      "hand_GT_extracted": false,
+      "camera_trajectory": "provided dataset reference; identical for all arms"
+    },
+    {
+      "clip": 2541,
+      "sequence": "P0010_b152143e",
+      "subject": "P0010",
+      "archive": "/mnt/why/HOT3D/rgb_clips/val/P0010_b152143e/clip-002541.tar",
+      "archive_sha256": "9f35d8a99f185a813efda290d272dba0b1122fa280a76e88c0ed28f16a2fd514",
+      "frames": 150,
+      "view": "/mnt/why/native_mano_multiseq_v3_20261019/clips/clip-002541",
+      "hand_GT_extracted": false,
+      "camera_trajectory": "provided dataset reference; identical for all arms"
+    },
+    {
+      "clip": 3219,
+      "sequence": "P0015_1eb4f17f",
+      "subject": "P0015",
+      "archive": "/mnt/why/HOT3D/rgb_clips/val/P0015_1eb4f17f/clip-003219.tar",
+      "archive_sha256": "6417197362a06b97d708987027b51942795879c450a0f29a57b3b961e74d80a6",
+      "frames": 150,
+      "view": "/mnt/why/native_mano_multiseq_v3_20261019/clips/clip-003219",
+      "hand_GT_extracted": false,
+      "camera_trajectory": "provided dataset reference; identical for all arms"
+    },
+    {
+      "clip": 3295,
+      "sequence": "P0015_7e95628d",
+      "subject": "P0015",
+      "archive": "/mnt/why/HOT3D/rgb_clips/val/P0015_7e95628d/clip-003295.tar",
+      "archive_sha256": "b693ed92a58ba85b8566e9789d227ae249c71f08bb421ed2ff05cd34d932b67d",
+      "frames": 150,
+      "view": "/mnt/why/native_mano_multiseq_v3_20261019/clips/clip-003295",
+      "hand_GT_extracted": false,
+      "camera_trajectory": "provided dataset reference; identical for all arms"
+    }
+  ],
+  "selection_rule": "middle cached clip in every validation recording; filenames/counts only, no hand GT or pose error",
+  "models": {
+    "regression": {
+      "path": "/mnt/why/native_mano_dit_20261019/runs/regression/best_development.pt",
+      "sha256": "21c87bd4c189afdeb52f8521ec861c447022c0616fdccc96fd03db5b81f14164"
+    },
+    "linear_dit": {
+      "path": "/mnt/why/native_mano_dit_20261019/runs/dit/best_development.pt",
+      "sha256": "5622eb6545c9c625d3660cdaf02675a780816d47dfdda115fd6a2be8a31ca8a8"
+    },
+    "cosine_dit": {
+      "path": "/mnt/why/native_mano_dit_v2_20261019/runs/cosine_dit/best_development.pt",
+      "sha256": "3afd72e91dc1996a857f03ea0a0011ce0f7103901d91fa61acfa77f0cc14d254"
+    },
+    "cosine_protected": {
+      "path": "/mnt/why/native_mano_dit_v2_20261019/runs/cosine_protected/best_development.pt",
+      "sha256": "5d1c712aa6453bc4af89035dfa7c84e8cd7944a0585a2bf7dd4197a5ad6ffe06"
+    }
+  },
+  "draws": 4,
+  "DDIM_steps": 10,
+  "seed": 190019,
+  "context": "17 noncausal slots, maximum +/-1.6s",
+  "arms": [
+    "WiLoR",
+    "regression",
+    "linear_dit",
+    "cosine_dit",
+    "cosine_protected",
+    "cosine_shared",
+    "cosine_protected_displacement"
+  ],
+  "no_training_or_tuning_on_these_labels": true,
+  "prior_native_training": "304 windows from six train subjects; selected 52 other P0003 windows; none of the six chosen recordings used",
+  "historical_exposure": "public validation recordings existed in earlier project; this is new native-head validation, not fresh overall-project test",
+  "scope": "native hand completion before BA; provided camera trajectory; not complete predicted headpose/depth/BA pipeline",
+  "safety": "keep production default; report native/relative accuracy, recovery, harm, timestamp motion, coverage and paired sequence/subject uncertainty"
+}

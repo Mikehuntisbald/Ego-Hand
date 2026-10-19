@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "actual_tiny_global_optimum": true,
+  "DP_cost": 0.002566075564582425,
+  "exhaustive_cost": 0.0025660755645824248,
+  "paths": 81,
+  "frames": 4,
+  "candidates": 3,
+  "gap_reset_chirality_separation": true,
+  "real_time_pair_and_triple_units": true,
+  "native_export_max_m": 5.960464477539063e-08,
+  "draw_to_mean_distance_mm": {
+    "mean": 0.5649004853255469,
+    "P95": 2.5533169874562374
+  },
+  "no_hand_GT_used": true,
+  "production_admitted": false
+}

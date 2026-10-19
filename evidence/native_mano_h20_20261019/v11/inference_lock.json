@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "models": {
+    "initial_pose_base": "b6dbcf58fdb2565e3fadc9d9a14fa72e9c438c84d41fd2de9a053671e13a6f7e",
+    "initial_RGB_base": "c5e841561bec1a14707c800c941051917c8f232183c935e1c3b6e7c6b8f96fce",
+    "initial_RGB_preserve": "d1296f585a77be5251bad88a7e56ce39a1a89f3a68f241ad6391b47760516d1c",
+    "error_pose_base": "420fe862e47ac65c3b0da8b4a0a21537163fb5d73da0dd9ade5849c078964b87",
+    "error_RGB_base": "084ea5fc4bb0ee176c8baff7c9d35a9a20cd744050ecc69f78b1510d43f36209",
+    "error_RGB_preserve": "dc55a353b5aa82b37efc41eace4f23f779f31f3b597697f97d980b02893b8a87"
+  },
+  "GT_input": false,
+  "source_sha256": "2d232edd28e667e460fc12a9ffc1f3ccbbfa14b0742c749dcc87596f8d6011c5"
+}

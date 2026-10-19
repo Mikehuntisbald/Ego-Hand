@@ -1,0 +1,16 @@
+{
+  "supervision": "actual dataset MANO15 PCA, expanded full axis angles; no UmeTrack IK or fitting",
+  "side": "right-only pilot; left passthrough at deployment",
+  "input_sha256": "f4971459bffec68afa0925b90295b0505aa7ffcda77d284300f8b5bb49edc86a",
+  "asset_sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767",
+  "source_script_sha256": "22ef0c367192434f0ef9f4a61ff95e813fa7430f478393e441ee30d3ba5c4058",
+  "roles": "same six train persons and dev_select P0003; dev_calibrate and six validation clips excluded from target preparation",
+  "matching": "one-to-one IoU on all provided GT boxes, >=0.1, then right native GT and predicted-right filter; no error-based filtering",
+  "fixed_shape": true,
+  "fixed_wrist": true,
+  "ground_truth_inference_input": false,
+  "model": "same native51/17-token model, 4-draw10-step mean",
+  "limits": "existing licensed WiLoR RIGHT asset; annotation-original asset version not independently verified; no LEFT asset fabricated",
+  "selection": "600 fixed updates, checkpoint at200/400/600, dev relative20 +20*good-point-harm-fraction; same all arms",
+  "natural_RGB_only": true
+}

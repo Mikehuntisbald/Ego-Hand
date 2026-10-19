@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "loss": 6.906355857849121,
+  "parts": {
+    "heatmap": 5.260847568511963,
+    "coordinate": 0.2453816682100296,
+    "framing": 0.6933924555778503,
+    "risk": 1.399606704711914
+  },
+  "gradient_sums": {
+    "stem.0.weight": 0.503575325012207,
+    "stem.0.bias": 0.5019857883453369,
+    "stem.1.weight": 327.0147399902344,
+    "stem.1.bias": 0.26001906394958496,
+    "blocks.0.weight": 226.11483764648438,
+    "blocks.0.bias": 0.610974907875061,
+    "blocks.1.weight": 0.12692496180534363,
+    "blocks.1.bias": 0.10397224128246307,
+    "blocks.3.weight": 202.23793029785156,
+    "blocks.3.bias": 0.2732757329940796,
+    "blocks.4.weight": 0.13379240036010742,
+    "blocks.4.bias": 0.11080630868673325,
+    "upsample.0.weight": 300.21063232421875,
+    "upsample.0.bias": 0.4574413299560547,
+    "upsample.1.weight": 0.12709733843803406,
+    "upsample.1.bias": 0.1181870549917221,
+    "upsample.3.weight": 194.52557373046875,
+    "upsample.3.bias": 0.2498430609703064,
+    "upsample.4.weight": 0.16950637102127075,
+    "upsample.4.bias": 0.08951781690120697,
+    "upsample.6.weight": 8.155078887939453,
+    "upsample.6.bias": 1.644948497414589e-07,
+    "inband.0.weight": 1.0868237018585205,
+    "inband.0.bias": 0.06056837737560272,
+    "inband.2.weight": 0.6997972726821899,
+    "inband.2.bias": 0.0999704897403717,
+    "risk.0.weight": 3.331456422805786,
+    "risk.0.bias": 0.052941806614398956,
+    "risk.2.weight": 1.3630263805389404,
+    "risk.2.bias": 0.12327148020267487
+  },
+  "GT_poison_output_unchanged": true,
+  "coordinate_independent_of_coarse": true,
+  "RGB_effect_max_normalized": 0.03191208839416504,
+  "heatmap_shape": [
+    64,
+    48
+  ],
+  "supervision": "amodal native MANO projections; framing and 2D error-risk, not visibility or 3D certainty",
+  "head_only": true,
+  "visual_backbone_frozen": true,
+  "production_admitted": false
+}

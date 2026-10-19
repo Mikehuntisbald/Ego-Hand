@@ -1,0 +1,1545 @@
+{
+  "schema": 1,
+  "date": "2026-10-19",
+  "base_commit": "89b4764766e8c7d527eb4a228a87129283f53125",
+  "production_admitted": false,
+  "source_archive_sha256": "dab9178f8ea422bd1e19fe6943ca8d0fbbb531b2145fe75ca9253c17256b6126",
+  "source_roots": {
+    "public": "/mnt/why/public_headhand_h20_20261019",
+    "v1": "/mnt/why/native_mano_dit_20261019",
+    "v2": "/mnt/why/native_mano_dit_v2_20261019",
+    "v3": "/mnt/why/native_mano_multiseq_v3_20261019",
+    "v4": "/mnt/why/native_mano_rollout_v4_20261019",
+    "v5": "/mnt/why/native_mano_supervision_v5_20261019",
+    "v6": "/mnt/why/native_mano_shape_v6_20261019",
+    "v7": "/mnt/why/native_mano_pool_v7_20261019",
+    "v8": "/mnt/why/native_depth_audit_v8_20261019",
+    "v9": "/mnt/why/native_rgb_observation_v9_20261019",
+    "v10": "/mnt/why/native_candidate_sequence_v10_20261019",
+    "v11": "/mnt/why/native_candidate_risk_v11_20261019"
+  },
+  "files": [
+    {
+      "path": "checkpoints/native_mano_h20_20261019/v7_full.pt",
+      "bytes": 9857553,
+      "sha256": "e83bf34d1985c30972dcd5c51636e7ec288859385a69ff157e9249743434ad3c",
+      "kind": "checkpoint",
+      "training_checkpoint_sha256": "5a6895324f5e640922891f4196a9269ca29f2b912bf8907067f838b787f64026"
+    },
+    {
+      "path": "checkpoints/native_mano_h20_20261019/v7_small.pt",
+      "bytes": 9857667,
+      "sha256": "7b2dc6d56c02c0ac94285cdce5af07c3ed7feecf6bfd07480ab56ae52a84648a",
+      "kind": "checkpoint",
+      "training_checkpoint_sha256": "535026913afb82869950d68b7e8e6960764689c748db1ab1f548c52ac3e89291"
+    },
+    {
+      "path": "checkpoints/native_mano_h20_20261019/v9_pooled.pt",
+      "bytes": 3278587,
+      "sha256": "cc007f900d1ea1034ceb7a2028dc20cd98821e1c7469c80e88fa05256d3f3e7d",
+      "kind": "checkpoint",
+      "training_checkpoint_sha256": "cc007f900d1ea1034ceb7a2028dc20cd98821e1c7469c80e88fa05256d3f3e7d"
+    },
+    {
+      "path": "checkpoints/native_mano_h20_20261019/v9_spatial.pt",
+      "bytes": 3278587,
+      "sha256": "253e4d8ade6e18c9aec16fd714018cc5371d14b9e456d424db7bbcc32ba6724a",
+      "kind": "checkpoint",
+      "training_checkpoint_sha256": "253e4d8ade6e18c9aec16fd714018cc5371d14b9e456d424db7bbcc32ba6724a"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/native_candidate_sequence_v10_metrics.json",
+      "bytes": 111604,
+      "sha256": "5113a57497fa7e17f6dfba91fa647f1d18b560d5dcbbb6cf0b04e8c01daa04f5",
+      "kind": "metrics"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/native_mano_pool_v7_metrics.json",
+      "bytes": 99472,
+      "sha256": "e9f345cdeac75607e20d02d2d7ed543ab8675cd79a7a59603d72d5bf1cf5658b",
+      "kind": "metrics"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/native_rgb_observation_v9_metrics.json",
+      "bytes": 8744,
+      "sha256": "cbe7485953db85a6fe3946c01ad976aba9c76612b203c89402548c6f3d44cc67",
+      "kind": "metrics"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/publication_cpu_validation.json",
+      "bytes": 340,
+      "sha256": "f7520771f7bc5aaa84ed97f7d03f1e66f966853c1554f33383af3c4c84fac4f8",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v10/all_predictions_frozen.json",
+      "bytes": 257,
+      "sha256": "078c5d0277acbaa6a938755751a46c94bed265c0ea2a9828a0a19dce6bc08270",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v10/controller_status.json",
+      "bytes": 127,
+      "sha256": "b9f67bca087ccbdf8d6bb81630f55d9b8e031cb14fe04df3de00a5fcb4586eac",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v10/full_status.json",
+      "bytes": 111,
+      "sha256": "07291897d72b9dfdd2ce8c3908d7c6b26ce1970c77933b0005bc031ea5213104",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v10/predictions_frozen.json",
+      "bytes": 1478,
+      "sha256": "7022ba852dcb30dc1415f72fd8cb4a38edcea28caa5c7d1f2f82c28aa153200e",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v10/protocol.json",
+      "bytes": 2882,
+      "sha256": "68606199d1e7bdfaef4d964b2d2875bb26eba685b9d254313e47e4e1766b0024",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v10/receipts/preflight.json",
+      "bytes": 479,
+      "sha256": "44566899d772615e6a3cc84a64c7368d352a2a8eb2ddf188d8d1e013947f3a90",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/controller_status.json",
+      "bytes": 126,
+      "sha256": "23a6b4e3b3eec63aba92495a4360ce1131ebcff9ccb5ccd598612485bdce2d8e",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/error_only_r1/controller_status.json",
+      "bytes": 126,
+      "sha256": "23a6b4e3b3eec63aba92495a4360ce1131ebcff9ccb5ccd598612485bdce2d8e",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/error_only_r1/protocol.json",
+      "bytes": 1290,
+      "sha256": "1174783c8c67be8d4d02611c26389f34bed9ffc994b333740338e6ff62971466",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/error_only_r1/receipts/actual_resume.json",
+      "bytes": 364,
+      "sha256": "acc1a0e9cc53d9021e51102e6c8d4e2123738324bd7df19b790c59d25f9cf545",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/error_only_r1/receipts/preflight.json",
+      "bytes": 312,
+      "sha256": "80f23d19eca51e978e7432af871585c60028ef2dcff6324f982d5ae3fcaddb17",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/inference_lock.json",
+      "bytes": 704,
+      "sha256": "a277f67aaf352076850f7e5cb4336724b3c0e5e09056d1382945ffc9814b0506",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions/clip-002102/seal.json",
+      "bytes": 2285,
+      "sha256": "f2bcac079a26a36a28cd8444efbaedeaa71622003009081b2131c65dd3487886",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions/clip-002108/seal.json",
+      "bytes": 2285,
+      "sha256": "e5aa116e75d763a44f671d62f64a817495c3ea7533ea5349cc7c11a0d80c358d",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions/clip-002144/seal.json",
+      "bytes": 2285,
+      "sha256": "e0edae893f84d8e383d2da983348eb5e504e67b0d4755d13bba83aab14117bd1",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions/clip-002513/seal.json",
+      "bytes": 2285,
+      "sha256": "05f6ba01f1f405be24f1602551e2acb5b4a89714c08d1653dde20d2a92d0235d",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions/clip-002541/seal.json",
+      "bytes": 2285,
+      "sha256": "7bf034221d298b4a4deb3dbe33f6d0bd629fabdb8b76dc99f70c3f8c0520ea54",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions/clip-003219/seal.json",
+      "bytes": 2285,
+      "sha256": "1f7a2f0cc597a1169432c97a88c792c200f13b5fd369fd8fe85fa795cbc14fa5",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions/clip-003295/seal.json",
+      "bytes": 2285,
+      "sha256": "8841b9e6ad28d3cefb783d20119537439f50e8918957e61ada781ee70c28526b",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/predictions_frozen.json",
+      "bytes": 1465,
+      "sha256": "bd3a4b65b0296d0d68fb2c957f7cc97a01b27930adde4efad503f7b8c62b6d5b",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/protocol.json",
+      "bytes": 3309,
+      "sha256": "8bc21475daccba7195a5fe2827bd1722966a9a9532d6c99921edc2472bb7f453",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/receipts/actual_resume.json",
+      "bytes": 434,
+      "sha256": "3d28b1989577b9d9dcdc61b7973a9b3e2e51892c1881851029b51083138e6e9e",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/receipts/official_contract.json",
+      "bytes": 813,
+      "sha256": "e55b72547ca05c9e18b0e01f77d7acba44fdf96c5e290a8e5a9864563a3111f5",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/receipts/preflight.json",
+      "bytes": 3744,
+      "sha256": "dba66e298b372aae1a9993587267d5a12b157b9c2c031e906718ca10e69a5209",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/receipts/score_diagnosis_train_dev.json",
+      "bytes": 1459,
+      "sha256": "4a024abd83e055c464319b67aba7b8bd801242fd9a385974b7ccc2fde5e2b0f1",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v11/receipts/training_source_seal.json",
+      "bytes": 911,
+      "sha256": "0123ed44fdd9a7a3710df703cca9ccda732872aef1fd3049488417a0b26a03f3",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v3/protocol.json",
+      "bytes": 4779,
+      "sha256": "c81996f613dac36071012d2688f1fdb041b92a07289dac4d9d4fcbb2a4409ff8",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v4/inference_lock.json",
+      "bytes": 762,
+      "sha256": "a431d07a7822e38d8f85f9e4e45b6163ff0b141fb2c2f463f9573a4c6a8794b6",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v4/protocol.json",
+      "bytes": 1019,
+      "sha256": "3ff526e8a4f300baf81f92df7d8adc2a447a05dd723de8b9838e6365d1ce330e",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v4/receipts/preflight.json",
+      "bytes": 1240,
+      "sha256": "7e4589957fd7ea93aa979f86eca1512821391f16a68b90ade91d393b46dbe0b2",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v5/controller_status.json",
+      "bytes": 283,
+      "sha256": "69d172146b9ae5e416b6a2b768fbbf4506c8cb7ed974387fdc26c32f95cbd573",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v5/inference_lock.json",
+      "bytes": 1226,
+      "sha256": "ddb82ed5a87183b41c72f36d0388411d6adf258ab8114b89c8e71f352bc886e4",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v5/predictions_frozen.json",
+      "bytes": 1836,
+      "sha256": "dd78ae4d139a95e802385d67934e01699cfb06cd5bc81018fad6db9a46664ca1",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v5/protocol.json",
+      "bytes": 1139,
+      "sha256": "8f60545171809dc5c2e3f2bc730400c8794ecdbb0b84b303b1462ce7d447591b",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v5/receipts/training_source_seal.json",
+      "bytes": 367,
+      "sha256": "140b4fdabf8e3239c235e62012d0e4c1b44e62f848cd48695a831f9d6918c6ca",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v6/controller_status.json",
+      "bytes": 267,
+      "sha256": "ca84f8aaf4af76d962ff37784b298014a4e0b8ffe5c1d154141628d17f52366a",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v6/inference_lock.json",
+      "bytes": 1004,
+      "sha256": "16f0241b6546d17852667706c11abef6f43965f222fb44a68888406ade73d0db",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v6/predictions_frozen.json",
+      "bytes": 1614,
+      "sha256": "e2ac5a016736b240bc6103d2456084b5c3a03e44867a75fb1919d134b2443a2a",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v6/protocol.json",
+      "bytes": 1023,
+      "sha256": "34f808289acf25d49153edf865d909b1681ab30aa3a9276975111b3fc3ae497b",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v6/receipts/training_source_seal.json",
+      "bytes": 467,
+      "sha256": "31211a5d444b67d25ceb35a86f467cd3f2d55af712d5ccf055603a1f87d44eff",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v7/inference_lock.json",
+      "bytes": 749,
+      "sha256": "7a0c58ab13f30ba7fbe0e4e12dc9234c4091f445620ea76a5b5b3fe72fc69b01",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v7/native_target_protocol.json",
+      "bytes": 1251,
+      "sha256": "fc5c679959fb643b712de5ba4938e06baf1b70d33b2cc3532875a2d5c77eadc6",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v7/predictions_frozen.json",
+      "bytes": 1360,
+      "sha256": "7d1bb7fab0fcf0065acf4e658ac7e8427ae2dc4c6cfb958337356887cbb40853",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v7/protocol.json",
+      "bytes": 29648,
+      "sha256": "7f109348ee6b3425927e2e460df643d531bf10e54d94df1fcd8510f13153faf5",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v7/receipts/training_source_seal.json",
+      "bytes": 736,
+      "sha256": "0bd09a3952a493486814d3a76382e6ccdcc11a2536a7bd9d716056d1f0329163",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v7/training_protocol.json",
+      "bytes": 1413,
+      "sha256": "dc4d1f11849171e169a9376b680d8f6ae9407100298eee5c8d493f3c49c0dbe1",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v8/predictions_frozen.json",
+      "bytes": 796,
+      "sha256": "5d81d57746a87fcb0cfd30546dbc0a3f30796fb503e5aa0effb5cfe9f576ae89",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v8/protocol.json",
+      "bytes": 1107,
+      "sha256": "a94f1caf78da436dd1a237f27366d510718cd17eb0fd7dddc7499fc6638a5121",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v9/controller_status.json",
+      "bytes": 121,
+      "sha256": "2e3ed13d857743df28b87c1c5be23d1b0d38a475011d829a09c8f801c54aeac0",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v9/full_status.json",
+      "bytes": 113,
+      "sha256": "9d3021adf3bf56a3729d361a8b982a4b15b8b6272daacdfdcd2c89e78385db31",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v9/inference_lock.json",
+      "bytes": 354,
+      "sha256": "9713df6a0194c685197230870e36262eaa12935466adbde434533f4b3cec429d",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v9/protocol.json",
+      "bytes": 2133,
+      "sha256": "858a40c848eca8b28ae6dda5e53d6c06ffaf305d4f759be39eec42204668ef2b",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v9/receipts/actual_resume.json",
+      "bytes": 510,
+      "sha256": "a853102dbd6195ef901abb6e784d45564610d99e935b76d8d2b5f7c80fc3f46a",
+      "kind": "receipt"
+    },
+    {
+      "path": "evidence/native_mano_h20_20261019/v9/receipts/preflight.json",
+      "bytes": 1877,
+      "sha256": "0795eb30b86e117f083c8e314ddfb7ff7b25f94a0b7034ab50982ab1d79d4e87",
+      "kind": "receipt"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/audit_public_assets.py",
+      "bytes": 3126,
+      "sha256": "2de411bf26b22d3074ec8d8a0b3ba4f3b24ea320acce81c6a44d87f3d3dd71dd",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/bootstrap_public.py",
+      "bytes": 4325,
+      "sha256": "cf820482071e219d74b4614e1394dfd05e5e1481832a185ebcd1d77a963bd5bc",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/build_lightess.py",
+      "bytes": 1916,
+      "sha256": "97c8d5c7b2254e5a382fb28567d1bcfcb668d1a0f9213785f4e651d910d46b58",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/check_admission.py",
+      "bytes": 2558,
+      "sha256": "de40a6ea3efc3aef02553f6dfdc26ec8833ceb8937f5a29625298618e0a4f162",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/evaluate_public.py",
+      "bytes": 13918,
+      "sha256": "aa39d92d0491eada509edf1fdfc6f7f046f4097ccbf4593aa7584afe7238610d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/geometry.py",
+      "bytes": 4024,
+      "sha256": "15a50aa280c1fdd13b30d21210b5926e3a2df1daf106974915dbc2cc99096e45",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/make_zoom_review.py",
+      "bytes": 5010,
+      "sha256": "4078cd6663de8202f4b4c046d89ecf37fbd7da20c2b892707bf35ac2d3bab466",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/mano_model.py",
+      "bytes": 2035,
+      "sha256": "b084095954942fe4f2d4c4c294f780d0cb0952a03d38cb04559985cced9d6d59",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/package_delivery.py",
+      "bytes": 1569,
+      "sha256": "c117b9da4f81c15f1edd791c22835c91f7e0b75e2276d625935f60c44c4f0bf5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/prepare_surface.py",
+      "bytes": 1500,
+      "sha256": "e2b9f38e0a1ae0cd73d5f92a3a581e4cb99b7a5951945d4ce8403c0385796b33",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/protect_depth.py",
+      "bytes": 1720,
+      "sha256": "870dede474fd700e61e1ff1dc8abe942f4b4f96546472c9b40966f5920ca79ea",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/run_depth.py",
+      "bytes": 10042,
+      "sha256": "6b29afdb3411601e93ccbd034d04f9eaa0c63fb5603ef987e58f369e5265209c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/run_dit.py",
+      "bytes": 3433,
+      "sha256": "89d25e867e4ace2e88ff48499a076b21a5897e0106990aa3b611e7ff258a94e3",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/run_headpose.py",
+      "bytes": 6160,
+      "sha256": "ff155764ca80ca4b57814e888d02bc24117b9f991475c264544e22927eafa46d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/run_mano_ba.py",
+      "bytes": 14413,
+      "sha256": "01a71a9ccc13b59780d636cc93d69e639faafd42677fbbaec3ef154d2d09fd68",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/run_public_pipeline.py",
+      "bytes": 5979,
+      "sha256": "8a6933663b294950458bf0461c99f44d9f03c13ea14f7736b19f6c4db19f21d5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/run_unidepth.py",
+      "bytes": 4758,
+      "sha256": "d21210762712ffff7c9b1393dc7db066e238bde22568ceb7d1e55429612e3628",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/run_wilor.py",
+      "bytes": 9740,
+      "sha256": "9e6c567f24c495621e3ebe72d3536dc50d3f2221e88e8b6396f3c3a54f33aa10",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/public/src/verify_and_freeze.py",
+      "bytes": 3714,
+      "sha256": "fa9da3276f91bd0ccf3fdeda3fc4ccbebaeae4a49a7a4e6b813ce97b13b97aa0",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/compare_ba.py",
+      "bytes": 2781,
+      "sha256": "94a68af60a12de60633599df6b0464b9e8f864ed7e7b70f9ff8318121e58b7a0",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/evaluate_native_pilot.py",
+      "bytes": 6986,
+      "sha256": "63d4b5ccd55aedaa708864882af3d2be7b1f427ea846138e49875dfcb06415dd",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/infer_native.py",
+      "bytes": 6342,
+      "sha256": "b570164076070e8e3ade7c48b10349a61fe0e5903a3202be39d1f64725ce0c3c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/native_ba.py",
+      "bytes": 12465,
+      "sha256": "f0e718a47f807a9b216c98eece97f7ac32e9ad67523e027010ecc4e14627a31b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/native_data.py",
+      "bytes": 2415,
+      "sha256": "cb7142d4fdf06cff776d487ac486f066e562ce70ae8b82190e870e8359aa6bb9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/native_dit.py",
+      "bytes": 5988,
+      "sha256": "719e279b7eae422ee7b9f3db7fa43d7344a0fcb282a48e8386579edd52a1e76b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/native_mano.py",
+      "bytes": 4533,
+      "sha256": "b48910edf4494f4af759a30785ada40348ae093e90fae68c5ad39f061ee4d826",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/package_native.py",
+      "bytes": 2604,
+      "sha256": "27a889e571e30bd8df30cbfd60c5c9e29edb992e55195c94b70d4aa0ddf8e80d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/prepare_native_data.py",
+      "bytes": 8796,
+      "sha256": "8a9601c6f06586b5d32b19f054ccd2417f328f7c1bd7aab1f8f54e1e953cb0cd",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/render_report.py",
+      "bytes": 3407,
+      "sha256": "d142c29b1e273090f8b56639e4c018da684507adb942cd5c41c2f9aef5f1e511",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/train_native.py",
+      "bytes": 9426,
+      "sha256": "c74f5e43a209d61878a40c5e2592d5f1b512535c304c83c695d2b9ee8c28c891",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/verify_native.py",
+      "bytes": 2238,
+      "sha256": "7e5ddca5b477e37f5a515d19e733ef2708ca84d030ab3dce19e7586d181b8595",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v1/src/verify_resume.py",
+      "bytes": 2026,
+      "sha256": "dae1eef41457f8569b3b242b0dc1b78b8f38877ae34519a4f609008473b70d3b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/capacity_diagnostic.py",
+      "bytes": 1813,
+      "sha256": "5bc91bd12162adca53fbbc98e495ee0bd92bed156736507b74fc4ba595336bde",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/evaluate_full.py",
+      "bytes": 14325,
+      "sha256": "c1cf5ec4deb4a2ff357d9eea2f98cef12de79663459bcc52b271664705c3f136",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/evaluate_module.py",
+      "bytes": 15225,
+      "sha256": "f8e6a8bc33163f9a625473acac61b942fb0c9cf6171f26d98d5291b7566ae56c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/finish_evaluation.py",
+      "bytes": 877,
+      "sha256": "9c91e8d129330e3920b7966f74beeaa61dc32a82c2a2be46e6069b4c7d82fddf",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/guard_sequence.py",
+      "bytes": 7462,
+      "sha256": "d97e5583f67767ce67f98233be5383bbab88a838065f165bff831bc1da5056be",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/prepare_evaluators.py",
+      "bytes": 6897,
+      "sha256": "c9aa41f453fc5cf00e93f951d8b72a3f845ce45e29e036ed8176256b08e8330d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/run_full.py",
+      "bytes": 4353,
+      "sha256": "778cb2408f1cfd921c9461f49c78e9fac2fa392ba30450a3de29de278f2d5e0e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/scaled_selection_r1.py",
+      "bytes": 4706,
+      "sha256": "6616a27ba4a2d049e0dc243c595f78ade6082929d7c5272dacfa252c8035fa2e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/eval_src/verify_final.py",
+      "bytes": 2544,
+      "sha256": "678e75af43bd6d7501d2c18e1bd7fb63660a675d625001a499ef98989450e21d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/src/build_candidates.py",
+      "bytes": 7896,
+      "sha256": "6bcf9f67c0a717c91a994d100a3b5aa171e2502f6600d788fa581251b9767ad2",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/src/preflight.py",
+      "bytes": 2802,
+      "sha256": "c4e702e468b8820b1c037998d2786bc41c8445aac3cc5968922ce5d018683477",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/src/run_candidates.py",
+      "bytes": 1175,
+      "sha256": "82c11f06bde6f99c61b575e56f0ae1cdb83c2c5400fc852f84b52b9618a4b60e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/src/select_candidates.py",
+      "bytes": 3127,
+      "sha256": "83f51e1315a597ffd3fac8b0ebaeb1e32f6082deee31a20bf3c54f23e230108d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v10/src/sequence_solver.py",
+      "bytes": 2632,
+      "sha256": "84323de20e84b52512dd11074a36bb6551b2bb59f86666eda1af1840dbfd3c21",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/error_only_r1/src/preflight_r1.py",
+      "bytes": 1742,
+      "sha256": "627311f8933bd55078f901b78c88eb21ab447a42a32aa0311800837801c2a63c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/error_only_r1/src/risk_model_r1.py",
+      "bytes": 4368,
+      "sha256": "e5c6c493ea6249374ef25294601e6670ffa4d9bcba3efbe74bd8fadbba2e6114",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/error_only_r1/src/run_revision_r1.py",
+      "bytes": 3045,
+      "sha256": "38c45c650dddd22d69496e129e4724b6aa439d5975202aef268928ba447557e5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/error_only_r1/src/train_quality_r1.py",
+      "bytes": 5600,
+      "sha256": "1ef0f8a4e821baa5be466c17f867722868e1e8c8be156093cf92a0021be934e8",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/eval_src/acquire_new_views_r1.py",
+      "bytes": 6997,
+      "sha256": "49a82b0128a0ebfbafaa0243c47ace637f2a1c93c8a3599a14d969a186ec14b5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/eval_src/diagnose_selection.py",
+      "bytes": 1757,
+      "sha256": "c1acfc9b29b50f4ba05fcedd91802b463e449816ba5e79cfdc8750a452b6912f",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/eval_src/infer_quality.py",
+      "bytes": 4775,
+      "sha256": "2d232edd28e667e460fc12a9ffc1f3ccbbfa14b0742c749dcc87596f8d6011c5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/eval_src/prepare_new_views.py",
+      "bytes": 4544,
+      "sha256": "4b2a4be33259ef0c357b7374da6ebd77eb7e35320bcc36a0280d04461ec847bf",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/eval_src/prepare_revision_r1.py",
+      "bytes": 2340,
+      "sha256": "36d094ebd165c6172d1e6df434d64f08550a4a7ebc9d80671fbdd447e87a3f3b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/eval_src/summarize_training.py",
+      "bytes": 798,
+      "sha256": "4cf8d2b05f87186ff29f4754474480943cb300709a6afa83e1eb6c4d4fd87ef1",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/audit_official_contract.py",
+      "bytes": 3989,
+      "sha256": "9927db39ab3d3fcf7f3319baf0bb37e09ffa70a2a2b83d0150e30c5afec6ad5e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/input_data.py",
+      "bytes": 627,
+      "sha256": "5175fd3d5248e746fbc8ac10df5edf5bfb5c87436caa63653891316b4801e9d1",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/preflight.py",
+      "bytes": 2066,
+      "sha256": "c987f8dbbef077c6491c8782edac9dde06c5bbf19f82baafb2a909340714fd96",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/prepare_candidates.py",
+      "bytes": 3693,
+      "sha256": "34a5da85c0f8384a8b12bd0d15e3d8aed97d3151b636cdd1b8bf7cf2541826c9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/prepare_geometry.py",
+      "bytes": 3687,
+      "sha256": "8a3dd9a0b37a5032e4804fe1c9ccf4e47d4db3717b39ff36ce1503e2c9e60e06",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/prepare_targets.py",
+      "bytes": 2356,
+      "sha256": "209ffe2e2fb02f15641b69caa9c1c9a498ddcdc26e8cf694d256d4cf1f6e5865",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/risk_model.py",
+      "bytes": 4407,
+      "sha256": "8808779d926786bacce753301e77b149e4873508a13721c16e5bce1d6946f09a",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/run_training.py",
+      "bytes": 3572,
+      "sha256": "faccc69d0a1817e696375b11298b05aafd21d577734808525bdb21adb3297976",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/train_quality.py",
+      "bytes": 5583,
+      "sha256": "e892d5266151f904b383ba70cddb0142ec7b7f74c9a48ff44fadc9a04afce5bd",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v11/src/training_data.py",
+      "bytes": 1431,
+      "sha256": "66a5cb924af498ace574b55533b210407821698229c58a7c5e66c15c214d9ff2",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/audit_final_displacement.py",
+      "bytes": 1716,
+      "sha256": "5d7db3f46d9b2178121bd10861136182352f4d6e68b5a73cad51a3a4106b77db",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/evaluate_frontend_repair.py",
+      "bytes": 2224,
+      "sha256": "d77511a20359fd50c0f5724d680a7a7f321decf28dd6e6dd10f836295caa08bb",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/evaluate_sampling.py",
+      "bytes": 7420,
+      "sha256": "97be0a2c9162f0b33ac0c52513435269c9c4e62971b17212bf00d875801a4d33",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/evaluate_schedule.py",
+      "bytes": 7290,
+      "sha256": "292b1603f0dbfc72c5ed786e65a76c03e4e249505648a6b5b6febebb7319795d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/guard_final_ba.py",
+      "bytes": 8670,
+      "sha256": "28284c01f72e412c04be36549a91859cf334c1618ff596384a66fe0f925ec84d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/infer_native.py",
+      "bytes": 6342,
+      "sha256": "b570164076070e8e3ade7c48b10349a61fe0e5903a3202be39d1f64725ce0c3c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/infer_shared.py",
+      "bytes": 6461,
+      "sha256": "23e8980a7ed58e42a3bdad06bb0404457bf5fe3b4d6598f22d024e8141239a75",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/native_ba.py",
+      "bytes": 12798,
+      "sha256": "3b01b613d90a1a20128d63475efbb14a8511c323f01c30f96a75b62f14072d75",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/native_data.py",
+      "bytes": 2415,
+      "sha256": "cb7142d4fdf06cff776d487ac486f066e562ce70ae8b82190e870e8359aa6bb9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/native_dit.py",
+      "bytes": 6487,
+      "sha256": "076b78761d3738e559eca6f9eabe2d52c82b8b1d755dfe3179a1f201b15216be",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/native_mano.py",
+      "bytes": 4533,
+      "sha256": "b48910edf4494f4af759a30785ada40348ae093e90fae68c5ad39f061ee4d826",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/package_iteration.py",
+      "bytes": 13193,
+      "sha256": "87faeabf9940694b063630dae3e084a9ec7ed88d29fdc1826a7e8f67da36f29c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/run_ba_controls.py",
+      "bytes": 3016,
+      "sha256": "e1b64095bbc3ff45b748f387fe786f3d9f5840cc6835c9bbb2eeb7fc18b885eb",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/run_coherent_controls.py",
+      "bytes": 4542,
+      "sha256": "987228897cb5822cac4f6d75f1face4c3e371e83e1fe6c40f7c8a42d4d1b299e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/run_coherent_controls_r1.py",
+      "bytes": 4798,
+      "sha256": "abd08ec0f33b5bca52bc7a832282f4f06fe0ddf23638caeb63bbf0f4623203c6",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/run_extra_controls.py",
+      "bytes": 3166,
+      "sha256": "c39ed0a16a0bb6e26afe5d9f785514b018e5472ba754970db9256053c452ea54",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/run_schedule_controls.py",
+      "bytes": 2254,
+      "sha256": "518b297e62508f69009dfaf7b3e1d37b6602dadf787d963464ee2bf1f40d320f",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/shared_noise.py",
+      "bytes": 1477,
+      "sha256": "5ae3a670c9a4b1e5f6eb9c04c83b8e22453d54c733c90761f494be4ad11df5a4",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/stabilize_wilor.py",
+      "bytes": 5569,
+      "sha256": "d0cf9945ec09ecce6bfa089dc314828dadc603da3e95cba56278eb816cf54c36",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/train_native.py",
+      "bytes": 9649,
+      "sha256": "c1277eb6e99eb668c5a816fa3b5fdb3a7c9728050720b0c3632e77ba6e40d867",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v2/src/verify_schedule_resume.py",
+      "bytes": 2072,
+      "sha256": "adac06cadfc92f7022d05bfab28f9be1219879f5d13ed77d3631f6ad8a5d6069",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/evaluate_combined_r1.py",
+      "bytes": 17618,
+      "sha256": "d258ca9c3edf113c9c075da3f56f2de538fc7453ef770bf1115d83e9f3178757",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/evaluate_combined_r2.py",
+      "bytes": 19091,
+      "sha256": "11ebd6283c591452d8eb07263eab19b9ab999e3af0e93c545bc0fceee022c72d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/evaluate_combined_r3.py",
+      "bytes": 20354,
+      "sha256": "e2885465ea67d77582d901a864f88706b8208155e4f0c17ded209f69a73b7fd5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/evaluate_validation.py",
+      "bytes": 16884,
+      "sha256": "f1c2f16cf9ec9a767febe825b624e9b21c237ab61c731614c3c1f0ad71d61f3e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/infer_validation.py",
+      "bytes": 9612,
+      "sha256": "6ba1e7c7c7e98608c320fda3ec0890d0f50e3b785ab39cddfeeaec11619cc03b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/prepare_validation.py",
+      "bytes": 4588,
+      "sha256": "fb5facc43bf6ac81997ccc87db949534b805c246beb89ca5bfffbd8a0140ac43",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/run_frontend.py",
+      "bytes": 2188,
+      "sha256": "90c30df620e1414c8f07042d27909e605bdac84f5acd20028e7fb1dfc2674d73",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v3/src/run_wilor_coherent.py",
+      "bytes": 10857,
+      "sha256": "c369c3415bdd8dd838b0d089353113822664a0cc509d328ddb4c400ebcea96e5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/audit_native_GT_right.py",
+      "bytes": 6147,
+      "sha256": "95547845dfdb6d355a567ab71f2c31e043ca15e811fc562eeb0459b118c8ca07",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/audit_native_GT_right_r1.py",
+      "bytes": 7093,
+      "sha256": "6b7be4f5e3d0dbd7ba91b4524849a53d9bc604858fc1e1473bc03584618ac768",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/correct_delivery_captions_r1.py",
+      "bytes": 2990,
+      "sha256": "a6b8b594b014d8be8297ea260f61826219f31518e4969e016e0ff7c0548af2a3",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/finish_full_reviews_r1.py",
+      "bytes": 3295,
+      "sha256": "3e5a5436741c2669380dffc0c3e8f12920ab2d3ce3c2bca1a44bc7cb4a3a3845",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/guard_full_ba.py",
+      "bytes": 8773,
+      "sha256": "1719e200ff498fcca19d4a5740e281b70558b86f435bb44d05aa307adf0a3bf9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/infer_rollout_validation.py",
+      "bytes": 2918,
+      "sha256": "d859a7929c02a446f1ef6f237160f1ede8107b9781fab38bd5aa80c6e23d3155",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/native_rollout.py",
+      "bytes": 1098,
+      "sha256": "e291c1cd42bd9721e08247454f62442ead36e24cab6ac42e530d7ea3c544f1c6",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/package_v4.py",
+      "bytes": 12529,
+      "sha256": "baef36597fc1d4a087c476868a7f46975996180957cc81812a7b7bbc13c40cdb",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/package_v4_r1.py",
+      "bytes": 12835,
+      "sha256": "7487686cc2b394ae3eaf1f05ade96425748f4f6121e421fb747bd3fb40baadbc",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/package_v4_r2.py",
+      "bytes": 13503,
+      "sha256": "a0e50bdff9979ef4d8ea8526c932a4ad27be24036ac4aee2a159c2bb6dd8d99b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/paired_diagnostics.py",
+      "bytes": 3602,
+      "sha256": "c596547c97d92f6dc405df3eeac2093e297e28787f8b504f906e3857b608b22d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/paired_diagnostics_r1.py",
+      "bytes": 3764,
+      "sha256": "c55d7f55e009fe60ea2cd3884d1cd8532771686113a075e14cd8bb9510577e30",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/preflight_rollout.py",
+      "bytes": 2652,
+      "sha256": "a86d66b56f77060554498e4331371660a64f0f5389cfb7220f4a4c04ce5ace6d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/preflight_rollout_r1.py",
+      "bytes": 2924,
+      "sha256": "caf1626c79b472295a66b62943c83e99385a0153247760854de509fe1a830e68",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/run_full_pipeline.py",
+      "bytes": 3816,
+      "sha256": "22247a27e45cf4534d6af51ac0b2cfb4591192b8289284d65746879693fdc0f2",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/run_rollout.py",
+      "bytes": 2746,
+      "sha256": "95c937ee9df14dcd4bbcbe6e5c01812003fdd3002a418cb8294d66f712c0c058",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/run_rollout_r1.py",
+      "bytes": 2915,
+      "sha256": "0771712065a7cc278f635ef1d65666e5ce55258124141b95c36a52c0001fefe9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/train_native.py",
+      "bytes": 10619,
+      "sha256": "0e366e560302a477cecbd435cfef5f28cd5b55732a32b9c83d87521f8b9e60c5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/train_native_resume_r1.py",
+      "bytes": 11019,
+      "sha256": "b48b87cd10c73e22b1f456771662554166201426b502ba63be9de4621ff8209b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/train_resume_probe.py",
+      "bytes": 10852,
+      "sha256": "41bb8469c707570f26ab1661c34ffdd8069ac27fc36fa793bc4dcc6f5b29fb8f",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/train_resume_probe_r1.py",
+      "bytes": 11129,
+      "sha256": "6c4398aad840d4187e6eb169ee53fead7adbb5b982052a7f0ab6f44adef38c03",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/verify_actual_resume.py",
+      "bytes": 2838,
+      "sha256": "39c2b5d24563409048e9b94e0faa1ee3d625bee7440227f24f693a45d232d7d9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v4/src/verify_actual_resume_r1.py",
+      "bytes": 3119,
+      "sha256": "d93c7c9a67d957b3b54e6164d379c48d35e558b5be7545eca22f5a24d901fc51",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/audit_full_native_v5.py",
+      "bytes": 4433,
+      "sha256": "a6d7f4542108a157fa032019d11c0b39f4fa6cbcfac6fcf314da0bb8139c63b9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/evaluate_v5.py",
+      "bytes": 15044,
+      "sha256": "d31554d6fd22f798c3d0f20a7394b7e25902f5202b253d57b6936438425823ca",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/finish_v5.py",
+      "bytes": 1407,
+      "sha256": "f9aed8d6b9dd5f2b9c5cc3b843d67e37780acdaef52bfd6531b56018b2d579fd",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/guard_full_dit_v5.py",
+      "bytes": 8788,
+      "sha256": "e41e9515c902625a063da8ad0db5c74cea13111975a2b61b1e65e698459ae7f1",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/guard_full_v5.py",
+      "bytes": 8782,
+      "sha256": "d7e643a93eb4fc1171e8a67e07ceb26d216026b49b8223c5bb6acd5e192b0a4a",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/infer_full_right.py",
+      "bytes": 639,
+      "sha256": "d6fd18328c5f40c3161d5a5dee03fbbae366112e41eaf9ef0b6232697978ed5e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/infer_v5.py",
+      "bytes": 3529,
+      "sha256": "bda125ea317f49e424309f3019fde43d8f3c347a639645ade945e7049c4078ad",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/package_v5.py",
+      "bytes": 7902,
+      "sha256": "4206f9f66f8adaf91ef4424d3fbabc358026a45a402e4fd1a39408b9e794ec9d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/run_full_dit_exploratory.py",
+      "bytes": 2708,
+      "sha256": "156d44303dcd5398184811dfdb94daad0feefaa28ff08b9dc17a6dbe20b2c16a",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/run_full_v5.py",
+      "bytes": 3988,
+      "sha256": "e3521535698cd5e423f65403173ecbf870a76679b4bec40dbbfbd8aad934a4eb",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/train_resume_probe_v5.py",
+      "bytes": 11936,
+      "sha256": "d31407d542b8009cf42780b206d2d9563877e0f17d490c45d4c51945ccb469fc",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/eval_src/verify_v5.py",
+      "bytes": 5251,
+      "sha256": "525a4d39a1d00fbec57cbb032a91e346a6381cba7a4efcf6def02c2791b5a3ce",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/src/native_data_v5.py",
+      "bytes": 1700,
+      "sha256": "9842bfbd3673e0ec1891b20e0363b9b62ae8316a38892e03c30e765d9ec28a31",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/src/prepare_native_targets.py",
+      "bytes": 7848,
+      "sha256": "22ef0c367192434f0ef9f4a61ff95e813fa7430f478393e441ee30d3ba5c4058",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/src/run_v5.py",
+      "bytes": 2934,
+      "sha256": "79fdfad021e6ae5a48dd4d20da8170faf984724092d9129e14301763a73cdab4",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v5/src/train_native_v5.py",
+      "bytes": 11826,
+      "sha256": "fb622fed1813c9ef5c39a342217f7d2c6168ebd20209afa7bb03cd3687722dd8",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/audit_full_native_v6.py",
+      "bytes": 4402,
+      "sha256": "5e2196656c39fc89ffcbfb345e4282ec3e93f314fec29d65498c0e73b595df83",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/audit_pool_readiness.py",
+      "bytes": 1919,
+      "sha256": "9087dd7fd2e697a834077d8f2ad512944f4a4c7ac7f4a7e9bed4d0fb92cac80c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/evaluate_v6.py",
+      "bytes": 15274,
+      "sha256": "5fda48af5bcf2268f013c0cb680c4f94a21cb14d17badb863cf8c57ed4261485",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/finish_v6.py",
+      "bytes": 1403,
+      "sha256": "cf5d5c861ab662f6ba43be78841650fa926952dadcc3d4c5e258832df97cfbd5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/guard_full_v6.py",
+      "bytes": 8781,
+      "sha256": "16af0cbfd9882387e72f05ac8b0b335b256ed72e3adfe88d4aacad383f680991",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/infer_full_right_v6.py",
+      "bytes": 677,
+      "sha256": "84710ff1edd0d882653597582e794e08bf440ddad68d001d0cbf15b2da7016f2",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/infer_v6.py",
+      "bytes": 3905,
+      "sha256": "8d3bab7831322ff33b785c70c76f1d21adfddb45c95bd99f06c364d53279434e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/lock_full_v6.py",
+      "bytes": 857,
+      "sha256": "cd143d0b11ade0d371bae331886413b4b9887b8f0ca8f14adde1ce4943d6d188",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/package_v6.py",
+      "bytes": 7956,
+      "sha256": "03f4e073704d975bc0a90ff5f296eeb1ae092080c47a3ed952152be143f648e7",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/run_full_v6.py",
+      "bytes": 4163,
+      "sha256": "fe0526a2652c3b2a46c209cb8d2c3a6dc71bceb168354bf57396a04dee78e87c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/train_resume_probe_v6.py",
+      "bytes": 12045,
+      "sha256": "a29413fbcb60575df7e4d10ed82d52eaa25a9226fa79e4e1baf7ed9bfceee2bf",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/eval_src/verify_v6.py",
+      "bytes": 5429,
+      "sha256": "8fccaa7c0746dc7aec7b1ab2a61f0636ee4ba29226c9607aeea6236d81583c43",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/src/audit_shapes_and_pool.py",
+      "bytes": 2903,
+      "sha256": "a63d27d765976f6989caeded585c5f2cfd77e9f72632c11affdd8fe4478d30c1",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/src/audit_shapes_and_pool_r1.py",
+      "bytes": 3846,
+      "sha256": "30699bf7accecd9faab2228dd74566642a440cafe456a3b06cd85d6bc9764764",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/src/native_data_v6.py",
+      "bytes": 947,
+      "sha256": "961df33430ad35ce5cdabb564f58249f4cdf3eda9bb9da1e609be39ebacb3506",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/src/run_v6.py",
+      "bytes": 4640,
+      "sha256": "246b1b8d9fa66a22edd04d37adc33cb0b13d0f94fdfc161c85400c110ea70e7d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v6/src/train_native_v6.py",
+      "bytes": 11935,
+      "sha256": "d57c91cbe3811bb5155b8a17e26036bc240d2fbeee28039969e89ccca01ad77b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/audit_full_native_v7.py",
+      "bytes": 4406,
+      "sha256": "1f772cfd8bb15bb0599ffdce23de9c403d7c776894c8ed62aa783617a5918e3d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/audit_root_components_v7.py",
+      "bytes": 5488,
+      "sha256": "e29b9f5a5e0751197a8547b68b37f5c82f55afc026b2bae569d1ecd7b2a996e2",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/evaluate_v7.py",
+      "bytes": 15157,
+      "sha256": "45d6b1f6e947fe095258b7f5a4679be1384f2d1c136f50745acfd81d64dcaea1",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/finish_training_v7.py",
+      "bytes": 1572,
+      "sha256": "a2dc857262605627d42ddc857b581a741ef9c07ed9585cdf50b072c33adfc039",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/guard_geometry_v7.py",
+      "bytes": 7450,
+      "sha256": "f3d805785e68f522ce585cfafb0cd9b712427039b953119d3ea9f496bed70466",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/infer_full_right_v7.py",
+      "bytes": 675,
+      "sha256": "20f332bdef6cf806b6ebe07a2c0067068e35784a2362f639e9cdd45f9de66cd4",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/infer_v7.py",
+      "bytes": 3519,
+      "sha256": "cbcdd87ef95168a34fec45bc035bc8f99f8320f0f4cf7d9fc29b43a96a3ea2e5",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/lock_replay_v7.py",
+      "bytes": 766,
+      "sha256": "0f1c19b35f5d2087d867d5239901efde3240aefcae0114a33ebf38ed2f422aa0",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/run_full_v7.py",
+      "bytes": 4363,
+      "sha256": "29cc7c8cb29bbefe6e01551aa58edad3787c550bb6a2d73958aee28d634ca883",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/train_resume_probe_v7.py",
+      "bytes": 12963,
+      "sha256": "195b7e96c4d928877e137f5541faef992d6905c69032340a5d38192069cfc7fc",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/eval_src/verify_training_v7.py",
+      "bytes": 5364,
+      "sha256": "f545f0e9c961650d37d9b35130f4f2e598de85ca9c940a740a608d5ff87b36d7",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/native_data_v7.py",
+      "bytes": 1821,
+      "sha256": "6779f953326601e259489c6e37f2e8197dbbffc1a8533e65f06bd10a03b784b4",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/preflight_training.py",
+      "bytes": 3956,
+      "sha256": "80da839ecbf6e54d1bf6f707736930f1aeff155d5b885dcf6bdd8acd73280f44",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/prepare_pool.py",
+      "bytes": 10923,
+      "sha256": "c9541a3897abe30959be0c5d8b77b52e0382ee0c4eed03896df26e66ce5c4b84",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/prepare_targets_v7.py",
+      "bytes": 8269,
+      "sha256": "d1ea70fd498753730002fd9cd16f085eb4ed2869ab6eb2dec61bf4497a06cd52",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/queue_prepare.py",
+      "bytes": 3503,
+      "sha256": "b3e154fa47b38777d88297418322b2a5ce1f945df27c4c21e4d81c245f51852c",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/run_training_v7.py",
+      "bytes": 4061,
+      "sha256": "9920d582a3a11112b355ebeb2acc6326b451c4f2b4bfbca1a9bd3176f2152e0b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/train_native_v7.py",
+      "bytes": 12853,
+      "sha256": "d6d493c9c0aad644c48b808452a20faa0fcf9d8de6359d67b617f0a5502d58dd",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v7/src/verify_inputs.py",
+      "bytes": 6453,
+      "sha256": "c4c8f9eca90aafb9a37122295d4a5d93b216d8e290e8713b43e340d5ae5069b9",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v8/src/audit_surface_frame0.py",
+      "bytes": 7985,
+      "sha256": "e214336e11ee85b76a186a9c3ed393b8095036572abd0808e9bfb39b5a34ebd2",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v8/src/audit_surface_frame0_r1.py",
+      "bytes": 8344,
+      "sha256": "d1c26da5411ed849ef2acecd371facd0fb0acd6171d280c6853dbe62f8bfe940",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v8/src/capture_stereo.py",
+      "bytes": 2682,
+      "sha256": "aad9587b4218aa8408863e2f2f4cda1930784d1224e9a7bd0e067b75e7f72edf",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v8/src/depth_common.py",
+      "bytes": 3975,
+      "sha256": "c8a16d331edafd9aa3f4defb0ebc194e729a4073db8ca5a0be36a920cccaeb18",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v8/src/evaluate_grid.py",
+      "bytes": 10618,
+      "sha256": "ebc3263a87b5ea25ee88fb316156a1583c2c93676d9cd7e608344e20ed9eacc4",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v8/src/finalize_variants_r1.py",
+      "bytes": 1558,
+      "sha256": "ef1907f0f797d613902dd469872b1cb64928df371e74265f0cf8e409df1a3d6a",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v8/src/predict_variants.py",
+      "bytes": 3658,
+      "sha256": "ccea5ee91341a03b5d19b44be4e8169db2bb16221641df935eefa0cdbc21ae2e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/evaluate_full.py",
+      "bytes": 13964,
+      "sha256": "aa9ce6539315eaa725b52e021e48c9c14797bfd6dddeb9b137e1e9e57e8309c8",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/evaluate_observations.py",
+      "bytes": 10413,
+      "sha256": "52dd6f041177b7f589cf39d8817126db6fe8b494a3652aea90ca89ee2091bcd0",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/guard_rgb.py",
+      "bytes": 7419,
+      "sha256": "47738790d40bcab304d0b802fa4f67f5c31a355ce3656f9e55861cfb37c5360b",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/infer_observations.py",
+      "bytes": 5737,
+      "sha256": "70ee1725e79fc9070dc37f2300f89ba8fb49f999ccb1c5fcf8eedf8c84286696",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/native_ba_rgb.py",
+      "bytes": 13789,
+      "sha256": "d87cec65f99bb54d1bde6ee3d096d286e08be38de6fb9c33a7068c4add95be29",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/prepare_ba_adapter.py",
+      "bytes": 2452,
+      "sha256": "7318db5312e92dfe6511d144e71779cef18e9566f3ed19cd502ae596a9a4d0c4",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/run_full.py",
+      "bytes": 4343,
+      "sha256": "fc10cf1434a27f8bcaf5115f6eeed53ad7ed77569d0c5d6b2f5b826b9b381ff1",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/eval_src/verify_final.py",
+      "bytes": 2143,
+      "sha256": "6d56cd09cff63409457c7d6f810f768034bb46434490079f5b782f330de6da6a",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/src/preflight.py",
+      "bytes": 2229,
+      "sha256": "a4ba1bda660c9479beffea7bb82546f531e18fe295e59e9ac4fe57b293470c0e",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/src/prepare_targets.py",
+      "bytes": 5255,
+      "sha256": "cb6e56b85a8d137a6af1d4991b33fac60fc4e89509daa8e2d9539d6ccd227830",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/src/rgb_head.py",
+      "bytes": 2913,
+      "sha256": "a369d0d005af43a1385a24de14b7cf9a769f718cdb761deacc351f5a5210c72d",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/src/run_training.py",
+      "bytes": 3580,
+      "sha256": "977e4ca86cab6f61f7fc3f786301c549bf8d1370ef6272b4174ad8e3a475e867",
+      "kind": "source"
+    },
+    {
+      "path": "research/native_mano_h20_20261019/v9/src/train_head.py",
+      "bytes": 6440,
+      "sha256": "91415dd32745103ec076f71b1c6c3d10c053415687a20a694f22aa7e25428e9b",
+      "kind": "source"
+    }
+  ],
+  "excluded_private_reference_helpers": [
+    "snapshots/v1/src/verify_wilor_native_adapter.py"
+  ],
+  "private_reference_source_included": false,
+  "GT_images_camera_observations_or_MANO_assets_included": false,
+  "checkpoint_resume_note": "v7 exports are inference-only; full optimizer/RNG/batch inputs are not released. v9 best files contain only model/selection metadata. Exact model tensors checked against the frozen originals."
+}

@@ -1,0 +1,19 @@
+"""Differentiable deployment sampler; no target/teacher enters this function."""
+import torch
+from native_dit import NativeMANODiT
+
+class NativeRolloutDiT(NativeMANODiT):
+    def sample_train(self,b,generator,draws=4,steps=10):
+        encoded=self.encode(b);B=len(b['rgb']);device=b['rgb'].device
+        if self.kind=='regression':return self.net(torch.zeros(B,17,3,device=device),torch.zeros(B,device=device,dtype=torch.long),encoded)[None]
+        repeated=tuple(x[None].expand(draws,*x.shape).flatten(0,1) for x in encoded)
+        x=torch.randn(draws*B,17,3,device=device,generator=generator)*self.output_mask
+        schedule=torch.linspace(99,0,steps,device=device).round().long()
+        for i,t in enumerate(schedule):
+            v=self.net(x,t.expand(draws*B),repeated);a=self.alpha[t]
+            clean=(a.sqrt()*x-(1-a).sqrt()*v).clamp(-1,1)*self.output_mask
+            eps=(1-a).sqrt()*x+a.sqrt()*v
+            if i+1==len(schedule):x=clean
+            else:
+                nxt=self.alpha[schedule[i+1]];x=nxt.sqrt()*clean+(1-nxt).sqrt()*eps
+        return x.reshape(draws,B,17,3)

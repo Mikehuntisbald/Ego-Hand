@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "stages": [
+    "pilot",
+    "control_native",
+    "compatible",
+    "compatible_protected"
+  ],
+  "batch_plan_sha": "2123f2e4a4f33fbb2f3fc900a9f2c094b963b12735585e4fdf81e5f4fc0eacd9",
+  "sources_frozen": true,
+  "production_admitted": false
+}

@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "freeze_unix": 1792385935.169705,
+  "models": {
+    "control_native": {
+      "path": "/mnt/why/native_mano_shape_v6_20261019/runs/control_native/best_development.pt",
+      "sha256": "5d4d10f59b4cdc505fdce343267190d86b867279b6454ae0d4caf83563408e09"
+    },
+    "compatible": {
+      "path": "/mnt/why/native_mano_shape_v6_20261019/runs/compatible/best_development.pt",
+      "sha256": "388ace54de98eb043527ca1c41909815d6b3250fcda0299fe675e3737b48bf5b"
+    },
+    "compatible_protected": {
+      "path": "/mnt/why/native_mano_shape_v6_20261019/runs/compatible_protected/best_development.pt",
+      "sha256": "1d4ad6407c8d564a5f88ed41981251778faf4e1fe1aed5683d9ccc6deedc37fb"
+    }
+  },
+  "seals": {
+    "predictions/clip-002108/seal.json": "a2dbd4911ada6d3f9e2c8ad292cdd32a447eb89fab60ad31eb45d017d44a5bf7",
+    "predictions/clip-002144/seal.json": "e92bc35d2bde244acc638b8399ea7f275920888148e11361fbb7a6586b0225f7",
+    "predictions/clip-002513/seal.json": "90f2a80a6c40d748eefada413d6a6f5071b645c98fa2925257f5a47b63188d82",
+    "predictions/clip-002541/seal.json": "fdb36013ffe359d2831acea9792050edddd4725642c95eb335565b465488d268",
+    "predictions/clip-003219/seal.json": "0cd909554379bd06353911ad5c3e8a4c7500e0bb18410f89e6ab4a58bdf698f3",
+    "predictions/clip-003295/seal.json": "1b18d9210c72b994f7d0a780dc39c760db503dafd362fca8dd4113627608ed8e"
+  },
+  "hand_labels_read": false,
+  "inference_source_sha256": "8d3bab7831322ff33b785c70c76f1d21adfddb45c95bd99f06c364d53279434e",
+  "scope": "new outputs frozen before this run labels; prior evaluation exposure explicitly acknowledged"
+}

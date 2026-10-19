@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "freeze_unix": 1792387460.039994,
+  "models": {
+    "small": {
+      "path": "/mnt/why/native_mano_pool_v7_20261019/runs/small/best_development.pt",
+      "sha256": "535026913afb82869950d68b7e8e6960764689c748db1ab1f548c52ac3e89291"
+    },
+    "full": {
+      "path": "/mnt/why/native_mano_pool_v7_20261019/runs/full/best_development.pt",
+      "sha256": "5a6895324f5e640922891f4196a9269ca29f2b912bf8907067f838b787f64026"
+    }
+  },
+  "seals": {
+    "predictions/clip-002108/seal.json": "e682561a690520f21bacffafb9c4ce59991ab48af760d031eba9dd4e088c8f1b",
+    "predictions/clip-002144/seal.json": "beb5b9de61aebde24f48036fdde4b4a94d20787318b489403e3f7f8ea2da7d84",
+    "predictions/clip-002513/seal.json": "62c0881c9d4ea09188b279e230d3869040930c26b211eb22073ed84268b2e5e7",
+    "predictions/clip-002541/seal.json": "1166ca716ed83d02765a16f1b5f236c8efe5666bf2a776072ed28ed83a2258aa",
+    "predictions/clip-003219/seal.json": "b073407c78a17849feb58a059c7c7cd16ac917c31f427c5d4979f0e76a314801",
+    "predictions/clip-003295/seal.json": "442cef8be4caa635d5cdf74f00d2bc0c31a0af4624c1f2c0f9eb0b57de3434b1"
+  },
+  "hand_labels_read": false,
+  "inference_source_sha256": "cbcdd87ef95168a34fec45bc035bc8f99f8320f0f4cf7d9fc29b43a96a3ea2e5",
+  "scope": "new outputs frozen before this run labels; prior evaluation exposure explicitly acknowledged"
+}

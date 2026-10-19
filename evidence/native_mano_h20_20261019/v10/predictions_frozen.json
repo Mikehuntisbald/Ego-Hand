@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "freeze_unix": 1792391980.81155,
+  "seals": {
+    "predictions/clip-002108/seal.json": "e4ec78508873822be9215b33b03dd3be14ad4e030ae325ae2a5432ad1323bec1",
+    "predictions/clip-002144/seal.json": "4ab8d8be65adf9a8f60dc11db76485a2c77e0297abbefef305cc9c8e0d74e5b8",
+    "predictions/clip-002513/seal.json": "943ddbd48e48eebf01386776e5e6e2f2e246f53849053a6392ebb1625e3e3d96",
+    "predictions/clip-002541/seal.json": "c6e389540a951272532f82a6dd87fa8efb9f887cbaa0e5f8c6cf5129e3c95365",
+    "predictions/clip-003219/seal.json": "288b78fc1616e8b068d894bb1f9ed0c658a8e1205c50ffa51854cfbbd759d624",
+    "predictions/clip-003295/seal.json": "2ae964679969447b4ef4f26d0518b7cbcbadd1c15730e9c3485a4f21e2ade088",
+    "predictions/clip-002102/seal.json": "22cc02ca51b33c922888dd1ddbb775c9e92c11064b8be9cd6f160e75bb0fa09c"
+  },
+  "candidates_frozen_sha256": "b04945e0924e5dfd083c07bd615d2db02033119377a553ec02afc2a8d0e11c36",
+  "GT_used": false,
+  "source_sha256": {
+    "build_candidates.py": "6bcf9f67c0a717c91a994d100a3b5aa171e2502f6600d788fa581251b9767ad2",
+    "select_candidates.py": "83f51e1315a597ffd3fac8b0ebaeb1e32f6082deee31a20bf3c54f23e230108d",
+    "preflight.py": "c4e702e468b8820b1c037998d2786bc41c8445aac3cc5968922ce5d018683477",
+    "run_candidates.py": "82c11f06bde6f99c61b575e56f0ae1cdb83c2c5400fc852f84b52b9618a4b60e",
+    "sequence_solver.py": "84323de20e84b52512dd11074a36bb6551b2bb59f86666eda1af1840dbfd3c21"
+  },
+  "production_admitted": false
+}

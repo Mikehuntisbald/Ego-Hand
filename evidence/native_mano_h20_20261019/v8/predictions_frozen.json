@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "GT_used": false,
+  "predictions_sha256": "82120db29364f820cd7ac5a2423ec819736743fccff172bdc1b806ef2cb78bf8",
+  "stereo_frozen_sha256": "f5907c36176cfb21ac30e2dd52267deb7e312f60bf96b5c168a1fde5138ec10c",
+  "source_sha256": {
+    "audit_surface_frame0.py": "e214336e11ee85b76a186a9c3ed393b8095036572abd0808e9bfb39b5a34ebd2",
+    "depth_common.py": "c8a16d331edafd9aa3f4defb0ebc194e729a4073db8ca5a0be36a920cccaeb18",
+    "predict_variants.py": "ccea5ee91341a03b5d19b44be4e8169db2bb16221641df935eefa0cdbc21ae2e",
+    "capture_stereo.py": "aad9587b4218aa8408863e2f2f4cda1930784d1224e9a7bd0e067b75e7f72edf",
+    "audit_surface_frame0_r1.py": "d1c26da5411ed849ef2acecd371facd0fb0acd6171d280c6853dbe62f8bfe940"
+  },
+  "baseline_reproduced": true,
+  "production_admitted": false
+}

@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "train_only_samples": 12,
+  "subjects": 6,
+  "right_only": true,
+  "official_wrapper_source_sha256": "1a9c49ee35fb009fcf0ca6c4d8c86e3c4bd23e1ed32392120ceac97819d23eb9",
+  "asset_sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767",
+  "official_vertices_max_m": 8.12639452396624e-08,
+  "official_wrist_max_m": 2.453911451816282e-08,
+  "official_vs_WiLoR_landmark_mm": {
+    "mean": 2.6280708882590648e-05,
+    "max": 7.397121915648297e-05
+  },
+  "same_PCA_and_root_translation_convention": true,
+  "no_LEFT_model_loaded_or_fabricated": true,
+  "limits": "Same existing RIGHT asset; original annotation asset version remains independently unverified. Official tip definition can differ from WiLoR21; metric semantics remain explicit.",
+  "production_admitted": false
+}

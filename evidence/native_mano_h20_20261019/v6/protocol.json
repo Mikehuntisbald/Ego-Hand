@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "hypothesis": "Separate unreachable fixed-shape error from pose FK/velocity training; actual native GT remains selection, evaluation and accurate-point protection",
+  "arms": [
+    "control_native",
+    "compatible",
+    "compatible_protected"
+  ],
+  "steps": 600,
+  "train_right_windows": 155,
+  "select_right_windows": 25,
+  "actual_sampler": "4draw10step mean",
+  "locked_v5_targets_sha256": "e44ab4ffa0a6580264aaba4b00f0786123a1112a9066ea3d95658dd05c1cd91f",
+  "no_GT_inference": true,
+  "no_shape_head": true,
+  "no_new_data": true,
+  "visual_backbone_frozen": true,
+  "all_loss_coefficients_unchanged": true,
+  "no_protection_gate_relaxation": true,
+  "selection": "actual native20 relative mm +20*original-good-harm fraction, each200",
+  "evaluation": "same historically exposed six recordings; not a new blind test",
+  "visualization_candidate": "compatible_guard",
+  "expansion": "First run matched bounded pilot; enlarge data only after held development evidence supports the hypothesis"
+}

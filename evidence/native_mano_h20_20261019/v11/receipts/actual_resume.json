@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "actual_interruption": true,
+  "continuous_steps": 6,
+  "interrupted_at": 3,
+  "resumed_steps": 3,
+  "exact_fields": {
+    "model": true,
+    "optimizer": true,
+    "rng_cpu": true,
+    "rng_cuda": true,
+    "python_rng": true,
+    "numpy_rng": true,
+    "batch_rng": true,
+    "step": true,
+    "arm": true,
+    "total_steps": true,
+    "best_score": true,
+    "best_model": true,
+    "batch_plan": true
+  }
+}

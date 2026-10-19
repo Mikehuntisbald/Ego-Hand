@@ -1,0 +1,18 @@
+{
+  "models": {
+    "small": {
+      "path": "/mnt/why/native_mano_pool_v7_20261019/runs/small/best_development.pt",
+      "sha256": "535026913afb82869950d68b7e8e6960764689c748db1ab1f548c52ac3e89291"
+    },
+    "full": {
+      "path": "/mnt/why/native_mano_pool_v7_20261019/runs/full/best_development.pt",
+      "sha256": "5a6895324f5e640922891f4196a9269ca29f2b912bf8907067f838b787f64026"
+    }
+  },
+  "locked": 1792387357.883415,
+  "right_only": true,
+  "existing_reference_camera": true,
+  "historical_exposure": "All six clips were evaluated in v3/v4 and the posthoc geometry audit before v5 design; diagnostic development evidence, not a fresh blind test",
+  "candidate_visualization": "native_protected_guard predeclared",
+  "GT_input": false
+}

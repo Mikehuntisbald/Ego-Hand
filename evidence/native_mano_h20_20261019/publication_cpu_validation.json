@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "relocated_sources_parsed": 802,
+  "existing_workspace_refused": true,
+  "existing_workspace_unchanged": true,
+  "legacy_WiLoR_paths_relocated": true,
+  "strict_model_loads": {
+    "v7_full": 108,
+    "v7_small": 108,
+    "v9_spatial": 31,
+    "v9_pooled": 31
+  },
+  "GPU_used": false,
+  "full_pipeline_rerun": false
+}

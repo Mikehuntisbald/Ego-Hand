@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "post_update_error_score_to_RGB_gradient": 171.43714904785156,
+  "RGB_score_effect": 0.0014590881764888763,
+  "candidate_permutation_max": 0.0,
+  "metadata_invariant": true,
+  "reference_score_exact_zero": true,
+  "source_targets_used_only_in_loss": true,
+  "production_admitted": false
+}

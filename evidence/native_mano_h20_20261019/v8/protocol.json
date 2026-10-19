@@ -1,0 +1,32 @@
+{
+  "frames": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100,
+    120,
+    140,
+    148
+  ],
+  "frame_selection": "fixed 20-frame spacing plus final stereo frame; historically exposed clip2102 diagnostic",
+  "changes": {
+    "for frame_index in range(0, len(frames), 2):": "for frame_index in [0, 20, 40, 60, 80, 100, 120, 140, 148]:",
+    "if frame_index == 0:": "if True:  # save every predeclared diagnostic frame",
+    "f'example_{target}.npz'": "f'frame{frame_index:03d}_{target}.npz'"
+  },
+  "run_depth_source_sha256": "6b29afdb3411601e93ccbd034d04f9eaa0c63fb5603ef987e58f369e5265209c",
+  "capture_source_sha256": "b15d40f7feaf45d96963d538f66fd9928f5440c1fa908e56ab75cbec2c29c82b",
+  "GT_inputs": false,
+  "variants": [
+    "baseline",
+    "erode4",
+    "iter5",
+    "erode4_iter5"
+  ],
+  "erosion_native_pixels": 4,
+  "iterations": 5,
+  "inference_rule": "same confidence>=0.2, <=96 uniformly spaced mask samples/view, >=6 valid hits and MAD<0.03m; iteration translates fixed-shape mesh along original predicted wrist ray; invalid candidate falls back to baseline",
+  "production_admitted": false
+}

@@ -1,0 +1,87 @@
+{
+  "train_dev_only": true,
+  "GT_error_only_best_counts": [
+    227,
+    67,
+    237,
+    288,
+    230,
+    306
+  ],
+  "GT_composite_best_counts": [
+    330,
+    48,
+    223,
+    272,
+    207,
+    275
+  ],
+  "arms": {
+    "pose_base": {
+      "best_step": 100,
+      "dev_error_only_argmin_counts": [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dev_composite_argmin_counts": [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pred_delta_min": 0.03436874970793724,
+      "pred_delta_mean": 0.1388799250125885,
+      "risk_penalty_mean": 0.07763671875
+    },
+    "RGB_base": {
+      "best_step": 500,
+      "dev_error_only_argmin_counts": [
+        16,
+        0,
+        1,
+        3,
+        4,
+        1
+      ],
+      "dev_composite_argmin_counts": [
+        24,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "pred_delta_min": -0.02429143153131008,
+      "pred_delta_mean": 0.12856897711753845,
+      "risk_penalty_mean": 0.060302734375
+    },
+    "RGB_preserve": {
+      "best_step": 100,
+      "dev_error_only_argmin_counts": [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dev_composite_argmin_counts": [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pred_delta_min": 0.042966242879629135,
+      "pred_delta_mean": 0.16718332469463348,
+      "risk_penalty_mean": 0.0966796875
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "phase": "first matched600-update milestone; not full goal completion",
+  "arms": {
+    "small": 155,
+    "full": 1330
+  },
+  "dev_select_right": 25,
+  "same_model_and_initialization": true,
+  "same_updates": 600,
+  "same_feature_cache": true,
+  "same_native_v5_objective": true,
+  "visual_backbone_frozen": true,
+  "wrist_and_shape_fixed": true,
+  "right_only": true,
+  "subject_sampler": "same 3-distinct-subject schedule each update; uniform center within subject; actual example counts reported, not equal-FLOP claim",
+  "sampler_change": "both v7 arms use subject balancing; v5 weights are reference, not the new exact optimization control",
+  "input_cache_ready_sha256": "d9acef8a391bdce4f3a396a5dbba3e512b7a77a2e15dfb95f12007864aeb899a",
+  "input_verification_sha256": "98245111638553ae2c0c5d689aa5b8101534173c58d0b42d55d71bcdb2f0db63",
+  "native_targets_sha256": "d1f64a0f8985ab3bcce418139c3ea6b4dd1f29150d06240febbc093e639f1365",
+  "selection": "same fixed P0003 clip25 right windows, native relative20 mm +20*accurate-point-harm fraction, each200",
+  "evaluation": "freeze both outputs before scoring; existing six clips historically exposed, report native GT and preservation/motion together",
+  "inference_guard": "unchanged5/10/30mm; fullBA point2px reprojection remains unchanged",
+  "no_GT_inference": true,
+  "no_synthetic_occlusion": true,
+  "production_admitted": false
+}

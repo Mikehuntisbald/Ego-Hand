@@ -1,0 +1,87 @@
+{
+  "complete": true,
+  "GT_used": false,
+  "files": {
+    "error_pose_base.npz": "f5845408d235aa40d4164c30f0b8002e7dbb36ec50d67dab30c35b497cf91b90",
+    "error_RGB_preserve.npz": "89f50ec0f7d63c0541e466ec43f1d3aa8f9a16d7991d42e335922529f7a3baa8",
+    "initial_RGB_base.npz": "2aa5cab747eda5f8185f6734fc92bdc4e27a84c6b2bbf119abddffafd8626121",
+    "initial_RGB_preserve.npz": "0d3f9326cdb38fd1035b6c960842b6e810f83293c01dbb3de9e5a4180e03b817",
+    "initial_pose_base.npz": "40cfe47c8e1fbe6b0c28fefff0c290b0de63545e6dd4b44dd83b02cb90d4d79b",
+    "error_RGB_base.npz": "15859f86eeb7d3ef2be9846ad8567531731c9045acf555329ce11cd4ce79a485"
+  },
+  "arms": {
+    "initial_pose_base": {
+      "candidate_counts": [
+        300,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "checkpoint_sha256": "b6dbcf58fdb2565e3fadc9d9a14fa72e9c438c84d41fd2de9a053671e13a6f7e",
+      "GT_input": false
+    },
+    "initial_RGB_base": {
+      "candidate_counts": [
+        300,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "checkpoint_sha256": "c5e841561bec1a14707c800c941051917c8f232183c935e1c3b6e7c6b8f96fce",
+      "GT_input": false
+    },
+    "initial_RGB_preserve": {
+      "candidate_counts": [
+        300,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "checkpoint_sha256": "d1296f585a77be5251bad88a7e56ce39a1a89f3a68f241ad6391b47760516d1c",
+      "GT_input": false
+    },
+    "error_pose_base": {
+      "candidate_counts": [
+        300,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "checkpoint_sha256": "420fe862e47ac65c3b0da8b4a0a21537163fb5d73da0dd9ade5849c078964b87",
+      "GT_input": false
+    },
+    "error_RGB_base": {
+      "candidate_counts": [
+        300,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "checkpoint_sha256": "084ea5fc4bb0ee176c8baff7c9d35a9a20cd744050ecc69f78b1510d43f36209",
+      "GT_input": false
+    },
+    "error_RGB_preserve": {
+      "candidate_counts": [
+        300,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "checkpoint_sha256": "dc55a353b5aa82b37efc41eace4f23f779f31f3b597697f97d980b02893b8a87",
+      "GT_input": false
+    }
+  },
+  "candidate_sha256": "bd06cd07d17ed83e20bea41656cb3333eebb65d89d6d4a9edd9743e61fa9fc88"
+}
