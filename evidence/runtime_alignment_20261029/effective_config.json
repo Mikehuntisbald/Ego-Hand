@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "device": "cuda:0",
+  "backend": "live",
+  "environment": {
+    "HAMR4D_SHARED_VIDEO_DECODER": "cpu",
+    "OMP_NUM_THREADS": "4",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1",
+    "HF_HUB_DISABLE_TELEMETRY": "1",
+    "YOLO_AUTOINSTALL": "false",
+    "WANDB_MODE": "disabled",
+    "WANDB_DISABLED": "true",
+    "LD_LIBRARY_PATH": "/opt/ego-runtime-env/lib/python3.10/site-packages/nvidia/cublas/lib:/opt/ego-runtime-env/lib/python3.10/site-packages/nvidia/cusolver/lib:/opt/ego-runtime-env/lib/python3.10/site-packages/nvidia/cusparse/lib:/opt/ego-runtime-env/lib/python3.10/site-packages/nvidia/nvjitlink/lib:/opt/ego-runtime-env/lib/python3.10/site-packages/tensorrt_libs"
+  },
+  "assets": {
+    "mano_right": {
+      "path": "/assets/wilor/MANO_RIGHT.pkl",
+      "sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "mano_mean": {
+      "path": "/assets/wilor/mano_mean_params.npz",
+      "sha256": "efc0ec58e4a5cef78f3abfb4e8f91623b8950be9eff8b8e0dbb0d036ebc63988",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "wilor_config": {
+      "path": "/assets/wilor/model_config.yaml",
+      "sha256": "f69cb52704df88ef29a7cfe03f35a677a92c1ce08169b729ca7f5862f05d4297",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "wilor": {
+      "path": "/assets/wilor/wilor_final.ckpt",
+      "sha256": "3e97aafc7dd08d883a4cc5a027df61fdb6fda6136dbd1319405413862ada6bb2",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "side_helper": {
+      "path": "/assets/side.pt",
+      "sha256": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "rf": {
+      "path": "/assets/rf.pth",
+      "sha256": "c608baa1ec098e83cc8e626ed9ae0c7ebc8880240fd468f889fac1475b2e275e",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "unidepth": {
+      "path": "/assets/unidepth/model.safetensors",
+      "sha256": "93705cb3295dd7476b44911b8a55f5215bf74e8d5eccd27cecdb1b338270a648",
+      "source": "pinned author UniDepthV2-small public asset"
+    },
+    "unidepth_config": {
+      "path": "/assets/unidepth/config.json",
+      "sha256": "ecc1f898690debe387d10329cca5d9d66a0a447ce83c3a2a7ae3673c7ce43cfe",
+      "source": "pinned author UniDepthV2-small public asset"
+    },
+    "lightess": {
+      "path": "/output/lightess_sm89_legacy_fp16_r2.engine",
+      "sha256": "6887fd2f923a2b044fd4e83ab5240f10fad5ce0a07d30dbffb6d31440b38e65d",
+      "kind": "trt_engine",
+      "source": "local build from pinned public ONNX",
+      "compatibility": {
+        "compute_capability": "8.9",
+        "tensorrt_version": "10.13.3.9",
+        "precision": "FP16 model / FP32 geometry",
+        "model_sha256": "14be1758c72394922b6b0666d0f1e364a805b1b1a610d73259049bb6c768a4d1",
+        "shape": {
+          "input_left": [
+            1,
+            3,
+            288,
+            480
+          ],
+          "input_right": [
+            1,
+            3,
+            288,
+            480
+          ]
+        },
+        "plugin_sha256": "1923fa00bab8a83207b46a174b42d9ad3b18842a173bb812377cf33e1cd3f12d",
+        "cuda_version": "12.8"
+      }
+    },
+    "ess_plugin": {
+      "path": "/ess/ess_plugins.so",
+      "sha256": "1923fa00bab8a83207b46a174b42d9ad3b18842a173bb812377cf33e1cd3f12d",
+      "source": "NGC legacy CUDA12 plugin, exact audited entity"
+    }
+  },
+  "sources": {
+    "wilor": "/opt/ego-hand/vendor/wilor",
+    "unidepth": "/opt/ego-hand/vendor/unidepth"
+  },
+  "dit": {
+    "enabled": false
+  },
+  "replay": {
+    "bundle": null
+  },
+  "sampling": {
+    "primary_fps": null,
+    "stereo_stride": 2,
+    "max_skew_ns": 5000000
+  },
+  "pools": {
+    "rf": 1,
+    "wilor": 1,
+    "unidepth": 1,
+    "headpose": 1,
+    "stereo": 1,
+    "ba": 1
+  },
+  "scheduler": {
+    "workers": 1,
+    "queue_capacity": 4,
+    "admission_timeout_s": 60
+  },
+  "resources": {
+    "gpu_admit_gib": 8.0,
+    "gpu_resume_gib": 7.0,
+    "gpu_hard_gib": 10.0,
+    "ram_admit_gib": 12,
+    "ram_resume_gib": 10,
+    "ram_hard_gib": 14
+  },
+  "decode": {
+    "primary": "cpu",
+    "tracking": "cpu",
+    "stereo": "cpu",
+    "window_frames": 4
+  },
+  "headpose": {
+    "backend": "cuvslam",
+    "expected_sdk_sha256": "cc4b2ca02b8805253d1522a1835b1c4bf34bdc9c71c871a8cef2f400d6536391",
+    "max_gap_ns": 100000000,
+    "max_rig_drift_m": 0.0001,
+    "max_rig_drift_rad": 0.001,
+    "max_speed_m_s": 10.0,
+    "max_angular_speed_rad_s": 30.0,
+    "orb_fallback": false
+  },
+  "depth": {
+    "backend": "lightess",
+    "mono": "torch",
+    "confidence_min": 0.2,
+    "focal_px": 200.0,
+    "width": 480,
+    "height": 288,
+    "min_samples": 6
+  },
+  "ba": {
+    "iterations": 100,
+    "loss_profile": "frozen_native_v1",
+    "mask_outside_image": false,
+    "world_root_so3_weight": 0.0,
+    "wrist_motion_weight": 0.0,
+    "observation_preservation_weight": 0.0,
+    "max_gap_ns": 100000000
+  },
+  "quality": {
+    "enabled": true,
+    "max_gap_ns": 100000000,
+    "min_side_confidence": 0.5,
+    "rmse_m": 0.005,
+    "p95_m": 0.01,
+    "maximum_m": 0.03,
+    "reprojection_increase_px": 0.2
+  },
+  "delivery": {
+    "format": "aria",
+    "max_interpolation_gap_ns": 100000000
+  }
+}

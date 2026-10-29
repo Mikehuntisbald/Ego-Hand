@@ -1,5 +1,7 @@
 # Ego-Hand
 
+本地 `codex/ego-hand-runtime-alignment` 新增独立双目 runtime：通用 episode 入口、cuVSLAM GPU VO、RF/WiLoR、物理深度、原生 MANO BA、完整源时钟交付和常驻调度。见 [runtime 使用与已知边界](docs/RUNTIME_ALIGNMENT.md)、[2026-10-29 本机验收](evidence/runtime_alignment_20261029/README.md)。已在 RTX 4080 Laptop 实跑公开片段；尚无独立 GT 精度/生产替换准入，DiT 默认关闭。原研究快照保留。
+
 本分支新增 **2026-10-19 原生 MANO 参数 DiT、cuVSLAM 双目 VO、物理深度与固定相机整段 BA**。实现、已知问题、失败对照、权重与复现边界见 [原生 MANO H20 说明](docs/NATIVE_MANO_H20.md)。新版本尚未通过生产替换准入；VO 没有融合 IMU。以下原章节保留为 2026-10-08 UmeTrack 研究快照，不能混作新 MANO 输出契约。
 
 面向离线数据标注的 RGB 手部检测、实例分割和时序 3D 补全研究代码。

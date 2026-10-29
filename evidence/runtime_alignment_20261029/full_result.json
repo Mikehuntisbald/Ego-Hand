@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "program_success": true,
+  "quality_admitted": false,
+  "QA": "geometry/contracts only; no independent accuracy evaluation",
+  "performance_admitted": false,
+  "backend": "live",
+  "production_parity": false,
+  "output": "/output/live_full_r7b",
+  "source_frames": 150,
+  "states": 298,
+  "input_observations": 300,
+  "routed_observations": 298,
+  "depth_supported": 300,
+  "depth_sources": {
+    "LightESS_surface_corrected_wrist": 147,
+    "UniDepth_surface_corrected_wrist": 2,
+    "time_bounded:LightESS_surface_corrected_wrist": 147,
+    "time_bounded:UniDepth_surface_corrected_wrist": 4
+  },
+  "delivery": {
+    "passed": true,
+    "frames": 150,
+    "valid_hand_frames": 298,
+    "source_clock_preserved": true
+  },
+  "pool_loads": {
+    "rf": 1,
+    "wilor": 1,
+    "unidepth": 1,
+    "headpose": 1,
+    "stereo": 1,
+    "ba": 1
+  },
+  "GT_used": false,
+  "inference_wall_s": 110.257995854
+}

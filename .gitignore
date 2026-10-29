@@ -2,6 +2,10 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.venv-runtime/
+runtime_runs/
+runtime_local/
+*.egg-info/
 .env
 .env.*
 *.pem

@@ -1,0 +1,45 @@
+{
+  "tracks": [
+    {
+      "track_id": "0",
+      "source_frames": 150,
+      "valid_frames": 149,
+      "valid_ratio": 0.9933333333333333,
+      "interpolated_frames": 0,
+      "wrist_displacement_mm_at_60Hz": {
+        "count": 148,
+        "P95": 13.373216003235193,
+        "maximum": 32.272414787242745
+      },
+      "wrist_second_difference_mm_at_60Hz2": {
+        "count": 147,
+        "P95": 3.202760465097309,
+        "maximum": 29.901019763471385
+      },
+      "bone_length_relative_std_max": 0.033476079602396645
+    },
+    {
+      "track_id": "1",
+      "source_frames": 150,
+      "valid_frames": 149,
+      "valid_ratio": 0.9933333333333333,
+      "interpolated_frames": 0,
+      "wrist_displacement_mm_at_60Hz": {
+        "count": 148,
+        "P95": 7.356613069716185,
+        "maximum": 78.42320665701007
+      },
+      "wrist_second_difference_mm_at_60Hz2": {
+        "count": 147,
+        "P95": 4.4295406179719565,
+        "maximum": 31.065418698258572
+      },
+      "bone_length_relative_std_max": 0.03933692387785696
+    }
+  ],
+  "GT_used": false,
+  "absolute_accuracy_evidence": false,
+  "motion_semantics": "raw predicted motion; includes true fast actions, not GT-subtracted jump error",
+  "preservation_semantics": "parameter version gates are reported separately; no correct/bad-point claims without GT",
+  "quality_admitted": false
+}

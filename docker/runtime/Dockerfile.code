@@ -1,0 +1,25 @@
+# Versioned source repair over an already built, SHA-audited dependency image.
+# Source is baked at BUILD time; there is no startup source injection.
+ARG BASE_IMAGE
+FROM ${BASE_IMAGE}
+USER root
+WORKDIR /opt/ego-hand
+RUN rm -rf /opt/extra_wheels
+COPY extra_wheels/ /opt/extra_wheels/
+COPY extra_wheels_sha256.json /opt/extra_wheels_sha256.json
+COPY tools/verify_runtime_release.py /opt/ego-hand/tools/verify_runtime_release.py
+RUN if ls /opt/extra_wheels/*.whl >/dev/null 2>&1; then python3 tools/verify_runtime_release.py --manifest /opt/extra_wheels_sha256.json --root /opt/extra_wheels \
+    && python3 -m pip install --target=/opt/ego-runtime-env/lib/python3.10/site-packages --no-index --no-deps /opt/extra_wheels/*.whl; fi \
+    && rm -rf /opt/extra_wheels
+COPY ego_hand_runtime/ /opt/ego-hand/ego_hand_runtime/
+COPY configs/runtime/ /opt/ego-hand/configs/runtime/
+COPY tools/ /opt/ego-hand/tools/
+COPY tests/runtime/ /opt/ego-hand/tests/runtime/
+COPY vendor/ /opt/ego-hand/vendor/
+COPY research/ /opt/ego-hand/research/
+COPY runtime_source_sha256.json /opt/ego-hand/runtime_source_sha256.json
+RUN sed -i 's/include-system-site-packages = true/include-system-site-packages = false/' /opt/ego-runtime-env/pyvenv.cfg \
+ && /opt/ego-runtime-env/bin/python tools/verify_runtime_release.py --manifest /opt/ego-hand/runtime_source_sha256.json
+ENV PYTHONUNBUFFERED=1 OMP_NUM_THREADS=4 VIRTUAL_ENV=/opt/ego-runtime-env
+ENTRYPOINT ["/opt/ego-runtime-env/bin/python", "/opt/ego-hand/tools/verified_runtime_entry.py"]
+CMD ["--help"]

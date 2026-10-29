@@ -1,0 +1,44 @@
+{
+  "source_run": "C:\\Users\\Asus\\Desktop\\Ego-Hand\\runtime_local\\container_runs\\live_complete_cold",
+  "prediction_binding": "fcf5d119efbbf684f0fc72dcc161239ee53347127059d2e3f03a94b621a06ac8",
+  "program_success": true,
+  "independent_CPU_FK_points": 6258,
+  "FK_max_euclidean_m": 8.940696716308594e-08,
+  "FK_mean_euclidean_m": 2.4901624057682993e-08,
+  "quality_admitted": false,
+  "absolute_accuracy_evidence": false,
+  "GT_used": false,
+  "previews": [
+    {
+      "source_index": 1,
+      "timestamp_ns": 56730041546852,
+      "image": "images/frame_1.jpg"
+    },
+    {
+      "source_index": 2,
+      "timestamp_ns": 56730074874318,
+      "image": "images/frame_2.jpg"
+    },
+    {
+      "source_index": 3,
+      "timestamp_ns": 56730108206322,
+      "image": "images/frame_3.jpg"
+    },
+    {
+      "source_index": 4,
+      "timestamp_ns": 56730141530909,
+      "image": "images/frame_4.jpg"
+    },
+    {
+      "source_index": 75,
+      "timestamp_ns": 56732508192053,
+      "image": "images/frame_75.jpg"
+    },
+    {
+      "source_index": 149,
+      "timestamp_ns": 56734974882656,
+      "image": "images/frame_149.jpg"
+    }
+  ],
+  "sample_selection": "first/middle/last valid and largest raw predicted wrist velocities; not GT failures"
+}

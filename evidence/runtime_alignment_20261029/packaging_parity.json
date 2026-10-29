@@ -1,0 +1,10 @@
+{
+  "scope": "same runtime source, repeated warm service vs newly built complete image cold process; no GT",
+  "matched_points": 6258,
+  "source_clock_and_root_fields_equal": true,
+  "valid_masks_equal": true,
+  "joints_bitwise_equal": true,
+  "maximum_joint_difference_m": 0.0,
+  "mean_joint_difference_m": 0.0,
+  "absolute_accuracy_evidence": false
+}

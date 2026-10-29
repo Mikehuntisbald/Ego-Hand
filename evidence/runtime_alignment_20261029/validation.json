@@ -1,0 +1,477 @@
+{
+  "schema": 1,
+  "date": "2026-10-29",
+  "base_commit": "3a3284b8f61c8b83b54b79a432cb37ecc6620fd1",
+  "local_branch": "codex/ego-hand-runtime-alignment",
+  "private_reference": {
+    "commit": "f98db4511a2e6984053e7d02b06513d5e529d0f1",
+    "accessible": false,
+    "evidence": "SSH timeout and HTTPS TLS termination; no private source acquired",
+    "line_by_line_port": false,
+    "numeric_parity": false
+  },
+  "scope": "Public equivalent stereo runtime; absent side cameras/MeGo/cloud intentionally deferred",
+  "original_snapshot": {
+    "passed": true,
+    "sources_parsed": 190,
+    "checkpoints_verified": 4,
+    "code_only": false,
+    "GPU_execution_checked": false,
+    "errors": []
+  },
+  "contract_tests": {
+    "tests": 36,
+    "skipped": 0,
+    "passed": true,
+    "CUDA_test_explicit": true,
+    "licensed_MANO": true,
+    "raw_log_sha256": "cc44589c2055a73a62b4d601d760e15fb62c5bd49c6006ef0a7a2a4be3027eea"
+  },
+  "runtime_source": {
+    "files": {
+      "__init__.py": "618e327655d4e73f57376b2652518b4628d996f53aee7e1d330df48b1023ecae",
+      "__main__.py": "2afaf5066f3e5c9c5068824791702ccf58bf56d434f0b0774bb29112e468e83e",
+      "adapters/__init__.py": "b63a16ee47cdf3c1b7f623e4414011ba89af6322d58e2ff7ea92c734abc96f3e",
+      "adapters/hot3d.py": "01b74d4f00548d10d5cd45542c53df575aee949205d7cb2ef70f5496ed138834",
+      "assets.py": "8d241669a922c69672502e8555af6441d554f237138fb5606b359cc39f997e35",
+      "ba.py": "4841636c685de85843c4ff040ceeeb93b4c5ea93a806f2d2bc5ec9501cffd66d",
+      "backends/__init__.py": "c8976ccdf6fda42372eb1cb355a76078f0fe407816ae2535ecdaca063be55808",
+      "backends/headpose.py": "4138a3823167b8ea9ffae0546f07a76ad5b08eedb848e43e6b176483579a9c93",
+      "backends/stereo.py": "0d2e65b4f207d1606d02be4396bedea7ee0c2eca85acda8f72fe642662ecda66",
+      "backends/trt.py": "ddd0173b9b3175528136395aba8d09f4cdf353b6873372157acce02f70adab5e",
+      "backends/vision.py": "183767350c8aaaca0e6e4400b0f6d0f232950d0d5984bbbef52b511674f5da62",
+      "clock.py": "9a4bbd2f83accec82d186248397afbb4b7268f2838f2137b12b6438858f8f953",
+      "config.py": "b58585b6082ea992b2291a2df3491820299f63c9c3bdb47a02530a1a6081218e",
+      "decode.py": "1657e53fb04044d48dd3657b6e3a5789cf17b2a28f4a187161470091093437e2",
+      "delivery.py": "4883e471f8dd9592147fa7278a43732f9d18747a2e946aab0432426b4afe0a86",
+      "environment.py": "d2630e3811be07dbb8198fc130c26eaf3e9b4dfa288c4022141bcfcd2ce5aec8",
+      "errors.py": "b80d90d42a9371a1cfb847cd15e9be8fe9ef677748780636480d7e246a844af7",
+      "geometry.py": "cae2b561554ac05fce1bed19a168c01581f47db3d30bbb80be795b8760bbba07",
+      "io.py": "1b7ce1dd36a06d42333d3607f552df52b9f356326b9930d6608f0a68a03c745c",
+      "monitor.py": "6d32f479f74b158bf6a3cfa8776b269cc883d89166a61b184cf1d139603c181a",
+      "native.py": "0c9b0b94be65f72f4da0e44cba99aef97d379fa7a974515b57ec224cdf0d6a1b",
+      "observations.py": "9f4ebdb23365a5be6913d9595d44a593cd0db64406d4a766b8658810f7dbb19c",
+      "pipeline.py": "8e7a331e7627e01347a6160d80f33f4e546287b4fcaac6a0bee302e4d197f03c",
+      "pool.py": "8894683dc49ddceddf221ebc2b389e08f4bac10176cc4118fe80bcab948e7596",
+      "precision.py": "975b1cdad8f517986be147104ea718229a60fbc463095b66b3b9ba8de4555d1d",
+      "qa.py": "48ae94b1221cb21f7032bb56d908fd73a3ca132817035d3430025dd8b9b9c3fc",
+      "quality.py": "5e7acb1af6c47358be9ade1ab748648a8f33badd2070f5f38f82019937b44757",
+      "schema.py": "0cccb37a0fee6b878609b3fe9005633ed07450af3c0a179a3bed319ce32b045e",
+      "scoring.py": "3e263ca7490422766d79a806bf7f3cda46086d68cbf7e5a1cbcdf801ef755f33",
+      "service.py": "3192d386dacdf59dce581103da407868550f9e86e51850e0955307684ec7e959",
+      "timing.py": "f18b97d9b24b8d8aa6b92de9c9a3a947980da3c1bc094305495e577bf1622bd2",
+      "unidepth_geometry.py": "dc10bbf77bfc542153288d104ed9823f46085721c656a8e2dbd627f16bf53f4b"
+    },
+    "sha256": "87e9eeb80216f2035c5017b57133b3be06e849fee6d5abc3e084028e26eae102"
+  },
+  "images": {
+    "persistent_service_inference": "ego-hand-runtime:stereo-gpu-r7b",
+    "full_offline_rebuild": "ego-hand-runtime:alignment-complete-20261029",
+    "full_offline_rebuild_id": "sha256:2ee2048504497e3a7120c944ce28e3008b1ef46337b5148be410c738eeee55a9",
+    "delivery": "ego-hand-runtime:alignment-verified-20261029",
+    "delivery_id": "sha256:87e42aa256a82a5f5333ae5c228972b8728fdd2b027fe06c4b4fef369b6d4ddb",
+    "full_rebuild_base_id": "sha256:d2f935dbedbe5db0cf9b7650994fdd093a95e86270d450c435870e5a230d0484",
+    "delivery_has_identical_inference_source": true,
+    "offline_build_source_files": 249,
+    "dependency_files": 122,
+    "interpretation": "Full offline rebuild was tested live. Final image adds mandatory source-verifying entry, tested for rejection and successful sealed resume. Runtime package bytes identical.",
+    "published": false,
+    "fresh_host_portability_accepted": false
+  },
+  "hardware": {
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "cpu_count": 24,
+    "allowed_cpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "cpu_quota": null,
+    "ram_total_gib": 15.430656433105469,
+    "ram_used_gib": 1.3068771362304688,
+    "shm_available_bytes": 67108864,
+    "gpu": {
+      "index": "0",
+      "name": "NVIDIA GeForce RTX 4080 Laptop GPU",
+      "driver": "595.79",
+      "total_gib": 11.994140625,
+      "used_gib": 0.642578125,
+      "compute_capability": "8.9"
+    }
+  },
+  "assets": {
+    "mano_right": {
+      "path": "/assets/wilor/MANO_RIGHT.pkl",
+      "sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "mano_mean": {
+      "path": "/assets/wilor/mano_mean_params.npz",
+      "sha256": "efc0ec58e4a5cef78f3abfb4e8f91623b8950be9eff8b8e0dbb0d036ebc63988",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "wilor_config": {
+      "path": "/assets/wilor/model_config.yaml",
+      "sha256": "f69cb52704df88ef29a7cfe03f35a677a92c1ce08169b729ca7f5862f05d4297",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "wilor": {
+      "path": "/assets/wilor/wilor_final.ckpt",
+      "sha256": "3e97aafc7dd08d883a4cc5a027df61fdb6fda6136dbd1319405413862ada6bb2",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "side_helper": {
+      "path": "/assets/side.pt",
+      "sha256": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "rf": {
+      "path": "/assets/rf.pth",
+      "sha256": "c608baa1ec098e83cc8e626ed9ae0c7ebc8880240fd468f889fac1475b2e275e",
+      "source": "existing local entity; licensed MANO is not redistributed"
+    },
+    "unidepth": {
+      "path": "/assets/unidepth/model.safetensors",
+      "sha256": "93705cb3295dd7476b44911b8a55f5215bf74e8d5eccd27cecdb1b338270a648",
+      "source": "pinned author UniDepthV2-small public asset"
+    },
+    "unidepth_config": {
+      "path": "/assets/unidepth/config.json",
+      "sha256": "ecc1f898690debe387d10329cca5d9d66a0a447ce83c3a2a7ae3673c7ce43cfe",
+      "source": "pinned author UniDepthV2-small public asset"
+    },
+    "lightess": {
+      "path": "/output/lightess_sm89_legacy_fp16_r2.engine",
+      "sha256": "6887fd2f923a2b044fd4e83ab5240f10fad5ce0a07d30dbffb6d31440b38e65d",
+      "source": "local build from pinned public ONNX",
+      "kind": "trt_engine",
+      "compatibility": {
+        "compute_capability": "8.9",
+        "tensorrt_version": "10.13.3.9",
+        "precision": "FP16 model / FP32 geometry",
+        "model_sha256": "14be1758c72394922b6b0666d0f1e364a805b1b1a610d73259049bb6c768a4d1",
+        "shape": {
+          "input_left": [
+            1,
+            3,
+            288,
+            480
+          ],
+          "input_right": [
+            1,
+            3,
+            288,
+            480
+          ]
+        },
+        "plugin_sha256": "1923fa00bab8a83207b46a174b42d9ad3b18842a173bb812377cf33e1cd3f12d",
+        "cuda_version": "12.8"
+      }
+    },
+    "ess_plugin": {
+      "path": "/ess/ess_plugins.so",
+      "sha256": "1923fa00bab8a83207b46a174b42d9ad3b18842a173bb812377cf33e1cd3f12d",
+      "source": "NGC legacy CUDA12 plugin, exact audited entity"
+    }
+  },
+  "headpose": {
+    "backend": "public_cuvslam17_pure_stereo",
+    "libraries": [
+      {
+        "path": "/opt/ego-runtime-env/lib/python3.10/site-packages/cuvslam.libs/libcudart-09529672.so.12.6.77",
+        "sha256": "64483b011274703284aa95b92bd465e13178194a794f5d2e426608fc8f770268"
+      },
+      {
+        "path": "/opt/ego-runtime-env/lib/python3.10/site-packages/cuvslam/libcuvslam.so",
+        "sha256": "cc4b2ca02b8805253d1522a1835b1c4bf34bdc9c71c871a8cef2f400d6536391"
+      },
+      {
+        "path": "/opt/ego-runtime-env/lib/python3.10/site-packages/cuvslam/pycuvslam.cpython-310-x86_64-linux-gnu.so",
+        "sha256": "a7e9333a46eda89e307101567fb06367f1861228b26cbda28ae395f6bade5809"
+      }
+    ],
+    "custom_near": false,
+    "IMU_fusion": false,
+    "GT_used": false,
+    "fixed_rig_calibration_drift_m": 2.292933476867726e-06,
+    "fixed_rig_calibration_drift_rad": 5.372287518715155e-05,
+    "physical_calibration": "per-frame lens/orientation maps onto fixed virtual rig; origin drift bounded",
+    "physical_map_updates": 10,
+    "physical_map_cache_capacity": 4
+  },
+  "live": {
+    "public_data": "bop-benchmark/hot3d@30fe9674782f32e1e5edba98476b6ff4300132c5/train_aria/clip-002102.tar",
+    "archive_sha256": "67e858a5a948eeda8497b9a06a27d8c4ac4c8bd271a5b93c05ec142230db91f8",
+    "source_frames": 150,
+    "source_duration_s": 4.966696657,
+    "source_clock": "native integer ns, approximately 30 FPS",
+    "full_result": {
+      "success": true,
+      "program_success": true,
+      "quality_admitted": false,
+      "QA": "geometry/contracts only; no independent accuracy evaluation",
+      "performance_admitted": false,
+      "backend": "live",
+      "production_parity": false,
+      "output": "/output/live_full_r7b",
+      "source_frames": 150,
+      "states": 298,
+      "input_observations": 300,
+      "routed_observations": 298,
+      "depth_supported": 300,
+      "depth_sources": {
+        "LightESS_surface_corrected_wrist": 147,
+        "UniDepth_surface_corrected_wrist": 2,
+        "time_bounded:LightESS_surface_corrected_wrist": 147,
+        "time_bounded:UniDepth_surface_corrected_wrist": 4
+      },
+      "delivery": {
+        "passed": true,
+        "frames": 150,
+        "valid_hand_frames": 298,
+        "source_clock_preserved": true
+      },
+      "pool_loads": {
+        "rf": 1,
+        "wilor": 1,
+        "unidepth": 1,
+        "headpose": 1,
+        "stereo": 1,
+        "ba": 1
+      },
+      "GT_used": false,
+      "inference_wall_s": 110.257995854
+    },
+    "head_valid_measurements": 150,
+    "inference_contains_no_GT": true,
+    "inference_seal_verified": true,
+    "no_additions_exact_control": true,
+    "resume_no_recompute": true,
+    "pool_loads_through_graceful_shutdown": {
+      "rf": 1,
+      "wilor": 1,
+      "unidepth": 1,
+      "headpose": 1,
+      "stereo": 1,
+      "ba": 1
+    },
+    "independent_CPU_FK": {
+      "source_run": "C:\\Users\\Asus\\Desktop\\Ego-Hand\\runtime_local\\container_runs\\live_full_r7b",
+      "prediction_binding": "fcf5d119efbbf684f0fc72dcc161239ee53347127059d2e3f03a94b621a06ac8",
+      "program_success": true,
+      "independent_CPU_FK_points": 6258,
+      "FK_max_euclidean_m": 8.940696716308594e-08,
+      "FK_mean_euclidean_m": 2.4901624057682993e-08,
+      "quality_admitted": false,
+      "absolute_accuracy_evidence": false,
+      "GT_used": false,
+      "previews": [
+        {
+          "source_index": 1,
+          "timestamp_ns": 56730041546852,
+          "image": "images/frame_1.jpg"
+        },
+        {
+          "source_index": 2,
+          "timestamp_ns": 56730074874318,
+          "image": "images/frame_2.jpg"
+        },
+        {
+          "source_index": 3,
+          "timestamp_ns": 56730108206322,
+          "image": "images/frame_3.jpg"
+        },
+        {
+          "source_index": 4,
+          "timestamp_ns": 56730141530909,
+          "image": "images/frame_4.jpg"
+        },
+        {
+          "source_index": 75,
+          "timestamp_ns": 56732508192053,
+          "image": "images/frame_75.jpg"
+        },
+        {
+          "source_index": 149,
+          "timestamp_ns": 56734974882656,
+          "image": "images/frame_149.jpg"
+        }
+      ],
+      "sample_selection": "first/middle/last valid and largest raw predicted wrist velocities; not GT failures"
+    }
+  },
+  "offline_complete": {
+    "result": {
+      "success": true,
+      "program_success": true,
+      "quality_admitted": false,
+      "QA": "geometry/contracts only; no independent accuracy evaluation",
+      "performance_admitted": false,
+      "backend": "live",
+      "production_parity": false,
+      "output": "/output/live_complete_cold",
+      "source_frames": 150,
+      "states": 298,
+      "input_observations": 300,
+      "routed_observations": 298,
+      "depth_supported": 300,
+      "depth_sources": {
+        "LightESS_surface_corrected_wrist": 147,
+        "UniDepth_surface_corrected_wrist": 2,
+        "time_bounded:LightESS_surface_corrected_wrist": 147,
+        "time_bounded:UniDepth_surface_corrected_wrist": 4
+      },
+      "delivery": {
+        "passed": true,
+        "frames": 150,
+        "valid_hand_frames": 298,
+        "source_clock_preserved": true
+      },
+      "pool_loads": {
+        "rf": 1,
+        "wilor": 1,
+        "unidepth": 1,
+        "headpose": 1,
+        "stereo": 1,
+        "ba": 1
+      },
+      "GT_used": false,
+      "inference_wall_s": 185.64115706600006
+    },
+    "seal_verified": true,
+    "independent_CPU_FK": {
+      "source_run": "C:\\Users\\Asus\\Desktop\\Ego-Hand\\runtime_local\\container_runs\\live_complete_cold",
+      "prediction_binding": "fcf5d119efbbf684f0fc72dcc161239ee53347127059d2e3f03a94b621a06ac8",
+      "program_success": true,
+      "independent_CPU_FK_points": 6258,
+      "FK_max_euclidean_m": 8.940696716308594e-08,
+      "FK_mean_euclidean_m": 2.4901624057682993e-08,
+      "quality_admitted": false,
+      "absolute_accuracy_evidence": false,
+      "GT_used": false,
+      "previews": [
+        {
+          "source_index": 1,
+          "timestamp_ns": 56730041546852,
+          "image": "images/frame_1.jpg"
+        },
+        {
+          "source_index": 2,
+          "timestamp_ns": 56730074874318,
+          "image": "images/frame_2.jpg"
+        },
+        {
+          "source_index": 3,
+          "timestamp_ns": 56730108206322,
+          "image": "images/frame_3.jpg"
+        },
+        {
+          "source_index": 4,
+          "timestamp_ns": 56730141530909,
+          "image": "images/frame_4.jpg"
+        },
+        {
+          "source_index": 75,
+          "timestamp_ns": 56732508192053,
+          "image": "images/frame_75.jpg"
+        },
+        {
+          "source_index": 149,
+          "timestamp_ns": 56734974882656,
+          "image": "images/frame_149.jpg"
+        }
+      ],
+      "sample_selection": "first/middle/last valid and largest raw predicted wrist velocities; not GT failures"
+    },
+    "packaging_parity": {
+      "scope": "same runtime source, repeated warm service vs newly built complete image cold process; no GT",
+      "matched_points": 6258,
+      "source_clock_and_root_fields_equal": true,
+      "valid_masks_equal": true,
+      "joints_bitwise_equal": true,
+      "maximum_joint_difference_m": 0.0,
+      "mean_joint_difference_m": 0.0,
+      "absolute_accuracy_evidence": false
+    },
+    "startup_integrity_guard": {
+      "passed": true,
+      "returncode": 1,
+      "probe": "Only this disposable container source was changed; host and frozen research untouched",
+      "stdout": "",
+      "stderr": "Runtime source verification failed before model import.\n{\"passed\": false, \"failures\": [\"ego_hand_runtime/__init__.py\"]}\n"
+    },
+    "verified_image_resume": true,
+    "timing_semantics": "185.641 s cold inference receipt; diagnostic single recording, not whole-service paired batch performance"
+  },
+  "resource_record": {
+    "full_request_samples": 207,
+    "GPU_total_peak_GiB": 5.5888671875,
+    "host_RAM_used_peak_GiB": 3.183013916015625,
+    "monitor_violation": null,
+    "accounting": "sampled host/device totals, not isolated process usage; 0.5 s interval",
+    "own_service_drained": true,
+    "foreign_processes_stopped": false,
+    "known_background": "Windows ToDesk remote-control graphics process retained",
+    "exclusive_performance_run": false,
+    "builder_metadata_note": "Original engine build receipt used compute-apps only and says exclusive=true; known declared ToDesk background makes that claim invalid. Receipt retained, builder corrected in new source."
+  },
+  "admission": {
+    "program_success": true,
+    "geometry_and_delivery_passed": true,
+    "absolute_accuracy_evidence": false,
+    "quality_admitted": false,
+    "performance_admitted": false,
+    "no_GT_opened": true,
+    "production_parity": false,
+    "timing": "110.258 s warm persistent request; 185.641 s cold rebuilt-image inference; 562.482 s old service lifecycle includes idle/audit. None is qualified cold paired batch throughput."
+  },
+  "not_admitted": [
+    "custom-near SDK unavailable",
+    "GT accuracy/recovery/preservation and paired confidence intervals",
+    "formal multi-episode cold startup throughput",
+    "RF/WiLoR C++ TensorRT",
+    "independent RGB 2D head",
+    "future seed and actual multiple candidate path",
+    "DiT native runtime profile (research snapshot retained; default off)",
+    "real side RGB recovery",
+    "MeGo formal raw_joints exporter",
+    "CPU ORB controlled recovery",
+    "NVDEC and cross-hardware engine portability"
+  ],
+  "known_limitations": [
+    "Raw predicted wrist movement has long tails (up to 78.423 mm@60Hz); without GT this cannot be classified as motion error or a guarantee of no jumps.",
+    "First RGB frame is earlier than first measured head pose; it remains invalid.",
+    "151/300 depth supports are bounded temporal anchor interpolation, not independent depth measurements.",
+    "Only one public recording exercised live end-to-end; no generalization claim."
+  ],
+  "failures_and_repairs": [
+    "Public Aria calibration changes within clip: per-frame maps onto bounded fixed rig, no reference poses.",
+    "RF import changed global matmul precision: scoped IEEE FK/BA with shared Torch precision lock; 1e-6 m verification threshold unchanged.",
+    "System pip distutils conflict: isolated offline venv.",
+    "Missing dill and incompatible ESS plugin: preserve failures, pin dependency, use matching public CUDA12 plugin and rebuild local engine.",
+    "Dynamic loader ignores late LD_LIBRARY_PATH changes: configure before native imports via one-time reexec.",
+    "Stale PID1 output locks: kernel locks plus process identity; no foreign signaling."
+  ]
+}

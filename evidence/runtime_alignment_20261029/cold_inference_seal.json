@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "binding": "fcf5d119efbbf684f0fc72dcc161239ee53347127059d2e3f03a94b621a06ac8",
+  "backend": "live",
+  "GT_used": false,
+  "files": {
+    "binding.json": "5b69740a5df0a9a2d8661e4a2daf899ec40a63f4dfb7e08fdf24820e0941e9a3",
+    "bundle.h5": "89df4050b2c156f3467594785bc2ad390ebd1479630b404283cb6d1b90592a58",
+    "evidence.json": "c645091a09b18d03c32f97b1ff344b28ce5109d21501feced15bf8cb229164ff",
+    "expanded_config.json": "6495797a27596eb0ec543876e0c2a45a96ba02e67b7ac9a4b6ab9f022bf40e5c",
+    "input_contract.json": "d6c42bea8dbd2e432f7cf8ccb6cfcfaf74f552d4a3f12634157c87557add7585",
+    "joints.json": "7d3e0ab1a1d72647c15f34aa46f60af6300b2fd528d1e5e5288598a679513f87",
+    "optimization.json": "8c20e6dd5c8aca3a696e7c51948a11d17e35aeffcb3aaf7b217263ae579410e6",
+    "qa.json": "524982f85bc97f4d74ef7b9b930db09842ec4c0a6590cee356cdd5af608b5855",
+    "resources.json": "9374ddddc75d9f416ce1e18f8dece2a81aad50511cefc904f551ad5046257adb",
+    "result.json": "e7189cccc4b6299ce868b8da88f9efdbd43ae56ccfd8de53d6dc75992768dafa",
+    "route.json": "dd0fae339d92611853b403ca8c8913d452383e8b4141405384458c21ae8db4dc"
+  }
+}

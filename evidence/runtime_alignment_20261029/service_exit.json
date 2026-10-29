@@ -1,0 +1,23 @@
+{
+  "wall_through_shutdown_s": 562.4817422169999,
+  "snapshot": {
+    "jobs": {
+      "a65d513d2dd04a52a824324a2df9eb57": "succeeded",
+      "68a6395df5fa47d2beb90b89856d26a3": "succeeded",
+      "ecb1e4424e354e09a01d15a11b52fadc": "succeeded"
+    },
+    "queued": 0,
+    "pool_loads": {
+      "rf": 1,
+      "wilor": 1,
+      "unidepth": 1,
+      "headpose": 1,
+      "stereo": 1,
+      "ba": 1
+    },
+    "stopping": true
+  },
+  "includes_model_load_and_service_shutdown": true,
+  "performance_admitted": false,
+  "nested_CPU_spans_additive": false
+}

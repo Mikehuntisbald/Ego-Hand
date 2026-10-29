@@ -1,0 +1,8 @@
+{
+  "own_active_containers": [],
+  "GPU": "name, memory.total [MiB], memory.used [MiB]\nNVIDIA GeForce RTX 4080 Laptop GPU, 12282 MiB, 658 MiB\n",
+  "applications": "pid, process_name, used_gpu_memory [MiB]\n11968, C:\\Program Files\\ToDesk\\ToDesk.exe, [N/A]\n",
+  "foreign_tasks_stopped": false,
+  "exclusive_idle_claim": false,
+  "scope": "Own runtime containers exited; existing Windows graphics/remote-control left running"
+}

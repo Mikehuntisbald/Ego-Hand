@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "returncode": 1,
+  "probe": "Only this disposable container source was changed; host and frozen research untouched",
+  "stdout": "",
+  "stderr": "Runtime source verification failed before model import.\n{\"passed\": false, \"failures\": [\"ego_hand_runtime/__init__.py\"]}\n"
+}

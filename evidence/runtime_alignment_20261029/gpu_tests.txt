@@ -1,0 +1,53 @@
+[Decoded test output; WSL transport warning omitted. Raw log hash in validation.json.]
+test_admission_hysteresis_no_process_mutation (test_contracts.Contracts) ... ok
+test_asset_digest_cache_rechecks_changed_bytes (test_contracts.Contracts) ... ok
+test_bounded_decoder_real_pixels (test_contracts.Contracts) ... ok
+test_camera_projection_roundtrip_and_baseline (test_contracts.Contracts) ... ok
+test_dry_run_no_model_or_output_side_effect (test_contracts.Contracts) ... ok
+test_duplicate_clock_and_source_index (test_contracts.Contracts) ... ok
+test_dynamic_lens_maps_preserve_fixed_virtual_geometry (test_contracts.Contracts) ... ok
+test_environment_is_applied_before_native_import_boundary (test_contracts.Contracts) ... ok
+test_exact_k8s_cleanup_and_explicit_override (test_contracts.Contracts) ... ok
+test_fisheye_distortion_roundtrip (test_contracts.Contracts) ... ok
+test_incremental_env_restore (test_contracts.Contracts) ... ok
+test_inference_rejects_reference_pose_and_labels (test_contracts.Contracts) ... ok
+test_integer_epoch_and_sampling (test_contracts.Contracts) ... ok
+test_lfs_is_never_a_model (test_contracts.Contracts) ... ok
+test_live_output_lock_keeps_current_process_alive (test_contracts.Contracts) ... ok
+test_missing_cameras_no_fake_capability (test_contracts.Contracts) ... ok
+test_motion_pairs_no_identity_reset_gap_crossing (test_contracts.Contracts) ... ok
+test_nested_cpu_spans_are_not_additive (test_contracts.Contracts) ... ok
+test_parameter_interpolation_not_joint_interpolation (test_contracts.Contracts) ... ok
+test_per_frame_calibration_is_routed (test_contracts.Contracts) ... ok
+test_pool_reuse_and_exclusive_lease (test_contracts.Contracts) ... ok
+test_reused_PID_can_resume_a_stale_output_lock (test_contracts.Contracts) ... ok
+test_scorer_does_not_open_labels_before_seal (test_contracts.Contracts) ... ok
+test_seal_corruption_and_resume_binding (test_contracts.Contracts) ... ok
+/opt/ego-runtime-env/lib/python3.10/site-packages/smplx/body_models.py:1562: DeprecationWarning: Please import `csc_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csc` namespace is deprecated and will be removed in SciPy 2.0.0.
+  model_data = pickle.load(mano_file, encoding='latin1')
+/opt/ego-runtime-env/lib/python3.10/site-packages/chumpy/ch.py:20: DeprecationWarning: Please import `LinearOperator` from the `scipy.sparse.linalg` namespace; the `scipy.sparse.linalg.interface` namespace is deprecated and will be removed in SciPy 2.0.0.
+  from scipy.sparse.linalg.interface import LinearOperator
+/opt/ego-runtime-env/lib/python3.10/site-packages/chumpy/ch.py:1203: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  want_out = 'out' in inspect.getargspec(func).args
+WARNING: You are using a MANO model, with only 10 shape coefficients.
+WARNING: You are using a MANO model, with only 10 shape coefficients.
+test_GPU_FK_survives_RF_high_precision_mode_and_restores_it (test_native.ActualMANO) ... ok
+test_explicit_invalid_source_is_not_interpolated_to_valid (test_native.ActualMANO) ... ok
+test_export_left_right_is_actual_FK_and_transl_is_not_wrist (test_native.ActualMANO) ... ok
+test_frozen_BA_objective_matches_extracted_reference (test_native.ActualMANO) ... ok
+test_full_cli_pipeline_seal_resume_and_pool_reuse (test_native.ActualMANO) ... /opt/ego-runtime-env/lib/python3.10/site-packages/smplx/body_models.py:1562: DeprecationWarning: Please import `csc_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csc` namespace is deprecated and will be removed in SciPy 2.0.0.
+  model_data = pickle.load(mano_file, encoding='latin1')
+WARNING: You are using a MANO model, with only 10 shape coefficients.
+ok
+test_new_motion_losses_are_finite_and_do_not_change_FK_buffers (test_native.ActualMANO) ... ok
+test_projection_matches_frozen_source_function (test_native.ActualMANO) ... ok
+test_protection_gates_large_wrist_shift_and_preserves_FK (test_native.ActualMANO) ... ok
+test_route_rejects_owner_and_source_skew_without_seed (test_native.ActualMANO) ... ok
+test_sensor_clock_after_last_RGB_still_supports_interpolation (test_native.ActualMANO) ... ok
+test_two_camera_raw_observations_share_one_native_state (test_native.ActualMANO) ... ok
+test_zero_addition_BA_exact_and_single_frame_finite (test_native.ActualMANO) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 4.967s
+
+OK

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "device": "cuda:0",
+  "backend": "live",
+  "pools": {"rf": 1, "wilor": 1, "unidepth": 1, "headpose": 1, "stereo": 1, "ba": 1},
+  "scheduler": {"workers": 1, "queue_capacity": 8, "admission_timeout_s": 60},
+  "resources": {
+    "gpu_admit_gib": 20.5, "gpu_resume_gib": 19.5, "gpu_hard_gib": 22.5,
+    "ram_admit_gib": 24.0, "ram_resume_gib": 22.0, "ram_hard_gib": 28.0
+  },
+  "environment": {"HAMR4D_SHARED_VIDEO_DECODER": "cpu"},
+  "dit": {"enabled": false},
+  "assets": {}, "sources": {}
+}
